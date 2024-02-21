@@ -13,7 +13,7 @@ import axios from 'axios'
 
  export const register = (payload) => {
   return async (dispatch) => {
-      const res = axios.post('https://gestion-bwme.onrender.com/register', payload)
+      const res = axios.post('https://gestion-inmobiliario-production.up.railway.app/register', payload)
       const data = res.data
 
       return dispatch({
@@ -27,7 +27,7 @@ import axios from 'axios'
 export const login = (email, password) => {
   return async (dispatch) => {
     try {
-      const response = await axios.post("https://gestion-bwme.onrender.com/login", {
+      const response = await axios.post("https://gestion-inmobiliario-production.up.railway.app/login", {
         email,
         password,
       });
@@ -66,7 +66,7 @@ return {
 
 export const Users = () => {
   return async (dispatch) => {
-      const res = axios.get('https://gestion-bwme.onrender.com/users')
+      const res = axios.get('https://gestion-inmobiliario-production.up.railway.app/users')
       const data = res.data
 
       return dispatch({
@@ -83,7 +83,7 @@ export const Users = () => {
 export const DataPersonal = (token) => {
 return async (dispatch) => {
   try {
-    const res = await axios.get('https://gestion-bwme.onrender.com/user', {
+    const res = await axios.get('https://gestion-inmobiliario-production.up.railway.app/user', {
       method: "GET",
       headers: {
         Authorization: `${token}`,
@@ -108,7 +108,7 @@ return async (dispatch) => {
 export const addLead = (payload) => {
   return async (dispatch) => {
     try {
-      const res = await axios.post('https://gestion-bwme.onrender.com/lead', payload);
+      const res = await axios.post('https://gestion-inmobiliario-production.up.railway.app/lead', payload);
       const data = res.data;
 
       dispatch({
@@ -125,7 +125,7 @@ export const addLead = (payload) => {
 
 export const AllLead = () => {
 return async (dispatch) => {
-    const res = await axios.get('https://gestion-bwme.onrender.com/lead')
+    const res = await axios.get('https://gestion-inmobiliario-production.up.railway.app/lead')
     const data = res.data
 
     return dispatch({
@@ -139,7 +139,7 @@ export const ClientLead = (clientId) => {
   return async (dispatch) => {
     try {
       // Realiza la solicitud GET a la API con el ID del cliente
-      const res = await axios.get(`https://gestion-bwme.onrender.com/lead/${clientId}`);
+      const res = await axios.get(`https://gestion-inmobiliario-production.up.railway.app/lead/${clientId}`);
       
       // Extrae los datos de la respuesta
       const data = res.data;
@@ -170,7 +170,7 @@ export const ClientLead = (clientId) => {
 
   export const UpdateClient = (clientId, payload) => {
     return async (dispatch) => {
-        const res = await axios.put(`https://gestion-bwme.onrender.com/lead/${clientId}`, payload)
+        const res = await axios.put(`https://gestion-inmobiliario-production.up.railway.app/lead/${clientId}`, payload)
         const data = res.data
     
         return dispatch({
@@ -183,7 +183,7 @@ export const ClientLead = (clientId) => {
 
     export const DeleteClient = (clientId) => {
       return async (dispatch) => {
-          const res = await axios.delete(`https://gestion-bwme.onrender.com/lead/${clientId}`, )
+          const res = await axios.delete(`https://gestion-inmobiliario-production.up.railway.app/lead/${clientId}`, )
           const data = res.data
      return dispatch({
               type: "DELETE_LEAD",
