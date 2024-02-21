@@ -1,0 +1,739 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8"/>    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        ADMIN: DPA Manager:
+        Admin/Projects    </title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i,500,500i,600,600i,700,700i&amp;subset=latin-ext"/><link rel="stylesheet" href="/css/dashboard.css?ve=4"/><link rel="stylesheet" href="/css/datepicker.css"/><link rel="stylesheet" href="/css/editor_contract.css"/><link rel="stylesheet" href="/plugins/trumbowyg/ui/trumbowyg.min.css"/><link rel="stylesheet" href="/plugins/charts-c3/plugin.css"/><link rel="stylesheet" href="/plugins/jodit/jodit.min.css"/><link rel="stylesheet" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/><link rel="stylesheet" href="/css/intlTelInput.css"/><link rel="stylesheet" href="https://cdn.datatables.net/buttons/1.6.4/css/buttons.dataTables.min.css"/>        <script>
+//Without console log source
+
+consoleMessage();
+function consoleMessage(){
+    if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        setTimeout(console.log.bind(console, '\n%c' + "¡DETENTE! ", "font-weight:bold; font: 6em Arial; color: red; text-shadow: 2px 2px 2px #000000;"));
+        setTimeout(console.log.bind(console, '\n%c' + "Sabemos que eres curioso, pero por favor, la consola es solo para los desarrolladores del sitio web.", "font-weight:bold; font: 2em Arial; color: white; ")); 
+        setTimeout(console.log.bind(console, '\n%c' + "Si quieres saber más de esta aplicación, contacta a hola@dpaglobal.mx", "font-weight:bold; font: 2em Arial; color: white; ")); 
+    }else{
+
+        setTimeout(console.log.bind(console, '\n%c' + "¡DETENTE! ", "font-weight:bold; font: 6em Arial; color: red; text-shadow: 2px 2px 2px #000000;"));
+        setTimeout(console.log.bind(console, '\n%c' + "Sabemos que eres curioso, pero por favor, la consola es solo para los desarrolladores del sitio web.", "font-weight:bold; font: 2em Arial; color: black; ")); 
+        setTimeout(console.log.bind(console, '\n%c' + "Si quieres saber más de esta aplicación, contacta a hola@dpaglobal.mx", "font-weight:bold; font: 2em Arial; color: black; ")); 
+    }
+}
+
+</script>
+    
+    
+<script>
+var csrfToken = false;
+</script>
+<script src="/js/vendors/jquery-3.2.1.min.js"></script><script src="/js/core.js"></script><script src="/js/vendors/bootstrap.bundle.min.js"></script><script src="/js/vendors/jquery.sparkline.min.js"></script><script src="/js/vendors/selectize.min.js"></script><script src="/js/vendors/jquery.tablesorter.min.js"></script><script src="/js/vendors/jquery-jvectormap-2.0.3.min.js"></script><script src="/js/vendors/jquery-jvectormap-de-merc.js"></script><script src="/js/vendors/jquery-jvectormap-world-mill.js"></script><script src="/js/vendors/circle-progress.min.js"></script><script src="/js/vendors/datepicker.js"></script><script src="/js/i18n/datepicker.es-ES.js"></script><script src="/js/vendors/moments.js"></script><script src="/js/vendors/moments-locale.js"></script><script src="/js/find-lotes.js"></script><script src="/plugins/charts-c3/js/c3.min.js"></script><script src="/plugins/charts-c3/js/d3.v3.min.js"></script><script src="/plugins/datatables/datatables.min.js"></script><script src="/plugins/trumbowyg/trumbowyg.min.js"></script><script src="/plugins/jodit/jodit.min.js"></script><script src="/plugins/trumbowyg/plugins/cleanpaste/trumbowyg.cleanpaste.min.js"></script><script src="/js/printThis.js"></script><script src="/js/intlTelInput.js"></script><script src="/js/intlTelInput.min.js"></script><script src="/js/intlTelInput-jquery.js"></script><script src="/js/intlTelInput-jquery.min.js"></script><script src="/js/utils.js"></script><script src="https://cdn.jsdelivr.net/jsbarcode/3.3.20/JsBarcode.all.min.js"></script>    <link rel="apple-touch-icon" sizes="57x57" href="/favs/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/favs/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/favs/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/favs/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/favs/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/favs/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/favs/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/favs/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/favs/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/favs/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favs/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/favs/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favs/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+
+</head>
+
+<body class="no_print">
+    <div class="page">
+        <div class="page-main">
+            <!--HEADER-->
+                        <style>
+.iconWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 20px;
+    margin-top: -20px;
+    background-color: #FF000B;
+    border-radius: 50px;
+    color: white;
+}
+
+.alertify-notifier .ajs-message.ajs-success {
+    color: blue;
+    background: #e4117e !important;
+    text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.5);
+}
+
+.d {
+    width: auto;
+    margin-right: 5px;
+    margin-top: 7px;
+}
+
+.vermas:hover {
+    color: red;
+}
+
+.iconWrapper>.texto {
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.ver:hover {
+    color: red;
+}
+
+.color {
+    color: #FFEB46;
+}
+
+.fa-bell-o {
+    font-size: 23px;
+    margin-right: 17px;
+}
+
+#notifi {
+    width: 387px !important;
+    height: 493px !important;
+    top: 28px !important;
+
+}
+
+.fa-check-square-o:hover {
+    color: red;
+}
+
+.cam {
+    color: red;
+}
+
+.colores {
+    color: #C0C3BE;
+}
+
+.scrollable-menu {
+    height: auto;
+    max-height: 500px;
+    width: 275px;
+    overflow-x: hidden;
+}
+
+.moz {
+    border-radius: 10px;
+}
+
+.pos {
+    z-index: 3;
+    position: absolute;
+}
+</style>
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/alertify.min.css" />
+<!-- Default theme -->
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/themes/default.min.css" />
+<!-- Semantic UI theme -->
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/themes/semantic.min.css" />
+<!-- Bootstrap theme -->
+<audio id="push-alert">
+    <source src="/sounds/alert.ogg" type="audio/ogg">
+    <source src="/sounds/alert.mp3" type="audio/mpeg">
+</audio>
+<audio id="push-alert-venta">
+    <source src="/sounds/venta.mp3" type="audio/mpeg">
+</audio>
+
+
+
+
+<!-- <script src="https://js.pusher.com/5.1/pusher.min.js"></script> -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/3.1.3/socket.io.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+<script src="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/alertify.min.js"></script>
+<script>
+//ESTO HACE QUE SE ACTIVE LA ALERTA PERO YA ESTA COMENTADO
+// $(document).click(function() {
+//   // timeout(0);
+// })
+$(document).ready(function() {
+    // timeout(0);
+    var x = document.getElementById("push-alert");
+    x.pause();
+    $("#read_all").click(readAll);
+
+    const socket = io('https://push.grupocolorines.mx', {
+        transports: ['websocket']
+    });
+
+    socket.on('notificacion-new', function(data) {
+        var empleado = '17264';
+        if (data.data[1] == empleado) {
+            $('#campana').addClass('cam');
+            var audio = document.getElementById('push-alert');
+            audio.play();
+            let fecha = moment().format('YYYY/MM/DD HH:mm');
+            var mensajes = localStorage.getItem('mensajesIndividuales');
+            var arrayMensajes = [];
+            if (mensajes == null) {
+                arrayMensajes.push(data.data[0]);
+                localStorage.setItem('mensajesIndividuales', JSON.stringify(arrayMensajes));
+            } else {
+                arrayMensajes = localStorage.getItem('mensajesIndividuales');
+                arrayMensajes = JSON.parse(arrayMensajes);
+                if (arrayMensajes.length > 10) {
+                    arrayMensajes.shift();
+                }
+                arrayMensajes.push(data.data[0]);
+                localStorage.setItem('mensajesIndividuales', JSON.stringify(arrayMensajes));
+            }
+            alertify.set('notifier', 'position', 'top-right');
+            alertify.success(data.data[0], 'custom', 2, function() {
+                console.log('dismissed');
+            });
+            localmessage();
+        }
+    });
+
+    socket.on('notificacionGrupal-new', function(data) {
+        $('#campana').addClass('cam');
+        var mensaje = localStorage.getItem('mensajesIndividuales');
+
+        if (mensaje == null) {
+            let datos = [];
+            datos.push(data.data);
+            localStorage.setItem('mensajesIndividuales', JSON.stringify(datos));
+        } else {
+            let response = localStorage.getItem('mensajesIndividuales');
+            response = JSON.parse(response);
+            if (response.length > 10) {
+                response.shift();
+            }
+            response.push(data.data);
+            localStorage.setItem('mensajesIndividuales', JSON.stringify(response));
+        }
+
+        var audio = document.getElementById('push-alert-venta');
+        audio.play();
+        localStorage.setItem('menSL', 1);
+        alertify.set('notifier', 'position', 'top-right');
+        alertify.success(data.data, 'custom', 2, function() {
+            console.log('dismissed');
+        });
+        localmessage();
+
+    });
+
+    socket.on('scheduled-new', function(data) {
+        let path = window.location.pathname;
+        if (path == '/admin/scheduled-calls') {
+            cargarData(data.data);
+        }
+    });
+    localmessage();
+    let dolar = localStorage.getItem('dolar');
+    if (dolar == null) {
+        getdolaract();
+    } else {
+        $('#cambiodolar').html(dolar);
+    }
+});
+
+// function timeout(number) {
+//   var id = setInterval(function() {
+//     number++;
+//     if (number == 1800) {
+//       $('#alertasesion').modal('show');
+//       clearInterval(id);
+//     }
+//   }, 1000);
+// }
+
+function leer() {
+    localStorage.setItem('menSL', 0);
+    $('#campana').removeClass('cam');
+}
+
+
+var csrfToken = false;
+
+function getdolaract() {
+    $.ajax({
+        type: "POST",
+        headers: {
+            'X-CSRF-Token': csrfToken
+        },
+        url: '/admin/cobranzas/getdolar/',
+        data: {
+            dolar: 'true'
+        },
+        success: function(response) {
+            localStorage.setItem('dolar', response.dolar);
+            $('#cambiodolar').html(response.dolar);
+        }
+    });
+}
+
+function readAll() {
+    $.ajax({
+        url: "/admin/messages/markall", // point to server-side PHP script
+        dataType: 'text', // what to expect back from the PHP script, if anything
+        headers: {
+            'X-CSRF-Token': csrfToken
+        },
+        type: 'post',
+        success: function(response) {
+
+            $("#notification_messages").html("");
+        }
+    });
+}
+
+function localmessage() {
+    let messagelocal = [];
+    messagelocal = localStorage.getItem('mensajesIndividuales');
+    if (messagelocal != null) {
+        messagelocal = JSON.parse(messagelocal);
+        messagelocal.reverse();
+        let messa = '';
+        for (let m = 0; m < messagelocal.length; m++) {
+            const element = messagelocal[m];
+            if (m == 0) {
+                messa = `<div class="mt-3 ml-3">${element}  <small style="color:red">Nuevo</small></div><hr> `;
+            } else {
+                messa += `<div class="mt-3 ml-3">${element}</div><hr> `;
+            }
+        }
+        $('#new').html(messa);
+    }
+}
+$('.dropdown-menu').on('click', function(e) {
+    e.stopPropagation();
+});
+</script>            <div class="header collapse d-lg-flex p-0" id="headerMenuCollapse">
+
+</div>            <!--END HEADER-->
+
+
+            <!--BODY-->
+            <div class="my-3 my-md-5">
+                <div class="container">
+                                        <style>
+    @media screen and (min-width:200px) and (max-width:575px){
+    svg {
+        touch-action: auto;
+    }
+    .slide-along-scroll{
+        position: inherit !important;
+    }
+    #info-txt{
+        position: inherit !important;
+    }
+}
+.plots{
+    fill:red;
+}
+.streets{fill:white!important}
+.plots{fill:rgba(230,0,129,0.2)!important;
+    stroke: black;
+    stroke-width: 0.7;
+    cursor:pointer;
+}
+
+.plots:hover{fill:rgba(255,200,0,1)!important;
+    stroke: black;
+    stroke-width: 0.7;
+}
+.plots.reserved{fill:rgba(230,0,129,0.8)!important;
+    cursor:auto;
+}
+.plots.sold{fill:rgba(230,0,129,0.8)!important;
+    cursor:auto;
+}
+#svg-wrapper{
+    overflow: hidden;
+}
+.slide-along-scroll {
+    transition: top 300ms ease-out;
+    position: relative;
+}
+</style>
+<div class="row">
+    <div class="col-sm-9 mx-auto">
+        <div id="svg-wrapper">
+            <div class="d-flex spiner justify-content-center">
+                <div class="spinner-grow" style="width: 10rem; height: 10rem; color: rgb(232,64,151);" role="status">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="info-txt" class="col-sm-3">
+        <div class="slide-along-scroll ">
+            <!-- Se agrega un input oculto para almacenar la liga de apartado KC- #5938 -->
+            <input id="apartame_link" type="hidden">
+            <br>
+            Lote: <span id="plot_name"></span>
+            <br>
+            Area: <span id="area_lote"></span>
+            <br>
+            Precio &#x33A1;: <img style="width:20px; height:20px;" src="https://img.icons8.com/color/20/000000/mexico-circular.png"/> <span id="price_m2_mxn"></span>
+            <br>
+            Precio Total: <img style="width:20px; height:20px;" src="https://img.icons8.com/color/20/000000/mexico-circular.png"/> <span id="plot_price_MXN"></span>
+            <br>
+            Precio &#x33A1;: <img style="width:20px; height:20px;" src="https://img.icons8.com/color/20/000000/usa-circular.png"/> <span id="price_m2_usa"></span>
+            <br>
+            Precio Total: <img style="width:20px; height:20px;" src="https://img.icons8.com/color/20/000000/usa-circular.png"/> <span id="plot_price_USA"></span>
+            <br>
+            <!-- Precio Total: <img style="width:20px; height:20px;" src="https://img.icons8.com/color/20/000000/colombia-circular.png"/> <span id="plot_price_COL"></span>
+            <br> -->
+            Liga de apartado:
+            <br> <br>
+            <!-- Se agregan un boton que manda directo al pago y otro que es para copiar el link para una mejor experiencia de usuario KC- #5938 -->
+            <div id="actions-buttons" class="row justify-content-around" hidden>
+                <button id="gotopay" class="btn btn-primary">
+                    <i class="fa fa-link" aria-hidden="true"></i>
+                    Ir al pago
+                </button>
+                <button id="copylink" class="btn btn-secondary">
+                    <i class="fa fa-copy" aria-hidden="true"></i>
+                    Copiar link
+                </button>    
+                <div class="alert alert-warning mt-3" role="alert">
+                    <i class="fa fa-info-circle" aria-hidden="true"></i>
+                    Importante: <br>
+                    Ahora el Link de apartado incluye tu código de asesor. <br>
+                    Comparte sólo con tu cliente.
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script
+    src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+<link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css"/>
+<script>
+    var j = jQuery.noConflict();
+</script>
+<script
+    src="https://intranet.grupocolorines.mx/js/api/plots.js?v=12"
+    crossorigin="anonymous"></script>
+<script>
+    //Inicializamos el mapa con el identificador
+    loadPlots(44);
+    // SlideAlongScroll
+    var SlideAlongScroll = function(el) {
+        var _this = this;
+        this.el = el;
+        // elements original position
+        this.elpos_original = el.parent().offset().top;  
+        // scroller timeout
+        this.scroller_timeout;
+        // scroller calculate function
+        this.scroll = function() {
+            // 20px gap for beauty
+            var windowpos = $(window).scrollTop() + 20;
+            // targeted destination
+            var finaldestination = windowpos - this.elpos_original;
+            // define stopper object and correction amount
+            var stopper = ($('.footer').offset().top); // $(window).height() if you dont need it
+            var stophere = stopper - el.outerHeight() - this.elpos_original - 20;
+            // decide what to do
+            var realdestination = 0;
+            if(windowpos > this.elpos_original) {
+            if(finaldestination >= stophere) {
+                realdestination = stophere;
+            } else {
+                realdestination = finaldestination;
+            }
+            }
+            el.css({'top': realdestination });
+        };
+        // scroll listener
+        $(window).on('scroll', function() {
+            // debounce it
+            clearTimeout(_this.scroller_timeout);
+            // set scroll calculation timeout
+            _this.scroller_timeout = setTimeout(function() { _this.scroll(); }, 300);
+        });
+        // initial position (in case page is pre-scrolled by browser after load)
+        this.scroll();
+    };
+    // init action, little timeout for smoothness
+    j(document).ready(function () {
+        // Se agregan los eventos de los botones agregados KC- #5938
+        $("#gotopay").on("click", function () {
+            window.open($("#apartame_link").val());
+        });
+        $("#copylink").on("click", function () {
+            var link = $("#apartame_link").val();
+            navigator.clipboard.writeText(link);
+            Swal.fire({
+                icon: 'success',
+                title: 'Copiado',
+                text: 'Se ha copiado el link en el portapapeles',
+            });
+        });
+        $('.slide-along-scroll').each(function(i, el) {
+            setTimeout(function(el) { new SlideAlongScroll(el); }, 300, $(el));
+        });
+        j("#svg-wrapper").on("ready", function (event, plots, svgDoc) {
+            $('.spiner').hide();
+        });
+
+        j("#svg-wrapper").on("selected", function (event, plot, element) {
+
+            var total_price_MXN = Number(plot.price) * Number(plot.area);
+            var total_price_USA = Number(plot.price_us) * Number(plot.area);
+            var total_price_COL = Number(total_price_MXN * 220.29);
+            var enganche = total_price_MXN * 0.2;
+            var monthly = (Number(total_price_MXN) - Number(enganche)) / 24;
+            var textto = "Deseo recibir información.\r";
+            var textto = textto + "Terreno: " + plot.name + "\r";
+            var textto = textto + "Área: " + plot.area + "m2\r";
+
+            //Se les da formato para que salgan con punto y coma, forzando a siempre tener 2 digitos .00 en caso de no tener decimales
+            var price_m2_mxn = (new Intl.NumberFormat("en-Latn-US", { maximumFractionDigits: 2, minimumFractionDigits: 2 }).format(plot.price));
+            var tot_mxn = (new Intl.NumberFormat("en-Latn-US", { maximumFractionDigits: 2, minimumFractionDigits: 2 }).format(total_price_MXN));
+            var price_m2_usa = (new Intl.NumberFormat("en-Latn-US", { maximumFractionDigits: 2, minimumFractionDigits: 2 }).format(plot.price_us));
+            var tot_usa = (new Intl.NumberFormat("en-Latn-US", { maximumFractionDigits: 2, minimumFractionDigits: 2 }).format(total_price_USA));
+            var tot_col = (new Intl.NumberFormat("en-Latn-US", { maximumFractionDigits: 2, minimumFractionDigits: 2 }).format(total_price_COL));
+            
+            j("#plot_name").html(plot.name);
+            j("#area_lote").html(plot.area + '&#x33A1;');
+            j("#price_m2_mxn").html('$' + price_m2_mxn);
+            j("#plot_price_MXN").html('$' + tot_mxn);
+            j("#price_m2_usa").html('$' + price_m2_usa);
+            j("#plot_price_USA").html('$' + tot_usa);
+            j("#plot_price_COL").html(tot_col);
+            j("#plot_enganche").html(enganche.toFixed(2));
+            j("#plot_monthly").html(monthly.toFixed(2));
+            j('#ex1').modal({fadeDuration: 100});
+            // Se agrega la lógica para concatenar el codigo de asesor en la liga del apartado KC- #5938
+            // var code = "ee2c37";
+            // code ? code = "&codigo=" + code : "";
+            // $("#apartame_link").val("https://intranet.grupocolorines.mx/stripe/apartadoview?plot_id="+plot.id+"&downpayment=10&monthly=36"+code);
+            var code = "ee2c37";
+            $("#apartame_link").val("https://app.grupocolorines.mx/#/apartado/"+plot.id+"/"+code);
+            // $("#apartame_link").val("https://onboarding.grupocolorines.mx/#/apartado/"+plot.id+"/"+code);
+            $("#actions-buttons").removeAttr( "hidden" );
+
+            j("#solicitar_svg").click(function () {
+                j("#et_pb_contact_message_0").val(textto)
+                j
+                    .modal
+                    .close();
+            })
+        });
+        
+        if(44 == 74){
+                j("#svg-wrapper").on("ready", function (){
+                var scale = 1,
+                panning = false,
+                pointX = 0,
+                pointY = 0,
+                start = { x: 200, y: 200 },
+                zoom = document.getElementById("my-svg");
+
+                function setTransform() {
+                    if(scale > 6){
+                        scale = 6.1;
+                        pointX = clamp(pointX, -2272, 2272);
+                        pointY = clamp(pointY, -1004, 1004);
+                    }
+                    else if(scale <= 6 && scale > 5){
+                        pointX = clamp(pointX, -1890, 1890);
+                        pointY = clamp(pointY, -790, 790);
+                    }else if(scale <= 5 && scale > 4){
+                        pointX = clamp(pointX, -1450, 1450);
+                        pointY = clamp(pointY, -700, 700);
+                    }else if(scale <= 4 && scale > 3){
+                        pointX = clamp(pointX, -1130, 1130);
+                        pointY = clamp(pointY, -497, 497);
+                    }else if(scale <= 3 && scale > 2.5){
+                        pointX = clamp(pointX, -695, 695);
+                        pointY = clamp(pointY, -320, 320);
+                    }else if(scale <= 2.5 && scale > 2){
+                        pointX = clamp(pointX, -518, 518);
+                        pointY = clamp(pointY, -220, 220);
+                    }else if(scale <= 2 && scale > 1){
+                        pointX = clamp(pointX, -255, 255);
+                        pointY = clamp(pointY, -112, 112);
+                    }
+                    
+                    if(scale <= 1){
+                        scale = 1;
+                        panning = false;
+                        pointX = 0;
+                        pointY = 0;
+                        start = { x: 200, y: 200 };
+                    }
+
+                    zoom.style.transform = "translate(" + pointX + "px, " + pointY + "px) scale(" + scale + ")";
+                }
+
+                zoom.onmousedown = function (e) {
+                    e.preventDefault();
+                    start = { x: e.clientX - pointX, y: e.clientY - pointY };
+                    panning = true;
+                }
+
+                zoom.onmouseup = function (e) {
+                    panning = false;
+                }
+
+                zoom.onmousemove = function (e) {
+                    e.preventDefault();
+                    if (!panning) {
+                        return;
+                    }
+                    pointX = (e.clientX - start.x);
+                    pointY = (e.clientY - start.y);
+
+                    setTransform();
+
+                }
+
+                zoom.onwheel = function (e) {
+                    e.preventDefault();
+                    var xs = (e.clientX - pointX) / scale,
+                    ys = (e.clientY - pointY) / scale,
+                    delta = (e.wheelDelta ? e.wheelDelta : -e.deltaY);
+                    (delta > 0) ? (scale *= 1.2) : (scale /= 1.2);
+                    pointX = e.clientX - xs * scale;
+                    pointY = e.clientY - ys * scale;
+
+                    setTransform();
+                }
+
+                function clamp(val, min, max) {
+                    return val > max ? max : val < min ? min : val;
+                }
+            });
+        }
+    })
+</script>                </div>
+
+            </div>
+            <!--END BODY-->
+        </div>
+        <!--Footer-->
+        <div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8">
+                <!--<div class="row">
+                    <div class="col-6 col-md-3">
+                        <ul class="list-unstyled mb-0">
+                            <li><a href="#">First link</a></li>
+                            <li><a href="#">Second link</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <ul class="list-unstyled mb-0">
+                            <li><a href="#">Third link</a></li>
+                            <li><a href="#">Fourth link</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <ul class="list-unstyled mb-0">
+                            <li><a href="#">Fifth link</a></li>
+                            <li><a href="#">Sixth link</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <ul class="list-unstyled mb-0">
+                            <li><a href="#">Other link</a></li>
+                            <li><a href="#">Last link</a></li>
+                        </ul>
+                    </div>
+                </div>-->
+            </div>
+            <div class="col-lg-4 mt-4 mt-lg-0">
+                Control de ventas de terrenos patrimoniales.
+            </div>
+        </div>
+    </div>
+</div>
+<footer class="footer">
+    <div class="container">
+        <div class="row align-items-center flex-row-reverse">
+            <div class="col-auto ml-lg-auto">
+                <div class="row align-items-center">
+                    <div class="col-auto">
+                       <!-- <ul class="list-inline list-inline-dots mb-0">
+                            <li class="list-inline-item"><a href="./docs/index.html">Documentation</a></li>
+                            <li class="list-inline-item"><a href="./faq.html">FAQ</a></li>
+                        </ul>-->
+                    </div>
+                    <div class="col-auto">
+                        <!--<a href="https://github.com/tabler/tabler" class="btn btn-outline-primary btn-sm">Source code</a>-->
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-auto mt-3 mt-lg-0 text-center">
+                <a href="https://grupocolorines.mx/" target="_blank">Grupo + Colorines</a> &bull; Hub Inmobiliario &bull; Todos los derechos reservados.
+            </div>
+        </div>
+    </div>
+</footer>
+        <!--END FOOTER-->
+    </div>
+</body>
+<!-- GetButton.io widget -->
+<script type="text/javascript">
+    (function() {
+        var options = {
+            whatsapp: "+5219995696095", // WhatsApp number
+            call_to_action: "Soporte para asesores", // Call to action
+            position: "right", // Position may be 'right' or 'left'
+            pre_filled_message: "Atención Asesores", // Pre Filled Message 
+        };
+        var proto = document.location.protocol,
+            host = "getbutton.io",
+            url = proto + "//static." + host;
+        var s = document.createElement('script');
+        s.type = 'text/javascript';
+        s.async = true;
+        s.src = url + '/widget-send-button/js/init.js';
+        s.onload = function() {
+            WhWidgetSendButton.init(host, proto, options);
+        };
+        var x = document.getElementsByTagName('script')[0];
+        x.parentNode.insertBefore(s, x);
+    })();
+</script>
+<!-- /GetButton.io widget -->
+<script>
+    $(document).ready(function() {
+        // mensajesSinLeer();
+    });
+
+    function mensajesSinLeer() {
+        $.ajax({
+            type: "POST",
+            headers: {
+                'X-CSRF-Token': csrfToken
+            },
+            url: '/admin/messages/myMessages/',
+            data: {
+                sinLeer: 'true'
+            },
+            success: function(response) {
+                if (response.data > 0) {
+                    $('#numero').html('<div class="iconWrapper"><p class="texto">' + response.data +
+                        '</p></div>');
+                }
+            }
+        });
+    }
+</script>
+
+</html>

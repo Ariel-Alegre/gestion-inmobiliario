@@ -1,0 +1,767 @@
+.icons {
+  color: black;
+  background-color: black;
+}
+
+.centered-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/*   
+  .img-Logo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    background: transparent;
+  } */
+
+  .lotes-container {
+    
+    transform: rotate(90deg);
+    width: 100%;
+    height: 80vh;
+  }
+  .lotes {
+    fill:#9c7b69 ;
+    stroke:#3e3eff ;
+    stroke-miterlimit: 10;
+  }
+  .lotes:hover{
+    fill: aqua;
+    cursor: pointer;
+  }
+.img-Logo {
+  position: fixed;
+
+  width: 8em;
+  margin: 0 auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.img-santoueloE1 {
+  width: 100%;
+  height: 70vh;
+}
+.img-santoueloE2 {
+  width: 100%;
+  height: 70vh;
+}
+
+@media screen and (max-width: 768px) {
+  .img-Logo {
+    width: 5em;
+  }
+}
+.img-carrusel-container {
+  display: flex;
+  justify-content: center; /* Centra horizontalmente */
+  align-items: center; /* Centra verticalmente */
+}
+
+.img-carrusel {
+  display: flex;
+  justify-content: center; /* Centra horizontalmente */
+  align-items: center; /* Centra verticalmente */
+  color: aqua;
+}
+
+.splide__arrow--prev,
+.splide__arrow--next {
+  height: 3em !important;
+  border-radius: 0 0 0 0 !important;
+  top: 20% !important;
+  font-size: 3em;
+}
+.lote {
+  width: 20em;
+}
+.lote-modal {
+  display: flex;
+  gap: 2em;
+}
+
+.ButtonMaterial {
+  display: flex;
+  gap: 2rem;
+  margin-top: 1em;
+}
+
+.modal-header-left {
+  text-align: left;
+  position: absolute;
+  margin-top: -2em;
+  margin-left: -2em;
+  padding: 5px;
+}
+
+.close-button {
+  border-radius: 50%;
+  width: 100%;
+  height: 1%;
+}
+.close-button h4 {
+  font-size: 18px;
+  margin-bottom: 0;
+}
+.lote-text p {
+  font-size: 25px;
+}
+.text-menu {
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+  margin: 0 auto;
+  border-radius: 50%;
+  font-family: "clear sans";
+}
+.name-table-modal {
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+  border-radius: 50%;
+  font-family: "clear sans";
+  width: 10em;
+}
+.details-name-modal {
+  font-size: 30px;
+  font-weight: 500;
+  text-align: center;
+  border-radius: 50%;
+  font-family: "clear sans";
+}
+.icons-menu {
+  width: 2.5em;
+  height: 2.5em;
+}
+.icon-container {
+  border: 3px solid #000;
+  border-radius: 50%;
+}
+.icon-notification {
+  width: 5.5em;
+}
+.icon-notification-money {
+  width: 3em;
+  border: 3px solid #000;
+  border-radius: 50%;
+}
+.subdescription-notif {
+  font-size: 13px;
+}
+.linea-notif {
+  border: 2px solid #000;
+}
+.text-notif {
+  display: grid;
+  justify-content: center;
+  text-align: center;
+  margin-left: 1em;
+}
+#go-noti {
+  margin-left: 2em;
+}
+
+.icons-table-leads {
+  display: flex;
+  gap: 2em;
+}
+
+.icons-table {
+  width: 3em;
+}
+
+.icons-table-title {
+  width: 3em;
+}
+
+.table-modal-contact {
+  display: flex;
+  gap: 2em;
+}
+@media screen and (max-width: 768px) {
+  .icon-notification {
+    width: 3em;
+    border: 3px solid #000;
+    border-radius: 50%;
+  }
+
+  .text-notif h4 {
+    font-size: 15px;
+  }
+  .subdescription-notif {
+    font-size: 10px;
+  }
+  .icon-none {
+    display: none;
+  }
+  .lote-modal {
+    display: grid;
+  }
+}
+.lead-input-contact {
+  border: none; /* Elimina todos los bordes */
+  border-bottom: 2px dashed; /* Agrega un borde inferior punteado con el grosor deseado */
+  outline: none;
+}
+.lead-modal-contact {
+  display: grid;
+}
+.avatar-contact {
+  display: grid;
+}
+.avatar-details {
+  display: grid;
+}
+
+.css-pdct74-MuiTablePagination-selectLabel {
+  display: none;
+}
+.subtext {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.linea-account {
+  border: 1px solid #000;
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.Sublinea-account {
+  border-bottom: 1px solid #000;
+
+  width: 80%;
+  margin: 0 auto;
+}
+
+.icono-navbar {
+  width: 40px;
+}
+
+.login-container {
+ margin: 20vh auto;
+  border: 3px solid #000;
+  background: #ffffff;
+  padding: 2%;
+}
+.login-box {
+  display: grid;
+  justify-content: center;
+  gap: 2em;
+}
+
+.register-container {
+  border: 3px solid #000;
+  background: #ffffff;
+  padding: 2%;
+}
+
+
+
+.register-box {
+  display: grid;
+  justify-content: center;
+  gap: 2em;
+}
+
+
+
+
+.Logo-login {
+  display: grid;
+  margin-bottom: -7em;
+  justify-content: center;
+  margin-top: 3em;
+}
+.Logo-login img {
+  width: 30em;
+}
+
+.Logo-register {
+  display: grid;
+  margin-bottom: 1em;
+  margin-top: 0;
+}
+.Logo-register img {
+  width: 30em;
+}
+.btn-back {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 34.2%;
+}
+
+@media (max-width:1800px) {
+  .login-box {
+    display: grid;
+    justify-content: center;
+    gap: 1em;
+
+  }
+  .Register-container {
+    border: 3px solid #000;
+    background: #ffffff;
+    margin: 10vh auto;
+  }
+  .Logo-login {
+    display: grid;
+    justify-content: center;
+    margin-bottom: -6em;
+    margin-top: -0em;
+  }
+  .Logo-login img{
+  width: 20em;
+    
+  }
+
+  .Logo-register  {
+    display: grid;
+  }
+  .Logo-register img{
+  width: 20em;
+    
+  }
+  .btn-back {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 30%;
+  }
+}
+.input-addLeads {
+  display: grid;
+  gap: 2em;
+}
+.input-label {
+  display: flex;
+  align-items: center;
+}
+
+.input-label label {
+  margin-right: 10px; /* Ajusta el espacio entre el label y el input según tus necesidades */
+}
+
+.input-container {
+  flex: 1; /* El input ocupará todo el espacio disponible */
+}
+
+.input-bottom-border {
+  border: none;
+  border-bottom: 1px solid black; /* Ajusta el color y el grosor según tus preferencias */
+  outline: none; /* Elimina el resplandor azul al enfocar */
+  width: 80%;
+}
+
+.input-addLead {
+  border: none;
+  border-bottom: 2px dashed; /* Agrega un borde inferior punteado con el grosor deseado *//* Ajusta el color y el grosor según tus preferencias */
+  outline: none; /* Elimina el resplandor azul al enfocar */
+  width: 80%;
+}
+/* TuArchivoDeEstilos.css */
+
+.custom-modal-width {
+  max-width: 70%; /* Ajusta el ancho según tus necesidades */
+  margin: 0 auto; /* Centra el modal horizontalmente */
+}
+
+/* Agrega estilos adicionales según sea necesario */
+
+/* TuArchivoDeEstilos.css */
+
+.modal-header {
+  border: none; /* Elimina el borde del encabezado del modal */
+}
+
+.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Añade esta línea para centrar verticalmente */
+  height: 100vh; /* Establece la altura al 100% del viewport height */
+}
+
+.Inicial-container {
+  border: 5px solid #000;
+  background: #ffffff;
+  margin: 20vh auto;
+  padding: 2%;
+  max-width: 30%;
+}
+
+#text-initial {
+  font-weight: 600;
+  font-size: 13px;
+}
+
+.input-img {
+  display: flex;
+  gap: 2em;
+  margin-bottom: 2em;
+}
+
+.img-filtro-leads {
+  width: 2em;
+  margin-top: 50;
+}
+.input-filter-container {
+  display: flex;
+  padding: 15px;
+  justify-content: center;
+}
+
+.input-filter {
+  outline: none;
+  border: "4px solid #000";
+  min-height: 2em;
+  height: 2em;
+  max-width: 100%;
+  width: 250px;
+  border-radius: 8px;
+}
+.leads-add-delete {
+  display: flex;
+  justify-content: center;
+  gap: 2em;
+}
+.leads-add-delete button {
+  background-color: transparent;
+}
+
+.icons-contact {
+  width: 50px;
+  font-size: 2em;
+}
+.icons-details {
+  width: 100%;
+  font-size: 4em;
+}
+
+.icons-contact-container {
+  display: flex;
+  gap: 1.5em;
+}
+.icons-details-container {
+  display: flex;
+  gap: 1.5em;
+  bottom: 0;
+  position: fixed;
+  border: 3px solid #000;
+  width: 300px;
+  padding: 1%;
+  z-index: 1000;
+  background-color: white;
+}
+
+.status-detail-lead {
+  display: grid;
+  justify-content: center;
+  gap: 30%;
+  margin-top: 15%;
+}
+
+.interesed {
+  color: rgba(129, 123, 1, 0.583);
+}
+.no-env {
+  color: rgb(244, 0, 0);
+}
+.whatsapp {
+  color: rgb(0, 83, 0);
+}
+.details-container {
+  overflow: scroll;
+  max-height: 100%;
+  height: 100%;
+  
+}
+.details-input-container {
+  display: flex;
+  justify-content: center;
+  gap: 20%;
+  margin-bottom: 5%;
+}    
+
+
+
+.details-input-container2 {
+  display: flex;
+  justify-content: center; /* Centra los elementos horizontalmente */
+  align-items: center; /* Centra los elementos verticalmente */
+  margin-bottom: 5%;
+  margin-left: 10%;
+}
+.details-textarea{
+  margin-left: 27%;
+  margin-bottom: 10%;
+}
+
+
+.details-input {
+  display: grid;
+  gap: 10%;
+  margin-bottom: 35%;
+
+}
+.details-input2 {
+  display: flex;
+  gap: 130px; /* Ajusta el espacio entre los elementos según tus necesidades */
+}
+
+
+
+
+.input-details {
+  width: 100%;
+  display: grid;
+  gap: 15%;
+}
+.textarea-details {
+  width: 100%;
+  display: grid;
+}
+.textarea-details2 {
+  width: 100%;
+  display: grid;
+  margin-bottom: 20%;
+}
+
+
+.lead-input-detail {
+  border: 3px solid #000; /* Elimina todos los bordes */
+  outline: none;
+  width: 200%;
+  height: 150%;
+}
+
+.lead-input-detail2 {
+  border: 3px solid #000; /* Elimina todos los bordes */
+  outline: none;
+  width: 127%;
+  height: 150%;
+}
+
+.lead-input-textarea {
+  border: 3px solid #000; /* Elimina todos los bordes */
+  outline: none;
+  width: 81%;
+  height: 300%;
+}
+
+.btn-add-details {
+  display: flex;
+  gap: 1.5em;
+  position: fixed;
+  bottom: 0;
+  left: 50%; /* Centrar el contenedor horizontalmente */
+  transform: translateX(-50%); /* Centrar el contenedor horizontalmente */
+  border: 2px solid #000;
+  width: 100%; /* Limitar el ancho máximo del contenedor */
+  padding: 1%;
+  background-color: white; /* Añadir un color de fondo opcional */
+  z-index: 1000; /* Ajustar el índice z para estar seguro de que está encima del contenido */
+}
+
+
+.text-details {
+  text-align: center;
+  margin-bottom: 3%;
+
+}
+@media (max-width: 1800px) {
+  .details-input {
+    display: grid;
+    gap: 10%;
+    margin-bottom: 20%;
+  
+  }
+  .details-input-container {
+    gap: 12%;
+    margin-bottom: 30%;
+  }
+  .details-input2 {
+  margin-left: 1%;
+  }
+  .details-input2 {
+    display: flex;
+    gap: 20px; /* Ajusta el espacio entre los elementos según tus necesidades */
+  }
+  .lead-input-detail2 {
+    width: 100%;
+  }
+  .lead-input-detail {
+    width: 150%;
+  }
+.details-textarea{
+  margin-left: 24%;
+  margin-bottom: 15%;
+}
+.lead-input-textarea {
+ 
+  width: 81%;
+}
+
+}
+.nav-link {
+  width: 100%;
+  display: block;
+  text-decoration: none;
+  color: #000;
+  border: 2px solid #000;
+  font-family: 'glacial indifference';
+}
+
+
+
+@media screen and (max-width: 768px) {
+  .details-input-container {
+    gap: 12%;
+    margin-bottom: 30%;
+  }
+  .details-input2 {
+  margin-left: 1%;
+  }
+  .details-input2 {
+    display: flex;
+    gap: 20px; /* Ajusta el espacio entre los elementos según tus necesidades */
+  }
+  .lead-input-detail2 {
+    width: 100%;
+  }
+  .lead-input-detail {
+    width: 150%;
+  }
+.details-textarea{
+  margin-left: 24%;
+
+}
+.lead-input-textarea {
+ 
+  width: 81%;
+}
+
+}
+
+.svgdiv{
+  width: 30%;
+}
+
+.enlaces-decoration {
+  text-decoration: none;
+  color: #000;
+}
+
+.aaa:hover {
+  fill: red
+}
+
+.avatar-preregister {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin: 20px 0;
+  position: relative;
+}
+.btn-edit-image-preregister {
+  padding: 5px 8px;
+  border-radius: 50px;
+  background-color: rgb(236, 236, 236);
+  position: absolute;
+  bottom: 0px;
+  right: 177px;
+}
+
+.btn-edit-image-preregister i {
+  font-size: 30px;
+  color: #000;
+}
+ 
+.awesome {
+  margin: 0 auto;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  gap: 10em;
+}
+
+.grid {
+  display: grid;
+  text-align: center;
+  gap: 2em;
+}
+
+.linea-data {
+  border-bottom: 1px solid black; /* Puedes ajustar el grosor y color del borde según tus necesidades */
+  padding-bottom: 5px; /* Ajusta según la separación que desees entre el texto y la línea */
+  display: inline-block; /* Para que el borde solo cubra el ancho del texto */
+  width: 50%;
+}
+
+.input-register {
+display: flex;
+gap: 3em;
+}
+
+.btn-generar {
+  display: grid;
+  gap: 1em;
+}
+
+.btn-option {
+  position: absolute;
+  display: flex;
+  gap: 2em;
+  margin-top: 3em;
+}
+
+.boletin_container {
+  margin: 20px;
+  overflow: scroll;
+  max-height: 60vh;
+
+}
+.boletin_container_pdf{
+  margin: 20px;
+
+}
+
+.boletin_table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 5em;
+}
+
+.boletin_table th, .boletin_table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+.boletin_table th {
+  background-color: #f2f2f2;
+}
+
+.boletin_table tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.boletin_table tbody tr:hover {
+  background-color: #e6e6e6;
+ 
+}
+.decoration_Link {
+  text-decoration: none;
+  color: black;
+}
+
