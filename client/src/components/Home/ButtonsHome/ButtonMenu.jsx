@@ -17,9 +17,32 @@ import MoreVertIcon from '@mui/icons-material/MoreVert';
 import ReactDOMServer from "react-dom/server";
 import html2pdf from "html2pdf.js";
 import { AllLead } from '../../../redux/action'
-
-
+import Typography from '@mui/material/Typography';
+import Modal from '@mui/material/Modal';
 const ITEM_HEIGHT = 48;
+
+
+
+
+
+
+
+const style = {
+  position: 'absolute',
+  top: '50%',
+  left: '50%',
+  transform: 'translate(-50%, -50%)',
+  width: 600,
+  bgcolor: 'background.paper',
+  border: '2px solid #000',
+  boxShadow: 24,
+  p: 4,
+};
+
+
+
+
+
 export default function ButtonMenu() {
   const [state, setState] = React.useState({
     left: false,
@@ -27,12 +50,17 @@ export default function ButtonMenu() {
   const dispatch = useDispatch();
   const [loading, setLoading] = React.useState(false);
   const allLead = useSelector((state) => state.allLead);
-
+ const [openPrice, setOpenPrice] = React.useState(false);
   const [anchorEl, setAnchorEl] = React.useState(null);
   const openLead = Boolean(anchorEl);
-  const handleClickLead = (event) => {
-    setAnchorEl(event.currentTarget);
-  };
+
+
+  const handlePrice = () => setOpenPrice(true)
+  const handlePriceClose = () => setOpenPrice(false)
+
+
+
+ 
   const handleCloseLed = () => {
     setAnchorEl(null);
   };
@@ -246,7 +274,6 @@ estatus: "pagada"
     e.preventDefault();
 
     setLoading(true);
-    setAnchorEl(null);
     const contentDiv = document.createElement("div");
     contentDiv.id = "pdfContent";
     contentDiv.innerHTML = ReactDOMServer.renderToString(pdfContent);
@@ -295,10 +322,9 @@ estatus: "pagada"
               </ListItemText>
             </ListItemButton>
           </ListItem>
-          <hr />
-
+<Divider/>
           <ListItem disablePadding>
-            <ListItemButton  onClick={handleClickLead}>
+            <ListItemButton  onClick={handlePrice}>
               <ListItemIcon>
                 <img
                   src={require("../../../image/ícono menú _cotizar_.png")}
@@ -311,8 +337,8 @@ estatus: "pagada"
               </ListItemText>
             </ListItemButton>
           </ListItem>
-          <hr />
 
+<Divider/>
        
           <ListItem   disablePadding>
             <ListItemButton>
@@ -328,8 +354,8 @@ estatus: "pagada"
               </ListItemText>
             </ListItemButton>
           </ListItem>
+          <Divider/>
 
-          <hr />
         </List>
 
         <ListItem sx={{ position: "absolute", bottom: 0 }}   disablePadding>
@@ -367,28 +393,107 @@ estatus: "pagada"
           >
             {list(anchor)}
           </Drawer>
-          <Menu
-        id="long-menu"
-        MenuListProps={{
-          'aria-labelledby': 'long-button',
-        }}
-        anchorEl={anchorEl}
-        open={openLead}
-        onClose={handleCloseLed}
-        PaperProps={{
-          style: {
-            maxHeight: ITEM_HEIGHT * 4.5,
-            width: '20ch',
-            marginLeft :'280px'
-          },
-        }}
+          <Modal
+        open={openPrice}
+        onClose={handlePriceClose}
+        aria-labelledby="modal-modal-title"
+        aria-describedby="modal-modal-description"
       >
-        {allLead.map((option) => (
-          <MenuItem key={option} selected={option === 'Pyxis'} onClick={generatePdf}>
-            {option.name}
-          </MenuItem>
-        ))}
-      </Menu>
+        <Box sx={style}>
+          <div className="price-modal">
+<div>
+
+          <Typography id="modal-modal-title" variant="h6" component="h2" sx={{display:'flex', gap: '40%'}}>
+            LEAD:     <select     style={{
+                  height: "2%",
+                  width: "50%",
+                  background: "transparent",
+                  color: "#000",
+                  border: "2px solid #000",
+                  "&:hover": {
+                    border: "2px solid #000",
+                    background: "transparent",
+                  },
+                }}>
+            <option value="">A QUIEN CORRESPONDA</option>
+           </select>
+          </Typography>
+</div>
+<div>
+
+          <Typography id="modal-modal-title" variant="h6" component="h2" sx={{display:'flex', gap: '70%'}}>
+            LOTE/S:  <div   >
+            <label >AOL-01</label>
+           </div>
+          </Typography>
+</div>
+<div>
+
+          <Typography id="modal-modal-title" variant="h6" component="h2" sx={{display:'flex', gap: '40%'}}>
+            MENSUALIDADES:  <select     style={{
+                  height: "2%",
+                  width: "50%",
+                  background: "transparent",
+                  color: "#000",
+                  border: "2px solid #000",
+                  "&:hover": {
+                    border: "2px solid #000",
+                    background: "transparent",
+                  },
+                }}>
+            <option value="">6</option>
+            <option value="">12</option>
+
+            <option value="">24</option>
+            <option value="">36</option>
+            <option value="">48</option>
+
+
+
+           </select>
+          </Typography>
+          </div>
+
+          </div>
+
+          <div className="ButtonMaterial">
+          <Button
+                sx={{
+                  height: "2%",
+                  width: "100%",
+                  background: "transparent",
+                  color: "#000",
+                  border: "2px solid #000",
+                  "&:hover": {
+                    border: "2px solid #000",
+                    background: "transparent",
+                  },
+                }}
+                type="submit"
+              >
+               ELEGIR LOTE
+              </Button>
+
+              <Button
+                sx={{
+                  height: "2%",
+                  width: "100%",
+                  background: "transparent",
+                  color: "#000",
+                  border: "2px solid #000",
+                  "&:hover": {
+                    border: "2px solid #000",
+                    background: "transparent",
+                  },
+                }}
+                type="submit"
+                onClick={generatePdf}
+              >
+                CREAR COTIZACIÓN
+              </Button>
+          </div>
+        </Box>
+      </Modal>
         </React.Fragment>
       ))}
     </div>
