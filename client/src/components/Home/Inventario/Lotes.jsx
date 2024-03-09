@@ -18295,246 +18295,4019 @@ const SvgComponent = (props) => {
           d="M360.61 381.45c-4.8 4.54-10.2 7.27-16.46 8.22-1.32.2-2.95 1.03-3.94.22-1.12-.92-.42-2.71-.43-4.11-.06-5.28-.03-10.55-.02-15.83 0-2.11.01-2.11 1.97-2.74.3-.1.6-.22.89-.36.71-.34 1.43-1 2.12-.96.85.05 1.34 1.05 1.95 1.66 4.59 4.56 9.16 9.14 13.92 13.9"
           className="st1"
         />
+                <Modal
+          open={open163}
+          onClose={handleClose}
+          aria-labelledby="modal-modal-title"
+          aria-describedby="modal-modal-description"
+        >
+          <Box sx={style}>
+            <div className="modal-header-left">
+              <button className="close-button" onClick={handleClose}>
+                <h4>X</h4>
+              </button>
+            </div>
+            <div>
+              <div className="lote-modal">
+                <div>
+                  <img
+                    src={require("../../../image/lote.png")}
+                    alt="not found"
+                    className="lote"
+                  />
+                </div>
+
+                <div className="lote-text">
+                  <h4>Lote: M-04</h4>
+                  <h4>Area: 1144 m2</h4>
+                  <h4>Precio m2: $1200.00mxn</h4>
+                  <h4>Precio Total: $1,372,800.00mxn</h4>
+                  <ButtonMaterial
+                    sx={{
+                      width: "100%",
+                      background: "transparent",
+                      color: "#000",
+                      border: "2px solid #000",
+                      "&:hover": {
+                        border: "2px solid #000",
+                        background: "transparent",
+                      },
+                    }}
+                    
+                  >
+                    ASIGNAR LEAD
+                  </ButtonMaterial>
+                  <div className="ButtonMaterial">
+                    <ButtonMaterial
+                      sx={{
+                        width: "100%",
+                        background: "transparent",
+                        color: "#000",
+                        border: "2px solid #000",
+                        "&:hover": {
+                          border: "2px solid #000",
+                          background: "transparent",
+                        },
+                      }}
+                    >
+                      COPIAR LINK
+                    </ButtonMaterial>
+                    <ButtonMaterial
+                      sx={{
+                        width: "100%",
+                        background: "transparent",
+                        color: "#000",
+                        border: "2px solid #000",
+                        "&:hover": {
+                          border: "2px solid #000",
+                          background: "transparent",
+                        },
+                      }}
+                    >
+                      IR AL PAGO
+                    </ButtonMaterial>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </Box>
+        </Modal>
         <path
           id="path996"
           d="M318.32 381.23c2.45-2.42 4.94-4.87 7.42-7.33 2.43-2.42 4.88-4.82 7.26-7.29.73-.76 1.32-1.02 2.21-.29.42.35.96.57 1.48.77 2.23.85 2.23.84 2.23 3.25 0 5.9.01 11.81 0 17.71 0 2.21-.03 2.19-2.08 1.97-6.27-.67-11.89-2.88-16.77-6.91-.6-.51-1.3-.94-1.75-1.88"
           className="st1"
         />
+<Modal
+          open={open164}
+          onClose={handleClose}
+          aria-labelledby="modal-modal-title"
+          aria-describedby="modal-modal-description"
+        >
+          <Box sx={style}>
+            <div className="modal-header-left">
+              <button className="close-button" onClick={handleClose}>
+                <h4>X</h4>
+              </button>
+            </div>
+            <div>
+              <div className="lote-modal">
+                <div>
+                  <img
+                    src={require("../../../image/lote.png")}
+                    alt="not found"
+                    className="lote"
+                  />
+                </div>
+
+                <div className="lote-text">
+                  <h4>Lote: M-04</h4>
+                  <h4>Area: 1144 m2</h4>
+                  <h4>Precio m2: $1200.00mxn</h4>
+                  <h4>Precio Total: $1,372,800.00mxn</h4>
+                  <ButtonMaterial
+                    sx={{
+                      width: "100%",
+                      background: "transparent",
+                      color: "#000",
+                      border: "2px solid #000",
+                      "&:hover": {
+                        border: "2px solid #000",
+                        background: "transparent",
+                      },
+                    }}
+                    
+                  >
+                    ASIGNAR LEAD
+                  </ButtonMaterial>
+                  <div className="ButtonMaterial">
+                    <ButtonMaterial
+                      sx={{
+                        width: "100%",
+                        background: "transparent",
+                        color: "#000",
+                        border: "2px solid #000",
+                        "&:hover": {
+                          border: "2px solid #000",
+                          background: "transparent",
+                        },
+                      }}
+                    >
+                      COPIAR LINK
+                    </ButtonMaterial>
+                    <ButtonMaterial
+                      sx={{
+                        width: "100%",
+                        background: "transparent",
+                        color: "#000",
+                        border: "2px solid #000",
+                        "&:hover": {
+                          border: "2px solid #000",
+                          background: "transparent",
+                        },
+                      }}
+                    >
+                      IR AL PAGO
+                    </ButtonMaterial>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </Box>
+        </Modal>
         <path
           id="path998"
           d="M339.4 352.64c3.99-.01 7.14 3.12 7.11 7.09a7.058 7.058 0 0 1-6.97 7.02c-3.97.05-7.2-3.06-7.26-6.99-.05-3.92 3.15-7.11 7.12-7.12"
           className="st11"
         />
+        <Modal
+          open={open165}
+          onClose={handleClose}
+          aria-labelledby="modal-modal-title"
+          aria-describedby="modal-modal-description"
+        >
+          <Box sx={style}>
+            <div className="modal-header-left">
+              <button className="close-button" onClick={handleClose}>
+                <h4>X</h4>
+              </button>
+            </div>
+            <div>
+              <div className="lote-modal">
+                <div>
+                  <img
+                    src={require("../../../image/lote.png")}
+                    alt="not found"
+                    className="lote"
+                  />
+                </div>
+
+                <div className="lote-text">
+                  <h4>Lote: M-04</h4>
+                  <h4>Area: 1144 m2</h4>
+                  <h4>Precio m2: $1200.00mxn</h4>
+                  <h4>Precio Total: $1,372,800.00mxn</h4>
+                  <ButtonMaterial
+                    sx={{
+                      width: "100%",
+                      background: "transparent",
+                      color: "#000",
+                      border: "2px solid #000",
+                      "&:hover": {
+                        border: "2px solid #000",
+                        background: "transparent",
+                      },
+                    }}
+                    
+                  >
+                    ASIGNAR LEAD
+                  </ButtonMaterial>
+                  <div className="ButtonMaterial">
+                    <ButtonMaterial
+                      sx={{
+                        width: "100%",
+                        background: "transparent",
+                        color: "#000",
+                        border: "2px solid #000",
+                        "&:hover": {
+                          border: "2px solid #000",
+                          background: "transparent",
+                        },
+                      }}
+                    >
+                      COPIAR LINK
+                    </ButtonMaterial>
+                    <ButtonMaterial
+                      sx={{
+                        width: "100%",
+                        background: "transparent",
+                        color: "#000",
+                        border: "2px solid #000",
+                        "&:hover": {
+                          border: "2px solid #000",
+                          background: "transparent",
+                        },
+                      }}
+                    >
+                      IR AL PAGO
+                    </ButtonMaterial>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </Box>
+        </Modal>
         <path
           id="path1000"
           d="M68.11 338.95v-17c7.9-.03 15.8-.06 23.7-.11 1.07-.01 1.43.41 1.43 1.42-.03 4.8-.03 9.59 0 14.39.01 1.01-.36 1.43-1.43 1.42-7.9-.06-15.8-.09-23.7-.12"
           className="st1"
         />
+        <Modal
+          open={open166}
+          onClose={handleClose}
+          aria-labelledby="modal-modal-title"
+          aria-describedby="modal-modal-description"
+        >
+          <Box sx={style}>
+            <div className="modal-header-left">
+              <button className="close-button" onClick={handleClose}>
+                <h4>X</h4>
+              </button>
+            </div>
+            <div>
+              <div className="lote-modal">
+                <div>
+                  <img
+                    src={require("../../../image/lote.png")}
+                    alt="not found"
+                    className="lote"
+                  />
+                </div>
+
+                <div className="lote-text">
+                  <h4>Lote: M-04</h4>
+                  <h4>Area: 1144 m2</h4>
+                  <h4>Precio m2: $1200.00mxn</h4>
+                  <h4>Precio Total: $1,372,800.00mxn</h4>
+                  <ButtonMaterial
+                    sx={{
+                      width: "100%",
+                      background: "transparent",
+                      color: "#000",
+                      border: "2px solid #000",
+                      "&:hover": {
+                        border: "2px solid #000",
+                        background: "transparent",
+                      },
+                    }}
+                    
+                  >
+                    ASIGNAR LEAD
+                  </ButtonMaterial>
+                  <div className="ButtonMaterial">
+                    <ButtonMaterial
+                      sx={{
+                        width: "100%",
+                        background: "transparent",
+                        color: "#000",
+                        border: "2px solid #000",
+                        "&:hover": {
+                          border: "2px solid #000",
+                          background: "transparent",
+                        },
+                      }}
+                    >
+                      COPIAR LINK
+                    </ButtonMaterial>
+                    <ButtonMaterial
+                      sx={{
+                        width: "100%",
+                        background: "transparent",
+                        color: "#000",
+                        border: "2px solid #000",
+                        "&:hover": {
+                          border: "2px solid #000",
+                          background: "transparent",
+                        },
+                      }}
+                    >
+                      IR AL PAGO
+                    </ButtonMaterial>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </Box>
+        </Modal>
         <path
           id="path1002"
           d="M84.31 357.14c-2.56 0-5.11-.02-7.67.01-.86.01-1.31-.2-1.3-1.2.04-4.95.03-9.9 0-14.86 0-.91.3-1.26 1.24-1.26 5.11.03 10.22.04 15.34 0 1.1-.01 1.32.49 1.32 1.44-.03 4.79-.04 9.59.01 14.38.01 1.15-.37 1.54-1.51 1.51-2.48-.07-4.96-.02-7.43-.02"
           className="st1"
         />
+        <Modal
+          open={open167}
+          onClose={handleClose}
+          aria-labelledby="modal-modal-title"
+          aria-describedby="modal-modal-description"
+        >
+          <Box sx={style}>
+            <div className="modal-header-left">
+              <button className="close-button" onClick={handleClose}>
+                <h4>X</h4>
+              </button>
+            </div>
+            <div>
+              <div className="lote-modal">
+                <div>
+                  <img
+                    src={require("../../../image/lote.png")}
+                    alt="not found"
+                    className="lote"
+                  />
+                </div>
+
+                <div className="lote-text">
+                  <h4>Lote: M-04</h4>
+                  <h4>Area: 1144 m2</h4>
+                  <h4>Precio m2: $1200.00mxn</h4>
+                  <h4>Precio Total: $1,372,800.00mxn</h4>
+                  <ButtonMaterial
+                    sx={{
+                      width: "100%",
+                      background: "transparent",
+                      color: "#000",
+                      border: "2px solid #000",
+                      "&:hover": {
+                        border: "2px solid #000",
+                        background: "transparent",
+                      },
+                    }}
+                    
+                  >
+                    ASIGNAR LEAD
+                  </ButtonMaterial>
+                  <div className="ButtonMaterial">
+                    <ButtonMaterial
+                      sx={{
+                        width: "100%",
+                        background: "transparent",
+                        color: "#000",
+                        border: "2px solid #000",
+                        "&:hover": {
+                          border: "2px solid #000",
+                          background: "transparent",
+                        },
+                      }}
+                    >
+                      COPIAR LINK
+                    </ButtonMaterial>
+                    <ButtonMaterial
+                      sx={{
+                        width: "100%",
+                        background: "transparent",
+                        color: "#000",
+                        border: "2px solid #000",
+                        "&:hover": {
+                          border: "2px solid #000",
+                          background: "transparent",
+                        },
+                      }}
+                    >
+                      IR AL PAGO
+                    </ButtonMaterial>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </Box>
+        </Modal>
         <path
           id="path1004"
           d="M84.34 303.85c2.4 0 4.8.04 7.2-.02 1.15-.03 1.74.2 1.72 1.55-.07 4.72-.05 9.43-.01 14.15.01 1.08-.25 1.57-1.47 1.55-5.04-.06-10.08-.05-15.11-.01-1.1.01-1.33-.46-1.32-1.43.03-4.8.05-9.6-.01-14.39-.02-1.24.5-1.45 1.57-1.43 2.47.07 4.95.03 7.43.03"
           className="st1"
         />
+        <Modal
+          open={open168}
+          onClose={handleClose}
+          aria-labelledby="modal-modal-title"
+          aria-describedby="modal-modal-description"
+        >
+          <Box sx={style}>
+            <div className="modal-header-left">
+              <button className="close-button" onClick={handleClose}>
+                <h4>X</h4>
+              </button>
+            </div>
+            <div>
+              <div className="lote-modal">
+                <div>
+                  <img
+                    src={require("../../../image/lote.png")}
+                    alt="not found"
+                    className="lote"
+                  />
+                </div>
+
+                <div className="lote-text">
+                  <h4>Lote: M-04</h4>
+                  <h4>Area: 1144 m2</h4>
+                  <h4>Precio m2: $1200.00mxn</h4>
+                  <h4>Precio Total: $1,372,800.00mxn</h4>
+                  <ButtonMaterial
+                    sx={{
+                      width: "100%",
+                      background: "transparent",
+                      color: "#000",
+                      border: "2px solid #000",
+                      "&:hover": {
+                        border: "2px solid #000",
+                        background: "transparent",
+                      },
+                    }}
+                    
+                  >
+                    ASIGNAR LEAD
+                  </ButtonMaterial>
+                  <div className="ButtonMaterial">
+                    <ButtonMaterial
+                      sx={{
+                        width: "100%",
+                        background: "transparent",
+                        color: "#000",
+                        border: "2px solid #000",
+                        "&:hover": {
+                          border: "2px solid #000",
+                          background: "transparent",
+                        },
+                      }}
+                    >
+                      COPIAR LINK
+                    </ButtonMaterial>
+                    <ButtonMaterial
+                      sx={{
+                        width: "100%",
+                        background: "transparent",
+                        color: "#000",
+                        border: "2px solid #000",
+                        "&:hover": {
+                          border: "2px solid #000",
+                          background: "transparent",
+                        },
+                      }}
+                    >
+                      IR AL PAGO
+                    </ButtonMaterial>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </Box>
+        </Modal>
         <path
           id="path1006"
           d="M84.33 285.84c2.39 0 4.79.03 7.18-.01 1.12-.02 1.76.18 1.74 1.55-.07 4.71-.05 9.41-.01 14.12.01 1.1-.32 1.57-1.49 1.56-5.03-.04-10.05-.04-15.08 0-1.07.01-1.34-.46-1.33-1.44.03-4.79.05-9.57-.01-14.36-.01-1.23.53-1.46 1.58-1.44 2.47.05 4.95.02 7.42.02"
           className="st1"
         />
+        <Modal
+          open={open169}
+          onClose={handleClose}
+          aria-labelledby="modal-modal-title"
+          aria-describedby="modal-modal-description"
+        >
+          <Box sx={style}>
+            <div className="modal-header-left">
+              <button className="close-button" onClick={handleClose}>
+                <h4>X</h4>
+              </button>
+            </div>
+            <div>
+              <div className="lote-modal">
+                <div>
+                  <img
+                    src={require("../../../image/lote.png")}
+                    alt="not found"
+                    className="lote"
+                  />
+                </div>
+
+                <div className="lote-text">
+                  <h4>Lote: M-04</h4>
+                  <h4>Area: 1144 m2</h4>
+                  <h4>Precio m2: $1200.00mxn</h4>
+                  <h4>Precio Total: $1,372,800.00mxn</h4>
+                  <ButtonMaterial
+                    sx={{
+                      width: "100%",
+                      background: "transparent",
+                      color: "#000",
+                      border: "2px solid #000",
+                      "&:hover": {
+                        border: "2px solid #000",
+                        background: "transparent",
+                      },
+                    }}
+                    
+                  >
+                    ASIGNAR LEAD
+                  </ButtonMaterial>
+                  <div className="ButtonMaterial">
+                    <ButtonMaterial
+                      sx={{
+                        width: "100%",
+                        background: "transparent",
+                        color: "#000",
+                        border: "2px solid #000",
+                        "&:hover": {
+                          border: "2px solid #000",
+                          background: "transparent",
+                        },
+                      }}
+                    >
+                      COPIAR LINK
+                    </ButtonMaterial>
+                    <ButtonMaterial
+                      sx={{
+                        width: "100%",
+                        background: "transparent",
+                        color: "#000",
+                        border: "2px solid #000",
+                        "&:hover": {
+                          border: "2px solid #000",
+                          background: "transparent",
+                        },
+                      }}
+                    >
+                      IR AL PAGO
+                    </ButtonMaterial>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </Box>
+        </Modal>
         <path
           id="path1008"
           d="M200.72 487.79c5.4-5.06 11.75-7.98 19.24-8.42 1.11-.07 1.35.36 1.35 1.34-.02 6.63-.02 13.26 0 19.88 0 .85-.23 1.31-1.17 1.42-.69.08-1.38.39-2.02.7-1.91.94-1.91.97-3.32-.44-4.29-4.29-8.59-8.58-12.87-12.88-.43-.43-1-.79-1.21-1.6"
           className="st1"
         />
+        <Modal
+          open={open170}
+          onClose={handleClose}
+          aria-labelledby="modal-modal-title"
+          aria-describedby="modal-modal-description"
+        >
+          <Box sx={style}>
+            <div className="modal-header-left">
+              <button className="close-button" onClick={handleClose}>
+                <h4>X</h4>
+              </button>
+            </div>
+            <div>
+              <div className="lote-modal">
+                <div>
+                  <img
+                    src={require("../../../image/lote.png")}
+                    alt="not found"
+                    className="lote"
+                  />
+                </div>
+
+                <div className="lote-text">
+                  <h4>Lote: M-04</h4>
+                  <h4>Area: 1144 m2</h4>
+                  <h4>Precio m2: $1200.00mxn</h4>
+                  <h4>Precio Total: $1,372,800.00mxn</h4>
+                  <ButtonMaterial
+                    sx={{
+                      width: "100%",
+                      background: "transparent",
+                      color: "#000",
+                      border: "2px solid #000",
+                      "&:hover": {
+                        border: "2px solid #000",
+                        background: "transparent",
+                      },
+                    }}
+                    
+                  >
+                    ASIGNAR LEAD
+                  </ButtonMaterial>
+                  <div className="ButtonMaterial">
+                    <ButtonMaterial
+                      sx={{
+                        width: "100%",
+                        background: "transparent",
+                        color: "#000",
+                        border: "2px solid #000",
+                        "&:hover": {
+                          border: "2px solid #000",
+                          background: "transparent",
+                        },
+                      }}
+                    >
+                      COPIAR LINK
+                    </ButtonMaterial>
+                    <ButtonMaterial
+                      sx={{
+                        width: "100%",
+                        background: "transparent",
+                        color: "#000",
+                        border: "2px solid #000",
+                        "&:hover": {
+                          border: "2px solid #000",
+                          background: "transparent",
+                        },
+                      }}
+                    >
+                      IR AL PAGO
+                    </ButtonMaterial>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </Box>
+        </Modal>
         <path
           id="path1010"
           d="M250.68 500.12c.59 2.39 1.29 4.76 1.34 7.26.04 1.84.06 1.87-1.76 1.88-5.9.02-11.8 0-17.71.01-.88 0-1.75.03-2.63.05-.64-1.42-.72-3.06-1.77-4.34-.68-.82.19-1.29.65-1.76 3.87-3.89 7.76-7.77 11.64-11.65 1.01-1.01 2.01-2.01 3.08-3.07 3.41 3.41 5.63 7.3 7.16 11.62"
           className="st1"
         />
+         <Modal
+          open={open171}
+          onClose={handleClose}
+          aria-labelledby="modal-modal-title"
+          aria-describedby="modal-modal-description"
+        >
+          <Box sx={style}>
+            <div className="modal-header-left">
+              <button className="close-button" onClick={handleClose}>
+                <h4>X</h4>
+              </button>
+            </div>
+            <div>
+              <div className="lote-modal">
+                <div>
+                  <img
+                    src={require("../../../image/lote.png")}
+                    alt="not found"
+                    className="lote"
+                  />
+                </div>
+
+                <div className="lote-text">
+                  <h4>Lote: M-04</h4>
+                  <h4>Area: 1144 m2</h4>
+                  <h4>Precio m2: $1200.00mxn</h4>
+                  <h4>Precio Total: $1,372,800.00mxn</h4>
+                  <ButtonMaterial
+                    sx={{
+                      width: "100%",
+                      background: "transparent",
+                      color: "#000",
+                      border: "2px solid #000",
+                      "&:hover": {
+                        border: "2px solid #000",
+                        background: "transparent",
+                      },
+                    }}
+                    
+                  >
+                    ASIGNAR LEAD
+                  </ButtonMaterial>
+                  <div className="ButtonMaterial">
+                    <ButtonMaterial
+                      sx={{
+                        width: "100%",
+                        background: "transparent",
+                        color: "#000",
+                        border: "2px solid #000",
+                        "&:hover": {
+                          border: "2px solid #000",
+                          background: "transparent",
+                        },
+                      }}
+                    >
+                      COPIAR LINK
+                    </ButtonMaterial>
+                    <ButtonMaterial
+                      sx={{
+                        width: "100%",
+                        background: "transparent",
+                        color: "#000",
+                        border: "2px solid #000",
+                        "&:hover": {
+                          border: "2px solid #000",
+                          background: "transparent",
+                        },
+                      }}
+                    >
+                      IR AL PAGO
+                    </ButtonMaterial>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </Box>
+        </Modal>
         <path
           id="path1012"
           d="M229.93 510.17c6.74.02 13.47.03 20.21.06 1.79.01 1.79.02 1.97 1.93-.68 7.22-3.49 13.45-8.39 18.57-5.34-5.35-10.56-10.57-15.86-15.88 1.05-1.2 1.47-2.98 2.07-4.68"
           className="st1"
         />
+         <Modal
+          open={open171}
+          onClose={handleClose}
+          aria-labelledby="modal-modal-title"
+          aria-describedby="modal-modal-description"
+        >
+          <Box sx={style}>
+            <div className="modal-header-left">
+              <button className="close-button" onClick={handleClose}>
+                <h4>X</h4>
+              </button>
+            </div>
+            <div>
+              <div className="lote-modal">
+                <div>
+                  <img
+                    src={require("../../../image/lote.png")}
+                    alt="not found"
+                    className="lote"
+                  />
+                </div>
+
+                <div className="lote-text">
+                  <h4>Lote: M-04</h4>
+                  <h4>Area: 1144 m2</h4>
+                  <h4>Precio m2: $1200.00mxn</h4>
+                  <h4>Precio Total: $1,372,800.00mxn</h4>
+                  <ButtonMaterial
+                    sx={{
+                      width: "100%",
+                      background: "transparent",
+                      color: "#000",
+                      border: "2px solid #000",
+                      "&:hover": {
+                        border: "2px solid #000",
+                        background: "transparent",
+                      },
+                    }}
+                    
+                  >
+                    ASIGNAR LEAD
+                  </ButtonMaterial>
+                  <div className="ButtonMaterial">
+                    <ButtonMaterial
+                      sx={{
+                        width: "100%",
+                        background: "transparent",
+                        color: "#000",
+                        border: "2px solid #000",
+                        "&:hover": {
+                          border: "2px solid #000",
+                          background: "transparent",
+                        },
+                      }}
+                    >
+                      COPIAR LINK
+                    </ButtonMaterial>
+                    <ButtonMaterial
+                      sx={{
+                        width: "100%",
+                        background: "transparent",
+                        color: "#000",
+                        border: "2px solid #000",
+                        "&:hover": {
+                          border: "2px solid #000",
+                          background: "transparent",
+                        },
+                      }}
+                    >
+                      IR AL PAGO
+                    </ButtonMaterial>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </Box>
+        </Modal>
         <path
           id="path1014"
           d="M200.09 530.94c-4.19-4.36-6.82-9.27-8.01-14.94-.39-1.84-.92-3.7-.34-5.61 1.64-.44 3.32-.18 4.97-.19 5.19-.04 10.38 0 15.57-.03 1.07-.01 1.88.1 1.89 1.46 0 .45.27.91.48 1.34.34.71 1.08 1.43 1.02 2.08-.09.93-1.15 1.45-1.81 2.12l-13.77 13.77"
           className="st1"
         />
+         <Modal
+          open={open172}
+          onClose={handleClose}
+          aria-labelledby="modal-modal-title"
+          aria-describedby="modal-modal-description"
+        >
+          <Box sx={style}>
+            <div className="modal-header-left">
+              <button className="close-button" onClick={handleClose}>
+                <h4>X</h4>
+              </button>
+            </div>
+            <div>
+              <div className="lote-modal">
+                <div>
+                  <img
+                    src={require("../../../image/lote.png")}
+                    alt="not found"
+                    className="lote"
+                  />
+                </div>
+
+                <div className="lote-text">
+                  <h4>Lote: M-04</h4>
+                  <h4>Area: 1144 m2</h4>
+                  <h4>Precio m2: $1200.00mxn</h4>
+                  <h4>Precio Total: $1,372,800.00mxn</h4>
+                  <ButtonMaterial
+                    sx={{
+                      width: "100%",
+                      background: "transparent",
+                      color: "#000",
+                      border: "2px solid #000",
+                      "&:hover": {
+                        border: "2px solid #000",
+                        background: "transparent",
+                      },
+                    }}
+                    
+                  >
+                    ASIGNAR LEAD
+                  </ButtonMaterial>
+                  <div className="ButtonMaterial">
+                    <ButtonMaterial
+                      sx={{
+                        width: "100%",
+                        background: "transparent",
+                        color: "#000",
+                        border: "2px solid #000",
+                        "&:hover": {
+                          border: "2px solid #000",
+                          background: "transparent",
+                        },
+                      }}
+                    >
+                      COPIAR LINK
+                    </ButtonMaterial>
+                    <ButtonMaterial
+                      sx={{
+                        width: "100%",
+                        background: "transparent",
+                        color: "#000",
+                        border: "2px solid #000",
+                        "&:hover": {
+                          border: "2px solid #000",
+                          background: "transparent",
+                        },
+                      }}
+                    >
+                      IR AL PAGO
+                    </ButtonMaterial>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </Box>
+        </Modal>
         <path
           id="path1016"
           d="M243.01 487.92c-2.67 2.66-5.22 5.19-7.76 7.72-1.87 1.86-3.83 3.64-5.57 5.62-1.49 1.7-2.88 2.91-5.05 1.09-.68-.57-1.98.01-2.32-.92-.31-.86-.17-1.89-.17-2.84-.01-5.75-.01-11.51 0-17.26.01-2.02.03-2.04 1.95-1.91 7.3.51 13.5 3.41 18.92 8.5"
           className="st1"
         />
+         <Modal
+          open={open173}
+          onClose={handleClose}
+          aria-labelledby="modal-modal-title"
+          aria-describedby="modal-modal-description"
+        >
+          <Box sx={style}>
+            <div className="modal-header-left">
+              <button className="close-button" onClick={handleClose}>
+                <h4>X</h4>
+              </button>
+            </div>
+            <div>
+              <div className="lote-modal">
+                <div>
+                  <img
+                    src={require("../../../image/lote.png")}
+                    alt="not found"
+                    className="lote"
+                  />
+                </div>
+
+                <div className="lote-text">
+                  <h4>Lote: M-04</h4>
+                  <h4>Area: 1144 m2</h4>
+                  <h4>Precio m2: $1200.00mxn</h4>
+                  <h4>Precio Total: $1,372,800.00mxn</h4>
+                  <ButtonMaterial
+                    sx={{
+                      width: "100%",
+                      background: "transparent",
+                      color: "#000",
+                      border: "2px solid #000",
+                      "&:hover": {
+                        border: "2px solid #000",
+                        background: "transparent",
+                      },
+                    }}
+                    
+                  >
+                    ASIGNAR LEAD
+                  </ButtonMaterial>
+                  <div className="ButtonMaterial">
+                    <ButtonMaterial
+                      sx={{
+                        width: "100%",
+                        background: "transparent",
+                        color: "#000",
+                        border: "2px solid #000",
+                        "&:hover": {
+                          border: "2px solid #000",
+                          background: "transparent",
+                        },
+                      }}
+                    >
+                      COPIAR LINK
+                    </ButtonMaterial>
+                    <ButtonMaterial
+                      sx={{
+                        width: "100%",
+                        background: "transparent",
+                        color: "#000",
+                        border: "2px solid #000",
+                        "&:hover": {
+                          border: "2px solid #000",
+                          background: "transparent",
+                        },
+                      }}
+                    >
+                      IR AL PAGO
+                    </ButtonMaterial>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </Box>
+        </Modal>
         <path
           id="path1018"
           d="M199.89 488.64c.38.32.7.55.98.83 4.58 4.58 9.14 9.18 13.76 13.72.88.86 1.2 1.58.34 2.61-.29.35-.42.85-.58 1.3-.79 2.21-.79 2.21-3.22 2.21-6 0-11.99.01-17.99-.01-1.68 0-1.74-.04-1.64-1.74.44-7.3 3.3-13.55 8.35-18.92"
           className="st1"
         />
+         <Modal
+          open={open174}
+          onClose={handleClose}
+          aria-labelledby="modal-modal-title"
+          aria-describedby="modal-modal-description"
+        >
+          <Box sx={style}>
+            <div className="modal-header-left">
+              <button className="close-button" onClick={handleClose}>
+                <h4>X</h4>
+              </button>
+            </div>
+            <div>
+              <div className="lote-modal">
+                <div>
+                  <img
+                    src={require("../../../image/lote.png")}
+                    alt="not found"
+                    className="lote"
+                  />
+                </div>
+
+                <div className="lote-text">
+                  <h4>Lote: M-04</h4>
+                  <h4>Area: 1144 m2</h4>
+                  <h4>Precio m2: $1200.00mxn</h4>
+                  <h4>Precio Total: $1,372,800.00mxn</h4>
+                  <ButtonMaterial
+                    sx={{
+                      width: "100%",
+                      background: "transparent",
+                      color: "#000",
+                      border: "2px solid #000",
+                      "&:hover": {
+                        border: "2px solid #000",
+                        background: "transparent",
+                      },
+                    }}
+                    
+                  >
+                    ASIGNAR LEAD
+                  </ButtonMaterial>
+                  <div className="ButtonMaterial">
+                    <ButtonMaterial
+                      sx={{
+                        width: "100%",
+                        background: "transparent",
+                        color: "#000",
+                        border: "2px solid #000",
+                        "&:hover": {
+                          border: "2px solid #000",
+                          background: "transparent",
+                        },
+                      }}
+                    >
+                      COPIAR LINK
+                    </ButtonMaterial>
+                    <ButtonMaterial
+                      sx={{
+                        width: "100%",
+                        background: "transparent",
+                        color: "#000",
+                        border: "2px solid #000",
+                        "&:hover": {
+                          border: "2px solid #000",
+                          background: "transparent",
+                        },
+                      }}
+                    >
+                      IR AL PAGO
+                    </ButtonMaterial>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </Box>
+        </Modal>
         <path
           id="path1020"
           d="M242.91 531.56c-5.59 5.13-11.84 7.99-19.14 8.41-1.57.09-1.62.03-1.62-1.53-.02-6.39 0-12.78-.02-19.16 0-1.03.01-1.86 1.43-1.93.75-.04 1.54-.45 2.19-.89.89-.6 1.48-.56 2.25.23 4.89 4.92 9.83 9.81 14.91 14.87"
           className="st1"
         />
+         <Modal
+          open={open176}
+          onClose={handleClose}
+          aria-labelledby="modal-modal-title"
+          aria-describedby="modal-modal-description"
+        >
+          <Box sx={style}>
+            <div className="modal-header-left">
+              <button className="close-button" onClick={handleClose}>
+                <h4>X</h4>
+              </button>
+            </div>
+            <div>
+              <div className="lote-modal">
+                <div>
+                  <img
+                    src={require("../../../image/lote.png")}
+                    alt="not found"
+                    className="lote"
+                  />
+                </div>
+
+                <div className="lote-text">
+                  <h4>Lote: M-04</h4>
+                  <h4>Area: 1144 m2</h4>
+                  <h4>Precio m2: $1200.00mxn</h4>
+                  <h4>Precio Total: $1,372,800.00mxn</h4>
+                  <ButtonMaterial
+                    sx={{
+                      width: "100%",
+                      background: "transparent",
+                      color: "#000",
+                      border: "2px solid #000",
+                      "&:hover": {
+                        border: "2px solid #000",
+                        background: "transparent",
+                      },
+                    }}
+                    
+                  >
+                    ASIGNAR LEAD
+                  </ButtonMaterial>
+                  <div className="ButtonMaterial">
+                    <ButtonMaterial
+                      sx={{
+                        width: "100%",
+                        background: "transparent",
+                        color: "#000",
+                        border: "2px solid #000",
+                        "&:hover": {
+                          border: "2px solid #000",
+                          background: "transparent",
+                        },
+                      }}
+                    >
+                      COPIAR LINK
+                    </ButtonMaterial>
+                    <ButtonMaterial
+                      sx={{
+                        width: "100%",
+                        background: "transparent",
+                        color: "#000",
+                        border: "2px solid #000",
+                        "&:hover": {
+                          border: "2px solid #000",
+                          background: "transparent",
+                        },
+                      }}
+                    >
+                      IR AL PAGO
+                    </ButtonMaterial>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </Box>
+        </Modal>
         <path
           id="path1022"
           d="M200.8 531.67c.31-.79.85-1.17 1.29-1.61 4.4-4.41 8.83-8.79 13.19-13.23.85-.86 1.55-1.23 2.57-.34.29.25.7.38 1.07.52.73.27 1.75.29 2.15.8.57.73.21 1.85.22 2.8.02 5.91.02 11.82 0 17.73 0 1.69-.04 1.75-1.72 1.63-7.27-.51-13.48-3.4-18.77-8.3"
           className="st1"
         />
+         <Modal
+          open={open177}
+          onClose={handleClose}
+          aria-labelledby="modal-modal-title"
+          aria-describedby="modal-modal-description"
+        >
+          <Box sx={style}>
+            <div className="modal-header-left">
+              <button className="close-button" onClick={handleClose}>
+                <h4>X</h4>
+              </button>
+            </div>
+            <div>
+              <div className="lote-modal">
+                <div>
+                  <img
+                    src={require("../../../image/lote.png")}
+                    alt="not found"
+                    className="lote"
+                  />
+                </div>
+
+                <div className="lote-text">
+                  <h4>Lote: M-04</h4>
+                  <h4>Area: 1144 m2</h4>
+                  <h4>Precio m2: $1200.00mxn</h4>
+                  <h4>Precio Total: $1,372,800.00mxn</h4>
+                  <ButtonMaterial
+                    sx={{
+                      width: "100%",
+                      background: "transparent",
+                      color: "#000",
+                      border: "2px solid #000",
+                      "&:hover": {
+                        border: "2px solid #000",
+                        background: "transparent",
+                      },
+                    }}
+                    
+                  >
+                    ASIGNAR LEAD
+                  </ButtonMaterial>
+                  <div className="ButtonMaterial">
+                    <ButtonMaterial
+                      sx={{
+                        width: "100%",
+                        background: "transparent",
+                        color: "#000",
+                        border: "2px solid #000",
+                        "&:hover": {
+                          border: "2px solid #000",
+                          background: "transparent",
+                        },
+                      }}
+                    >
+                      COPIAR LINK
+                    </ButtonMaterial>
+                    <ButtonMaterial
+                      sx={{
+                        width: "100%",
+                        background: "transparent",
+                        color: "#000",
+                        border: "2px solid #000",
+                        "&:hover": {
+                          border: "2px solid #000",
+                          background: "transparent",
+                        },
+                      }}
+                    >
+                      IR AL PAGO
+                    </ButtonMaterial>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </Box>
+        </Modal>
         <path
           id="path1024"
           d="M214.67 509.55c.08-3.91 3.36-7.02 7.33-6.94 3.91.08 7.02 3.39 6.89 7.34-.12 3.79-3.4 6.93-7.17 6.88-3.88-.06-7.13-3.42-7.05-7.28"
           className="st11"
         />
+ <Modal
+          open={open178}
+          onClose={handleClose}
+          aria-labelledby="modal-modal-title"
+          aria-describedby="modal-modal-description"
+        >
+          <Box sx={style}>
+            <div className="modal-header-left">
+              <button className="close-button" onClick={handleClose}>
+                <h4>X</h4>
+              </button>
+            </div>
+            <div>
+              <div className="lote-modal">
+                <div>
+                  <img
+                    src={require("../../../image/lote.png")}
+                    alt="not found"
+                    className="lote"
+                  />
+                </div>
+
+                <div className="lote-text">
+                  <h4>Lote: M-04</h4>
+                  <h4>Area: 1144 m2</h4>
+                  <h4>Precio m2: $1200.00mxn</h4>
+                  <h4>Precio Total: $1,372,800.00mxn</h4>
+                  <ButtonMaterial
+                    sx={{
+                      width: "100%",
+                      background: "transparent",
+                      color: "#000",
+                      border: "2px solid #000",
+                      "&:hover": {
+                        border: "2px solid #000",
+                        background: "transparent",
+                      },
+                    }}
+                    
+                  >
+                    ASIGNAR LEAD
+                  </ButtonMaterial>
+                  <div className="ButtonMaterial">
+                    <ButtonMaterial
+                      sx={{
+                        width: "100%",
+                        background: "transparent",
+                        color: "#000",
+                        border: "2px solid #000",
+                        "&:hover": {
+                          border: "2px solid #000",
+                          background: "transparent",
+                        },
+                      }}
+                    >
+                      COPIAR LINK
+                    </ButtonMaterial>
+                    <ButtonMaterial
+                      sx={{
+                        width: "100%",
+                        background: "transparent",
+                        color: "#000",
+                        border: "2px solid #000",
+                        "&:hover": {
+                          border: "2px solid #000",
+                          background: "transparent",
+                        },
+                      }}
+                    >
+                      IR AL PAGO
+                    </ButtonMaterial>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </Box>
+        </Modal>
         <path
           id="path1026"
           d="M174.5 187.79c5.45-5.09 11.83-7.98 19.31-8.46 1.3-.08 1.46.46 1.44 1.51-.04 2.55-.01 5.11-.01 7.67 0 3.91-.02 7.83.01 11.74.01 1.03-.2 1.67-1.38 1.77-1.05.09-1.97.63-2.82 1.24-.51.37-.91.53-1.42-.01-4.97-5.17-10.33-9.96-15.13-15.46"
           className="st1"
         />
+         <Modal
+          open={open179}
+          onClose={handleClose}
+          aria-labelledby="modal-modal-title"
+          aria-describedby="modal-modal-description"
+        >
+          <Box sx={style}>
+            <div className="modal-header-left">
+              <button className="close-button" onClick={handleClose}>
+                <h4>X</h4>
+              </button>
+            </div>
+            <div>
+              <div className="lote-modal">
+                <div>
+                  <img
+                    src={require("../../../image/lote.png")}
+                    alt="not found"
+                    className="lote"
+                  />
+                </div>
+
+                <div className="lote-text">
+                  <h4>Lote: M-04</h4>
+                  <h4>Area: 1144 m2</h4>
+                  <h4>Precio m2: $1200.00mxn</h4>
+                  <h4>Precio Total: $1,372,800.00mxn</h4>
+                  <ButtonMaterial
+                    sx={{
+                      width: "100%",
+                      background: "transparent",
+                      color: "#000",
+                      border: "2px solid #000",
+                      "&:hover": {
+                        border: "2px solid #000",
+                        background: "transparent",
+                      },
+                    }}
+                    
+                  >
+                    ASIGNAR LEAD
+                  </ButtonMaterial>
+                  <div className="ButtonMaterial">
+                    <ButtonMaterial
+                      sx={{
+                        width: "100%",
+                        background: "transparent",
+                        color: "#000",
+                        border: "2px solid #000",
+                        "&:hover": {
+                          border: "2px solid #000",
+                          background: "transparent",
+                        },
+                      }}
+                    >
+                      COPIAR LINK
+                    </ButtonMaterial>
+                    <ButtonMaterial
+                      sx={{
+                        width: "100%",
+                        background: "transparent",
+                        color: "#000",
+                        border: "2px solid #000",
+                        "&:hover": {
+                          border: "2px solid #000",
+                          background: "transparent",
+                        },
+                      }}
+                    >
+                      IR AL PAGO
+                    </ButtonMaterial>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </Box>
+        </Modal>
         <path
           id="path1028"
           d="M216.99 188.02c-2.21 2.11-4.26 4.01-6.25 5.96-2.91 2.86-5.8 5.74-8.64 8.66-.8.82-1.45 1.09-2.42.3-.48-.39-1.12-.62-1.72-.82-2.02-.68-2.03-.66-2.04-2.63 0-6.08-.01-12.16 0-18.23 0-1.97.03-1.99 1.99-1.86 7.24.48 13.39 3.36 19.08 8.62"
           className="st1"
         />
+         <Modal
+          open={open180}
+          onClose={handleClose}
+          aria-labelledby="modal-modal-title"
+          aria-describedby="modal-modal-description"
+        >
+          <Box sx={style}>
+            <div className="modal-header-left">
+              <button className="close-button" onClick={handleClose}>
+                <h4>X</h4>
+              </button>
+            </div>
+            <div>
+              <div className="lote-modal">
+                <div>
+                  <img
+                    src={require("../../../image/lote.png")}
+                    alt="not found"
+                    className="lote"
+                  />
+                </div>
+
+                <div className="lote-text">
+                  <h4>Lote: M-04</h4>
+                  <h4>Area: 1144 m2</h4>
+                  <h4>Precio m2: $1200.00mxn</h4>
+                  <h4>Precio Total: $1,372,800.00mxn</h4>
+                  <ButtonMaterial
+                    sx={{
+                      width: "100%",
+                      background: "transparent",
+                      color: "#000",
+                      border: "2px solid #000",
+                      "&:hover": {
+                        border: "2px solid #000",
+                        background: "transparent",
+                      },
+                    }}
+                    
+                  >
+                    ASIGNAR LEAD
+                  </ButtonMaterial>
+                  <div className="ButtonMaterial">
+                    <ButtonMaterial
+                      sx={{
+                        width: "100%",
+                        background: "transparent",
+                        color: "#000",
+                        border: "2px solid #000",
+                        "&:hover": {
+                          border: "2px solid #000",
+                          background: "transparent",
+                        },
+                      }}
+                    >
+                      COPIAR LINK
+                    </ButtonMaterial>
+                    <ButtonMaterial
+                      sx={{
+                        width: "100%",
+                        background: "transparent",
+                        color: "#000",
+                        border: "2px solid #000",
+                        "&:hover": {
+                          border: "2px solid #000",
+                          background: "transparent",
+                        },
+                      }}
+                    >
+                      IR AL PAGO
+                    </ButtonMaterial>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </Box>
+        </Modal>
         <path
           id="path1030"
           d="m200.59 215.88 15.86 15.86c-3.46 3.43-7.74 5.78-12.56 7.17-2.15.62-4.34 1.02-6.6 1.08-1.05.03-1.39-.31-1.38-1.35.04-3.59.02-7.19.02-10.78 0-2.88.02-5.75-.01-8.63-.01-1.05.07-1.79 1.44-1.9 1.27-.1 2.35-.91 3.23-1.45"
           className="st1"
         />
+         <Modal
+          open={open181}
+          onClose={handleClose}
+          aria-labelledby="modal-modal-title"
+          aria-describedby="modal-modal-description"
+        >
+          <Box sx={style}>
+            <div className="modal-header-left">
+              <button className="close-button" onClick={handleClose}>
+                <h4>X</h4>
+              </button>
+            </div>
+            <div>
+              <div className="lote-modal">
+                <div>
+                  <img
+                    src={require("../../../image/lote.png")}
+                    alt="not found"
+                    className="lote"
+                  />
+                </div>
+
+                <div className="lote-text">
+                  <h4>Lote: M-04</h4>
+                  <h4>Area: 1144 m2</h4>
+                  <h4>Precio m2: $1200.00mxn</h4>
+                  <h4>Precio Total: $1,372,800.00mxn</h4>
+                  <ButtonMaterial
+                    sx={{
+                      width: "100%",
+                      background: "transparent",
+                      color: "#000",
+                      border: "2px solid #000",
+                      "&:hover": {
+                        border: "2px solid #000",
+                        background: "transparent",
+                      },
+                    }}
+                    
+                  >
+                    ASIGNAR LEAD
+                  </ButtonMaterial>
+                  <div className="ButtonMaterial">
+                    <ButtonMaterial
+                      sx={{
+                        width: "100%",
+                        background: "transparent",
+                        color: "#000",
+                        border: "2px solid #000",
+                        "&:hover": {
+                          border: "2px solid #000",
+                          background: "transparent",
+                        },
+                      }}
+                    >
+                      COPIAR LINK
+                    </ButtonMaterial>
+                    <ButtonMaterial
+                      sx={{
+                        width: "100%",
+                        background: "transparent",
+                        color: "#000",
+                        border: "2px solid #000",
+                        "&:hover": {
+                          border: "2px solid #000",
+                          background: "transparent",
+                        },
+                      }}
+                    >
+                      IR AL PAGO
+                    </ButtonMaterial>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </Box>
+        </Modal>
         <path
           id="path1032"
           d="M190.4 215.68c1.12.76 2.28 1.5 3.64 1.71.89.13 1.21.51 1.2 1.4-.02 6.63-.04 13.25.01 19.88.01 1.34-.69 1.37-1.67 1.31-6.15-.38-11.64-2.53-16.52-6.25-2.8-2.14-2.79-2.15-.33-4.61 3.95-3.95 7.9-7.91 11.86-11.85.57-.57 1.04-1.24 1.81-1.59"
           className="st1"
         />
+         <Modal
+          open={open182}
+          onClose={handleClose}
+          aria-labelledby="modal-modal-title"
+          aria-describedby="modal-modal-description"
+        >
+          <Box sx={style}>
+            <div className="modal-header-left">
+              <button className="close-button" onClick={handleClose}>
+                <h4>X</h4>
+              </button>
+            </div>
+            <div>
+              <div className="lote-modal">
+                <div>
+                  <img
+                    src={require("../../../image/lote.png")}
+                    alt="not found"
+                    className="lote"
+                  />
+                </div>
+
+                <div className="lote-text">
+                  <h4>Lote: M-04</h4>
+                  <h4>Area: 1144 m2</h4>
+                  <h4>Precio m2: $1200.00mxn</h4>
+                  <h4>Precio Total: $1,372,800.00mxn</h4>
+                  <ButtonMaterial
+                    sx={{
+                      width: "100%",
+                      background: "transparent",
+                      color: "#000",
+                      border: "2px solid #000",
+                      "&:hover": {
+                        border: "2px solid #000",
+                        background: "transparent",
+                      },
+                    }}
+                    
+                  >
+                    ASIGNAR LEAD
+                  </ButtonMaterial>
+                  <div className="ButtonMaterial">
+                    <ButtonMaterial
+                      sx={{
+                        width: "100%",
+                        background: "transparent",
+                        color: "#000",
+                        border: "2px solid #000",
+                        "&:hover": {
+                          border: "2px solid #000",
+                          background: "transparent",
+                        },
+                      }}
+                    >
+                      COPIAR LINK
+                    </ButtonMaterial>
+                    <ButtonMaterial
+                      sx={{
+                        width: "100%",
+                        background: "transparent",
+                        color: "#000",
+                        border: "2px solid #000",
+                        "&:hover": {
+                          border: "2px solid #000",
+                          background: "transparent",
+                        },
+                      }}
+                    >
+                      IR AL PAGO
+                    </ButtonMaterial>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </Box>
+        </Modal>
         <path
           id="path1034"
           d="M203.15 207.67c.02-.59-.25-1.08-.5-1.58-.98-1.91-.98-1.91.57-3.47 4.13-4.13 8.25-8.26 12.39-12.38.55-.55.99-1.25 1.97-1.6 5.37 5.75 8.23 12.55 8.43 20.47-.62.81-1.52.79-2.39.79-5.97.02-11.94.03-17.91 0-1.48 0-2.74-.29-2.56-2.23"
           className="st1"
         />
+         <Modal
+          open={open183}
+          onClose={handleClose}
+          aria-labelledby="modal-modal-title"
+          aria-describedby="modal-modal-description"
+        >
+          <Box sx={style}>
+            <div className="modal-header-left">
+              <button className="close-button" onClick={handleClose}>
+                <h4>X</h4>
+              </button>
+            </div>
+            <div>
+              <div className="lote-modal">
+                <div>
+                  <img
+                    src={require("../../../image/lote.png")}
+                    alt="not found"
+                    className="lote"
+                  />
+                </div>
+
+                <div className="lote-text">
+                  <h4>Lote: M-04</h4>
+                  <h4>Area: 1144 m2</h4>
+                  <h4>Precio m2: $1200.00mxn</h4>
+                  <h4>Precio Total: $1,372,800.00mxn</h4>
+                  <ButtonMaterial
+                    sx={{
+                      width: "100%",
+                      background: "transparent",
+                      color: "#000",
+                      border: "2px solid #000",
+                      "&:hover": {
+                        border: "2px solid #000",
+                        background: "transparent",
+                      },
+                    }}
+                    
+                  >
+                    ASIGNAR LEAD
+                  </ButtonMaterial>
+                  <div className="ButtonMaterial">
+                    <ButtonMaterial
+                      sx={{
+                        width: "100%",
+                        background: "transparent",
+                        color: "#000",
+                        border: "2px solid #000",
+                        "&:hover": {
+                          border: "2px solid #000",
+                          background: "transparent",
+                        },
+                      }}
+                    >
+                      COPIAR LINK
+                    </ButtonMaterial>
+                    <ButtonMaterial
+                      sx={{
+                        width: "100%",
+                        background: "transparent",
+                        color: "#000",
+                        border: "2px solid #000",
+                        "&:hover": {
+                          border: "2px solid #000",
+                          background: "transparent",
+                        },
+                      }}
+                    >
+                      IR AL PAGO
+                    </ButtonMaterial>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </Box>
+        </Modal>
         <path
           id="path1036"
           d="M173.87 188.78c.15.1.37.21.53.36 4.74 4.73 9.47 9.49 14.24 14.19.73.72 1.06 1.29.32 2.2-.39.48-.61 1.12-.81 1.71-.69 2.02-.67 2.03-2.67 2.04-6.22 0-12.45.01-18.67-.01-1.61-.01-1.69-.06-1.55-1.61.65-7.21 3.21-13.6 8.33-18.84.04-.03.15-.01.28-.04"
           className="st1"
         />
+         <Modal
+          open={open184}
+          onClose={handleClose}
+          aria-labelledby="modal-modal-title"
+          aria-describedby="modal-modal-description"
+        >
+          <Box sx={style}>
+            <div className="modal-header-left">
+              <button className="close-button" onClick={handleClose}>
+                <h4>X</h4>
+              </button>
+            </div>
+            <div>
+              <div className="lote-modal">
+                <div>
+                  <img
+                    src={require("../../../image/lote.png")}
+                    alt="not found"
+                    className="lote"
+                  />
+                </div>
+
+                <div className="lote-text">
+                  <h4>Lote: M-04</h4>
+                  <h4>Area: 1144 m2</h4>
+                  <h4>Precio m2: $1200.00mxn</h4>
+                  <h4>Precio Total: $1,372,800.00mxn</h4>
+                  <ButtonMaterial
+                    sx={{
+                      width: "100%",
+                      background: "transparent",
+                      color: "#000",
+                      border: "2px solid #000",
+                      "&:hover": {
+                        border: "2px solid #000",
+                        background: "transparent",
+                      },
+                    }}
+                    
+                  >
+                    ASIGNAR LEAD
+                  </ButtonMaterial>
+                  <div className="ButtonMaterial">
+                    <ButtonMaterial
+                      sx={{
+                        width: "100%",
+                        background: "transparent",
+                        color: "#000",
+                        border: "2px solid #000",
+                        "&:hover": {
+                          border: "2px solid #000",
+                          background: "transparent",
+                        },
+                      }}
+                    >
+                      COPIAR LINK
+                    </ButtonMaterial>
+                    <ButtonMaterial
+                      sx={{
+                        width: "100%",
+                        background: "transparent",
+                        color: "#000",
+                        border: "2px solid #000",
+                        "&:hover": {
+                          border: "2px solid #000",
+                          background: "transparent",
+                        },
+                      }}
+                    >
+                      IR AL PAGO
+                    </ButtonMaterial>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </Box>
+        </Modal>
         <path
           id="path1038"
           d="M226.02 210.34c-.24 7.91-3.1 14.7-8.54 20.44-1.02-.49-1.58-1.3-2.24-1.96-4.19-4.17-8.35-8.37-12.56-12.52-.86-.85-1.23-1.53-.32-2.57.46-.53.76-1.22.78-1.97.12-1.2.43-2.07 1.97-2.06 6.47.05 12.95 0 19.42.03.57.01 1.12.09 1.49.61"
           className="st1"
         />
+         <Modal
+          open={open185}
+          onClose={handleClose}
+          aria-labelledby="modal-modal-title"
+          aria-describedby="modal-modal-description"
+        >
+          <Box sx={style}>
+            <div className="modal-header-left">
+              <button className="close-button" onClick={handleClose}>
+                <h4>X</h4>
+              </button>
+            </div>
+            <div>
+              <div className="lote-modal">
+                <div>
+                  <img
+                    src={require("../../../image/lote.png")}
+                    alt="not found"
+                    className="lote"
+                  />
+                </div>
+
+                <div className="lote-text">
+                  <h4>Lote: M-04</h4>
+                  <h4>Area: 1144 m2</h4>
+                  <h4>Precio m2: $1200.00mxn</h4>
+                  <h4>Precio Total: $1,372,800.00mxn</h4>
+                  <ButtonMaterial
+                    sx={{
+                      width: "100%",
+                      background: "transparent",
+                      color: "#000",
+                      border: "2px solid #000",
+                      "&:hover": {
+                        border: "2px solid #000",
+                        background: "transparent",
+                      },
+                    }}
+                    
+                  >
+                    ASIGNAR LEAD
+                  </ButtonMaterial>
+                  <div className="ButtonMaterial">
+                    <ButtonMaterial
+                      sx={{
+                        width: "100%",
+                        background: "transparent",
+                        color: "#000",
+                        border: "2px solid #000",
+                        "&:hover": {
+                          border: "2px solid #000",
+                          background: "transparent",
+                        },
+                      }}
+                    >
+                      COPIAR LINK
+                    </ButtonMaterial>
+                    <ButtonMaterial
+                      sx={{
+                        width: "100%",
+                        background: "transparent",
+                        color: "#000",
+                        border: "2px solid #000",
+                        "&:hover": {
+                          border: "2px solid #000",
+                          background: "transparent",
+                        },
+                      }}
+                    >
+                      IR AL PAGO
+                    </ButtonMaterial>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </Box>
+        </Modal>
         <path
           id="path1040"
           d="M173.87 230.86c-4.48-4.69-7.15-10.01-8.21-16.16-.16-.94-.32-1.89-.39-2.85-.13-1.57-.05-1.65 1.47-1.69 1.12-.03 2.24-.01 3.36-.01 5.36 0 10.72.03 16.08-.02 1.05-.01 1.66.23 1.84 1.33.09.54.31 1.07.54 1.58.99 2.14 1 2.13-.74 3.86-4.58 4.58-9.16 9.16-13.95 13.96"
           className="st1"
         />
+         <Modal
+          open={open186}
+          onClose={handleClose}
+          aria-labelledby="modal-modal-title"
+          aria-describedby="modal-modal-description"
+        >
+          <Box sx={style}>
+            <div className="modal-header-left">
+              <button className="close-button" onClick={handleClose}>
+                <h4>X</h4>
+              </button>
+            </div>
+            <div>
+              <div className="lote-modal">
+                <div>
+                  <img
+                    src={require("../../../image/lote.png")}
+                    alt="not found"
+                    className="lote"
+                  />
+                </div>
+
+                <div className="lote-text">
+                  <h4>Lote: M-04</h4>
+                  <h4>Area: 1144 m2</h4>
+                  <h4>Precio m2: $1200.00mxn</h4>
+                  <h4>Precio Total: $1,372,800.00mxn</h4>
+                  <ButtonMaterial
+                    sx={{
+                      width: "100%",
+                      background: "transparent",
+                      color: "#000",
+                      border: "2px solid #000",
+                      "&:hover": {
+                        border: "2px solid #000",
+                        background: "transparent",
+                      },
+                    }}
+                    
+                  >
+                    ASIGNAR LEAD
+                  </ButtonMaterial>
+                  <div className="ButtonMaterial">
+                    <ButtonMaterial
+                      sx={{
+                        width: "100%",
+                        background: "transparent",
+                        color: "#000",
+                        border: "2px solid #000",
+                        "&:hover": {
+                          border: "2px solid #000",
+                          background: "transparent",
+                        },
+                      }}
+                    >
+                      COPIAR LINK
+                    </ButtonMaterial>
+                    <ButtonMaterial
+                      sx={{
+                        width: "100%",
+                        background: "transparent",
+                        color: "#000",
+                        border: "2px solid #000",
+                        "&:hover": {
+                          border: "2px solid #000",
+                          background: "transparent",
+                        },
+                      }}
+                    >
+                      IR AL PAGO
+                    </ButtonMaterial>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </Box>
+        </Modal>
         <path
           id="path1042"
           d="M202.68 210.73c-.19.61-.32 1.24-.58 1.82-1.32 2.96-4.63 4.76-7.62 4.16-3.36-.67-5.75-3.35-5.91-6.62-.16-3.48 1.99-6.43 5.33-7.32 3.03-.81 6.4.66 7.94 3.5.34.62.53 1.33.79 2 .56.8.63 1.62.05 2.46"
           className="st11"
         />
+         <Modal
+          open={open187}
+          onClose={handleClose}
+          aria-labelledby="modal-modal-title"
+          aria-describedby="modal-modal-description"
+        >
+          <Box sx={style}>
+            <div className="modal-header-left">
+              <button className="close-button" onClick={handleClose}>
+                <h4>X</h4>
+              </button>
+            </div>
+            <div>
+              <div className="lote-modal">
+                <div>
+                  <img
+                    src={require("../../../image/lote.png")}
+                    alt="not found"
+                    className="lote"
+                  />
+                </div>
+
+                <div className="lote-text">
+                  <h4>Lote: M-04</h4>
+                  <h4>Area: 1144 m2</h4>
+                  <h4>Precio m2: $1200.00mxn</h4>
+                  <h4>Precio Total: $1,372,800.00mxn</h4>
+                  <ButtonMaterial
+                    sx={{
+                      width: "100%",
+                      background: "transparent",
+                      color: "#000",
+                      border: "2px solid #000",
+                      "&:hover": {
+                        border: "2px solid #000",
+                        background: "transparent",
+                      },
+                    }}
+                    
+                  >
+                    ASIGNAR LEAD
+                  </ButtonMaterial>
+                  <div className="ButtonMaterial">
+                    <ButtonMaterial
+                      sx={{
+                        width: "100%",
+                        background: "transparent",
+                        color: "#000",
+                        border: "2px solid #000",
+                        "&:hover": {
+                          border: "2px solid #000",
+                          background: "transparent",
+                        },
+                      }}
+                    >
+                      COPIAR LINK
+                    </ButtonMaterial>
+                    <ButtonMaterial
+                      sx={{
+                        width: "100%",
+                        background: "transparent",
+                        color: "#000",
+                        border: "2px solid #000",
+                        "&:hover": {
+                          border: "2px solid #000",
+                          background: "transparent",
+                        },
+                      }}
+                    >
+                      IR AL PAGO
+                    </ButtonMaterial>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </Box>
+        </Modal>
         <path
           id="path1044"
           d="M181.39 613.37c-3.78-2.24-7.34-4.37-10.92-6.48-.71-.42-1.44-.72-.79-1.79 3.5-5.81 6.96-11.64 10.54-17.65 4.12 2.45 8.13 4.83 12.27 7.28-3.72 6.26-7.34 12.34-11.1 18.64"
           className="st1"
         />
+         <Modal
+          open={open188}
+          onClose={handleClose}
+          aria-labelledby="modal-modal-title"
+          aria-describedby="modal-modal-description"
+        >
+          <Box sx={style}>
+            <div className="modal-header-left">
+              <button className="close-button" onClick={handleClose}>
+                <h4>X</h4>
+              </button>
+            </div>
+            <div>
+              <div className="lote-modal">
+                <div>
+                  <img
+                    src={require("../../../image/lote.png")}
+                    alt="not found"
+                    className="lote"
+                  />
+                </div>
+
+                <div className="lote-text">
+                  <h4>Lote: M-04</h4>
+                  <h4>Area: 1144 m2</h4>
+                  <h4>Precio m2: $1200.00mxn</h4>
+                  <h4>Precio Total: $1,372,800.00mxn</h4>
+                  <ButtonMaterial
+                    sx={{
+                      width: "100%",
+                      background: "transparent",
+                      color: "#000",
+                      border: "2px solid #000",
+                      "&:hover": {
+                        border: "2px solid #000",
+                        background: "transparent",
+                      },
+                    }}
+                    
+                  >
+                    ASIGNAR LEAD
+                  </ButtonMaterial>
+                  <div className="ButtonMaterial">
+                    <ButtonMaterial
+                      sx={{
+                        width: "100%",
+                        background: "transparent",
+                        color: "#000",
+                        border: "2px solid #000",
+                        "&:hover": {
+                          border: "2px solid #000",
+                          background: "transparent",
+                        },
+                      }}
+                    >
+                      COPIAR LINK
+                    </ButtonMaterial>
+                    <ButtonMaterial
+                      sx={{
+                        width: "100%",
+                        background: "transparent",
+                        color: "#000",
+                        border: "2px solid #000",
+                        "&:hover": {
+                          border: "2px solid #000",
+                          background: "transparent",
+                        },
+                      }}
+                    >
+                      IR AL PAGO
+                    </ButtonMaterial>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </Box>
+        </Modal>
         <path
           id="path1046"
           d="M128.65 556.84c3.88 2.3 7.56 4.5 11.26 6.67.84.49.79.97.33 1.73-3.45 5.74-6.87 11.5-10.34 17.34-1.08-.25-1.89-.91-2.75-1.41-2.83-1.65-5.61-3.36-8.45-4.99-.85-.49-1.12-.89-.55-1.84 3.39-5.59 6.73-11.22 10.09-16.83.12-.21.25-.41.41-.67"
           className="st1"
         />
+         <Modal
+          open={open189}
+          onClose={handleClose}
+          aria-labelledby="modal-modal-title"
+          aria-describedby="modal-modal-description"
+        >
+          <Box sx={style}>
+            <div className="modal-header-left">
+              <button className="close-button" onClick={handleClose}>
+                <h4>X</h4>
+              </button>
+            </div>
+            <div>
+              <div className="lote-modal">
+                <div>
+                  <img
+                    src={require("../../../image/lote.png")}
+                    alt="not found"
+                    className="lote"
+                  />
+                </div>
+
+                <div className="lote-text">
+                  <h4>Lote: M-04</h4>
+                  <h4>Area: 1144 m2</h4>
+                  <h4>Precio m2: $1200.00mxn</h4>
+                  <h4>Precio Total: $1,372,800.00mxn</h4>
+                  <ButtonMaterial
+                    sx={{
+                      width: "100%",
+                      background: "transparent",
+                      color: "#000",
+                      border: "2px solid #000",
+                      "&:hover": {
+                        border: "2px solid #000",
+                        background: "transparent",
+                      },
+                    }}
+                    
+                  >
+                    ASIGNAR LEAD
+                  </ButtonMaterial>
+                  <div className="ButtonMaterial">
+                    <ButtonMaterial
+                      sx={{
+                        width: "100%",
+                        background: "transparent",
+                        color: "#000",
+                        border: "2px solid #000",
+                        "&:hover": {
+                          border: "2px solid #000",
+                          background: "transparent",
+                        },
+                      }}
+                    >
+                      COPIAR LINK
+                    </ButtonMaterial>
+                    <ButtonMaterial
+                      sx={{
+                        width: "100%",
+                        background: "transparent",
+                        color: "#000",
+                        border: "2px solid #000",
+                        "&:hover": {
+                          border: "2px solid #000",
+                          background: "transparent",
+                        },
+                      }}
+                    >
+                      IR AL PAGO
+                    </ButtonMaterial>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </Box>
+        </Modal>
         <path
           id="path1048"
           d="M154.63 572.25c3.91 2.32 7.87 4.67 11.78 7 .09.84-.43 1.3-.74 1.82-3.08 5.22-6.22 10.41-9.26 15.64-.63 1.09-1.12 1.23-2.2.56-3.18-1.98-6.42-3.87-9.66-5.75-.82-.48-1.17-.86-.58-1.84 3.42-5.66 6.78-11.37 10.17-17.05.08-.12.24-.19.49-.38"
           className="st1"
         />
+         <Modal
+          open={open190}
+          onClose={handleClose}
+          aria-labelledby="modal-modal-title"
+          aria-describedby="modal-modal-description"
+        >
+          <Box sx={style}>
+            <div className="modal-header-left">
+              <button className="close-button" onClick={handleClose}>
+                <h4>X</h4>
+              </button>
+            </div>
+            <div>
+              <div className="lote-modal">
+                <div>
+                  <img
+                    src={require("../../../image/lote.png")}
+                    alt="not found"
+                    className="lote"
+                  />
+                </div>
+
+                <div className="lote-text">
+                  <h4>Lote: M-04</h4>
+                  <h4>Area: 1144 m2</h4>
+                  <h4>Precio m2: $1200.00mxn</h4>
+                  <h4>Precio Total: $1,372,800.00mxn</h4>
+                  <ButtonMaterial
+                    sx={{
+                      width: "100%",
+                      background: "transparent",
+                      color: "#000",
+                      border: "2px solid #000",
+                      "&:hover": {
+                        border: "2px solid #000",
+                        background: "transparent",
+                      },
+                    }}
+                    
+                  >
+                    ASIGNAR LEAD
+                  </ButtonMaterial>
+                  <div className="ButtonMaterial">
+                    <ButtonMaterial
+                      sx={{
+                        width: "100%",
+                        background: "transparent",
+                        color: "#000",
+                        border: "2px solid #000",
+                        "&:hover": {
+                          border: "2px solid #000",
+                          background: "transparent",
+                        },
+                      }}
+                    >
+                      COPIAR LINK
+                    </ButtonMaterial>
+                    <ButtonMaterial
+                      sx={{
+                        width: "100%",
+                        background: "transparent",
+                        color: "#000",
+                        border: "2px solid #000",
+                        "&:hover": {
+                          border: "2px solid #000",
+                          background: "transparent",
+                        },
+                      }}
+                    >
+                      IR AL PAGO
+                    </ButtonMaterial>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </Box>
+        </Modal>
         <path
           id="path1050"
           d="M167.45 579.85c4.07 2.42 8.02 4.77 12.1 7.2-3.73 6.26-7.36 12.34-11.11 18.62-3.87-2.29-7.61-4.52-11.36-6.73-.8-.47-.55-.98-.18-1.58 1.08-1.78 2.12-3.57 3.19-5.35 2-3.36 4.01-6.72 6.02-10.08.39-.68.84-1.32 1.34-2.08"
           className="st1"
         />
+         <Modal
+          open={open191}
+          onClose={handleClose}
+          aria-labelledby="modal-modal-title"
+          aria-describedby="modal-modal-description"
+        >
+          <Box sx={style}>
+            <div className="modal-header-left">
+              <button className="close-button" onClick={handleClose}>
+                <h4>X</h4>
+              </button>
+            </div>
+            <div>
+              <div className="lote-modal">
+                <div>
+                  <img
+                    src={require("../../../image/lote.png")}
+                    alt="not found"
+                    className="lote"
+                  />
+                </div>
+
+                <div className="lote-text">
+                  <h4>Lote: M-04</h4>
+                  <h4>Area: 1144 m2</h4>
+                  <h4>Precio m2: $1200.00mxn</h4>
+                  <h4>Precio Total: $1,372,800.00mxn</h4>
+                  <ButtonMaterial
+                    sx={{
+                      width: "100%",
+                      background: "transparent",
+                      color: "#000",
+                      border: "2px solid #000",
+                      "&:hover": {
+                        border: "2px solid #000",
+                        background: "transparent",
+                      },
+                    }}
+                    
+                  >
+                    ASIGNAR LEAD
+                  </ButtonMaterial>
+                  <div className="ButtonMaterial">
+                    <ButtonMaterial
+                      sx={{
+                        width: "100%",
+                        background: "transparent",
+                        color: "#000",
+                        border: "2px solid #000",
+                        "&:hover": {
+                          border: "2px solid #000",
+                          background: "transparent",
+                        },
+                      }}
+                    >
+                      COPIAR LINK
+                    </ButtonMaterial>
+                    <ButtonMaterial
+                      sx={{
+                        width: "100%",
+                        background: "transparent",
+                        color: "#000",
+                        border: "2px solid #000",
+                        "&:hover": {
+                          border: "2px solid #000",
+                          background: "transparent",
+                        },
+                      }}
+                    >
+                      IR AL PAGO
+                    </ButtonMaterial>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </Box>
+        </Modal>
         <path
           id="path1052"
           d="M153.72 571.73c-3.74 6.3-7.35 12.39-11.05 18.65-3.89-2.31-7.64-4.55-11.41-6.76-1.07-.63-.32-1.21 0-1.76 2.72-4.6 5.47-9.19 8.21-13.78.53-.89 1.1-1.76 1.59-2.68.41-.77.86-.73 1.53-.34 3.61 2.19 7.24 4.35 11.13 6.67"
           className="st1"
         />
+         <Modal
+          open={open192}
+          onClose={handleClose}
+          aria-labelledby="modal-modal-title"
+          aria-describedby="modal-modal-description"
+        >
+          <Box sx={style}>
+            <div className="modal-header-left">
+              <button className="close-button" onClick={handleClose}>
+                <h4>X</h4>
+              </button>
+            </div>
+            <div>
+              <div className="lote-modal">
+                <div>
+                  <img
+                    src={require("../../../image/lote.png")}
+                    alt="not found"
+                    className="lote"
+                  />
+                </div>
+
+                <div className="lote-text">
+                  <h4>Lote: M-04</h4>
+                  <h4>Area: 1144 m2</h4>
+                  <h4>Precio m2: $1200.00mxn</h4>
+                  <h4>Precio Total: $1,372,800.00mxn</h4>
+                  <ButtonMaterial
+                    sx={{
+                      width: "100%",
+                      background: "transparent",
+                      color: "#000",
+                      border: "2px solid #000",
+                      "&:hover": {
+                        border: "2px solid #000",
+                        background: "transparent",
+                      },
+                    }}
+                    
+                  >
+                    ASIGNAR LEAD
+                  </ButtonMaterial>
+                  <div className="ButtonMaterial">
+                    <ButtonMaterial
+                      sx={{
+                        width: "100%",
+                        background: "transparent",
+                        color: "#000",
+                        border: "2px solid #000",
+                        "&:hover": {
+                          border: "2px solid #000",
+                          background: "transparent",
+                        },
+                      }}
+                    >
+                      COPIAR LINK
+                    </ButtonMaterial>
+                    <ButtonMaterial
+                      sx={{
+                        width: "100%",
+                        background: "transparent",
+                        color: "#000",
+                        border: "2px solid #000",
+                        "&:hover": {
+                          border: "2px solid #000",
+                          background: "transparent",
+                        },
+                      }}
+                    >
+                      IR AL PAGO
+                    </ButtonMaterial>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </Box>
+        </Modal>
         <path
           id="path1054"
           d="M101.33 555.26c.01-1.83.07-3.67.03-5.5-.03-1.09.27-1.58 1.47-1.57 6.38.04 12.76.04 19.14 0 1.04-.01 1.49.37 1.36 1.39-.17 1.31.42 2.7-.42 3.94-5.61 3.16-11.22 6.32-16.84 9.46-.68.38-1.31.92-2.23 1.03-1.27-1.95-1.8-4.16-2.08-6.46-.1-.77.13-1.61-.43-2.29"
           className="st1"
         />
+         <Modal
+          open={open193}
+          onClose={handleClose}
+          aria-labelledby="modal-modal-title"
+          aria-describedby="modal-modal-description"
+        >
+          <Box sx={style}>
+            <div className="modal-header-left">
+              <button className="close-button" onClick={handleClose}>
+                <h4>X</h4>
+              </button>
+            </div>
+            <div>
+              <div className="lote-modal">
+                <div>
+                  <img
+                    src={require("../../../image/lote.png")}
+                    alt="not found"
+                    className="lote"
+                  />
+                </div>
+
+                <div className="lote-text">
+                  <h4>Lote: M-04</h4>
+                  <h4>Area: 1144 m2</h4>
+                  <h4>Precio m2: $1200.00mxn</h4>
+                  <h4>Precio Total: $1,372,800.00mxn</h4>
+                  <ButtonMaterial
+                    sx={{
+                      width: "100%",
+                      background: "transparent",
+                      color: "#000",
+                      border: "2px solid #000",
+                      "&:hover": {
+                        border: "2px solid #000",
+                        background: "transparent",
+                      },
+                    }}
+                    
+                  >
+                    ASIGNAR LEAD
+                  </ButtonMaterial>
+                  <div className="ButtonMaterial">
+                    <ButtonMaterial
+                      sx={{
+                        width: "100%",
+                        background: "transparent",
+                        color: "#000",
+                        border: "2px solid #000",
+                        "&:hover": {
+                          border: "2px solid #000",
+                          background: "transparent",
+                        },
+                      }}
+                    >
+                      COPIAR LINK
+                    </ButtonMaterial>
+                    <ButtonMaterial
+                      sx={{
+                        width: "100%",
+                        background: "transparent",
+                        color: "#000",
+                        border: "2px solid #000",
+                        "&:hover": {
+                          border: "2px solid #000",
+                          background: "transparent",
+                        },
+                      }}
+                    >
+                      IR AL PAGO
+                    </ButtonMaterial>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </Box>
+        </Modal>
         <path
           id="path1056"
           d="M123.39 553.92c.47.16.94.31 1.41.46.74 1.04 2.78.98 2.75 2.32-.03 1.12-1.11 2.23-1.76 3.32-2.93 4.93-5.86 9.85-8.93 15-4.66-2.78-9.65-4.94-12.58-10.09 2.3-1.32 4.51-2.56 6.7-3.83 4.15-2.39 8.28-4.79 12.41-7.18"
           className="st1"
         />
+         <Modal
+          open={open194}
+          onClose={handleClose}
+          aria-labelledby="modal-modal-title"
+          aria-describedby="modal-modal-description"
+        >
+          <Box sx={style}>
+            <div className="modal-header-left">
+              <button className="close-button" onClick={handleClose}>
+                <h4>X</h4>
+              </button>
+            </div>
+            <div>
+              <div className="lote-modal">
+                <div>
+                  <img
+                    src={require("../../../image/lote.png")}
+                    alt="not found"
+                    className="lote"
+                  />
+                </div>
+
+                <div className="lote-text">
+                  <h4>Lote: M-04</h4>
+                  <h4>Area: 1144 m2</h4>
+                  <h4>Precio m2: $1200.00mxn</h4>
+                  <h4>Precio Total: $1,372,800.00mxn</h4>
+                  <ButtonMaterial
+                    sx={{
+                      width: "100%",
+                      background: "transparent",
+                      color: "#000",
+                      border: "2px solid #000",
+                      "&:hover": {
+                        border: "2px solid #000",
+                        background: "transparent",
+                      },
+                    }}
+                    
+                  >
+                    ASIGNAR LEAD
+                  </ButtonMaterial>
+                  <div className="ButtonMaterial">
+                    <ButtonMaterial
+                      sx={{
+                        width: "100%",
+                        background: "transparent",
+                        color: "#000",
+                        border: "2px solid #000",
+                        "&:hover": {
+                          border: "2px solid #000",
+                          background: "transparent",
+                        },
+                      }}
+                    >
+                      COPIAR LINK
+                    </ButtonMaterial>
+                    <ButtonMaterial
+                      sx={{
+                        width: "100%",
+                        background: "transparent",
+                        color: "#000",
+                        border: "2px solid #000",
+                        "&:hover": {
+                          border: "2px solid #000",
+                          background: "transparent",
+                        },
+                      }}
+                    >
+                      IR AL PAGO
+                    </ButtonMaterial>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </Box>
+        </Modal>
         <path
           id="path1058"
           d="M141.24 334.23c6.33-4.03 12.96-5.5 20.09-4.77 2.02.21 2.03.34 1.67 2.2-1.21 6.17-2.46 12.34-3.61 18.52-.21 1.12-.48 1.78-1.77 1.62-.97-.13-1.93.19-2.78.6-.84.4-1.28.22-1.76-.5-3.89-5.84-7.81-11.66-11.84-17.67"
           className="st1"
         />
+         <Modal
+          open={open195}
+          onClose={handleClose}
+          aria-labelledby="modal-modal-title"
+          aria-describedby="modal-modal-description"
+        >
+          <Box sx={style}>
+            <div className="modal-header-left">
+              <button className="close-button" onClick={handleClose}>
+                <h4>X</h4>
+              </button>
+            </div>
+            <div>
+              <div className="lote-modal">
+                <div>
+                  <img
+                    src={require("../../../image/lote.png")}
+                    alt="not found"
+                    className="lote"
+                  />
+                </div>
+
+                <div className="lote-text">
+                  <h4>Lote: M-04</h4>
+                  <h4>Area: 1144 m2</h4>
+                  <h4>Precio m2: $1200.00mxn</h4>
+                  <h4>Precio Total: $1,372,800.00mxn</h4>
+                  <ButtonMaterial
+                    sx={{
+                      width: "100%",
+                      background: "transparent",
+                      color: "#000",
+                      border: "2px solid #000",
+                      "&:hover": {
+                        border: "2px solid #000",
+                        background: "transparent",
+                      },
+                    }}
+                    
+                  >
+                    ASIGNAR LEAD
+                  </ButtonMaterial>
+                  <div className="ButtonMaterial">
+                    <ButtonMaterial
+                      sx={{
+                        width: "100%",
+                        background: "transparent",
+                        color: "#000",
+                        border: "2px solid #000",
+                        "&:hover": {
+                          border: "2px solid #000",
+                          background: "transparent",
+                        },
+                      }}
+                    >
+                      COPIAR LINK
+                    </ButtonMaterial>
+                    <ButtonMaterial
+                      sx={{
+                        width: "100%",
+                        background: "transparent",
+                        color: "#000",
+                        border: "2px solid #000",
+                        "&:hover": {
+                          border: "2px solid #000",
+                          background: "transparent",
+                        },
+                      }}
+                    >
+                      IR AL PAGO
+                    </ButtonMaterial>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </Box>
+        </Modal>
         <path
           id="path1060"
           d="M182.91 342.52c-1.5 1.02-2.87 1.96-4.26 2.88-4.39 2.9-8.8 5.77-13.17 8.7-.85.57-1.48.79-2.22-.13-.55-.68-1.33-1.18-2.16-1.45-1.02-.34-1.29-.88-1.07-1.95 1.28-6.32 2.49-12.65 3.74-18.98.3-1.5.48-1.67 1.88-1.29 7.17 1.98 12.9 6 17.26 12.22"
           className="st1"
         />
+         <Modal
+          open={open196}
+          onClose={handleClose}
+          aria-labelledby="modal-modal-title"
+          aria-describedby="modal-modal-description"
+        >
+          <Box sx={style}>
+            <div className="modal-header-left">
+              <button className="close-button" onClick={handleClose}>
+                <h4>X</h4>
+              </button>
+            </div>
+            <div>
+              <div className="lote-modal">
+                <div>
+                  <img
+                    src={require("../../../image/lote.png")}
+                    alt="not found"
+                    className="lote"
+                  />
+                </div>
+
+                <div className="lote-text">
+                  <h4>Lote: M-04</h4>
+                  <h4>Area: 1144 m2</h4>
+                  <h4>Precio m2: $1200.00mxn</h4>
+                  <h4>Precio Total: $1,372,800.00mxn</h4>
+                  <ButtonMaterial
+                    sx={{
+                      width: "100%",
+                      background: "transparent",
+                      color: "#000",
+                      border: "2px solid #000",
+                      "&:hover": {
+                        border: "2px solid #000",
+                        background: "transparent",
+                      },
+                    }}
+                    
+                  >
+                    ASIGNAR LEAD
+                  </ButtonMaterial>
+                  <div className="ButtonMaterial">
+                    <ButtonMaterial
+                      sx={{
+                        width: "100%",
+                        background: "transparent",
+                        color: "#000",
+                        border: "2px solid #000",
+                        "&:hover": {
+                          border: "2px solid #000",
+                          background: "transparent",
+                        },
+                      }}
+                    >
+                      COPIAR LINK
+                    </ButtonMaterial>
+                    <ButtonMaterial
+                      sx={{
+                        width: "100%",
+                        background: "transparent",
+                        color: "#000",
+                        border: "2px solid #000",
+                        "&:hover": {
+                          border: "2px solid #000",
+                          background: "transparent",
+                        },
+                      }}
+                    >
+                      IR AL PAGO
+                    </ButtonMaterial>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </Box>
+        </Modal>
         <path
           id="path1062"
           d="M166.48 361.82c2.5.51 5 1.01 7.5 1.52 3.99.8 7.98 1.59 11.96 2.4 1.57.32 1.62.35 1.23 1.79-1.82 6.7-5.53 12.14-11.01 16.4-1 .78-1.44.44-2.03-.46-2.72-4.14-5.5-8.23-8.26-12.34-.89-1.33-1.74-2.68-2.67-3.98-.49-.69-.6-1.22.11-1.84.85-.75 1.47-1.69 1.84-2.76.25-.7.71-.81 1.33-.73"
           className="st1"
         />
+         <Modal
+          open={open197}
+          onClose={handleClose}
+          aria-labelledby="modal-modal-title"
+          aria-describedby="modal-modal-description"
+        >
+          <Box sx={style}>
+            <div className="modal-header-left">
+              <button className="close-button" onClick={handleClose}>
+                <h4>X</h4>
+              </button>
+            </div>
+            <div>
+              <div className="lote-modal">
+                <div>
+                  <img
+                    src={require("../../../image/lote.png")}
+                    alt="not found"
+                    className="lote"
+                  />
+                </div>
+
+                <div className="lote-text">
+                  <h4>Lote: M-04</h4>
+                  <h4>Area: 1144 m2</h4>
+                  <h4>Precio m2: $1200.00mxn</h4>
+                  <h4>Precio Total: $1,372,800.00mxn</h4>
+                  <ButtonMaterial
+                    sx={{
+                      width: "100%",
+                      background: "transparent",
+                      color: "#000",
+                      border: "2px solid #000",
+                      "&:hover": {
+                        border: "2px solid #000",
+                        background: "transparent",
+                      },
+                    }}
+                    
+                  >
+                    ASIGNAR LEAD
+                  </ButtonMaterial>
+                  <div className="ButtonMaterial">
+                    <ButtonMaterial
+                      sx={{
+                        width: "100%",
+                        background: "transparent",
+                        color: "#000",
+                        border: "2px solid #000",
+                        "&:hover": {
+                          border: "2px solid #000",
+                          background: "transparent",
+                        },
+                      }}
+                    >
+                      COPIAR LINK
+                    </ButtonMaterial>
+                    <ButtonMaterial
+                      sx={{
+                        width: "100%",
+                        background: "transparent",
+                        color: "#000",
+                        border: "2px solid #000",
+                        "&:hover": {
+                          border: "2px solid #000",
+                          background: "transparent",
+                        },
+                      }}
+                    >
+                      IR AL PAGO
+                    </ButtonMaterial>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </Box>
+        </Modal>
         <path
           id="path1064"
           d="M183.34 343.24c2.8 4.27 4.31 8.76 4.75 13.6.21 2.31.18 4.63-.12 6.94-.13.99-.42 1.52-1.7 1.25-6.25-1.32-12.52-2.54-18.79-3.75-1.23-.24-2.11-.62-1.83-2.15.08-.45-.06-.96-.17-1.42-.58-2.3-.59-2.3 1.42-3.62 5.41-3.56 10.81-7.13 16.44-10.85"
           className="st1"
         />
+         <Modal
+          open={open198}
+          onClose={handleClose}
+          aria-labelledby="modal-modal-title"
+          aria-describedby="modal-modal-description"
+        >
+          <Box sx={style}>
+            <div className="modal-header-left">
+              <button className="close-button" onClick={handleClose}>
+                <h4>X</h4>
+              </button>
+            </div>
+            <div>
+              <div className="lote-modal">
+                <div>
+                  <img
+                    src={require("../../../image/lote.png")}
+                    alt="not found"
+                    className="lote"
+                  />
+                </div>
+
+                <div className="lote-text">
+                  <h4>Lote: M-04</h4>
+                  <h4>Area: 1144 m2</h4>
+                  <h4>Precio m2: $1200.00mxn</h4>
+                  <h4>Precio Total: $1,372,800.00mxn</h4>
+                  <ButtonMaterial
+                    sx={{
+                      width: "100%",
+                      background: "transparent",
+                      color: "#000",
+                      border: "2px solid #000",
+                      "&:hover": {
+                        border: "2px solid #000",
+                        background: "transparent",
+                      },
+                    }}
+                    
+                  >
+                    ASIGNAR LEAD
+                  </ButtonMaterial>
+                  <div className="ButtonMaterial">
+                    <ButtonMaterial
+                      sx={{
+                        width: "100%",
+                        background: "transparent",
+                        color: "#000",
+                        border: "2px solid #000",
+                        "&:hover": {
+                          border: "2px solid #000",
+                          background: "transparent",
+                        },
+                      }}
+                    >
+                      COPIAR LINK
+                    </ButtonMaterial>
+                    <ButtonMaterial
+                      sx={{
+                        width: "100%",
+                        background: "transparent",
+                        color: "#000",
+                        border: "2px solid #000",
+                        "&:hover": {
+                          border: "2px solid #000",
+                          background: "transparent",
+                        },
+                      }}
+                    >
+                      IR AL PAGO
+                    </ButtonMaterial>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </Box>
+        </Modal>
         <path
           id="path1066"
           d="M147.95 357.5c-3.65-1.11-7.45-1.57-11.16-2.39-2.4-.53-4.82-1.04-7.25-1.43-1.2-.19-1.49-.64-1.06-1.74.26-.66.37-1.38.55-2.07 2.2-6.18 5.91-11.22 11.23-14.98.74.17.96.73 1.26 1.17 3.52 5.22 7 10.46 10.54 15.66.7 1.02 1.17 1.86-.14 2.77-.43.3-.82.84-.96 1.34-.44 1.66-1.47 2.1-3.01 1.67"
           className="st1"
         />
+         <Modal
+          open={open199}
+          onClose={handleClose}
+          aria-labelledby="modal-modal-title"
+          aria-describedby="modal-modal-description"
+        >
+          <Box sx={style}>
+            <div className="modal-header-left">
+              <button className="close-button" onClick={handleClose}>
+                <h4>X</h4>
+              </button>
+            </div>
+            <div>
+              <div className="lote-modal">
+                <div>
+                  <img
+                    src={require("../../../image/lote.png")}
+                    alt="not found"
+                    className="lote"
+                  />
+                </div>
+
+                <div className="lote-text">
+                  <h4>Lote: M-04</h4>
+                  <h4>Area: 1144 m2</h4>
+                  <h4>Precio m2: $1200.00mxn</h4>
+                  <h4>Precio Total: $1,372,800.00mxn</h4>
+                  <ButtonMaterial
+                    sx={{
+                      width: "100%",
+                      background: "transparent",
+                      color: "#000",
+                      border: "2px solid #000",
+                      "&:hover": {
+                        border: "2px solid #000",
+                        background: "transparent",
+                      },
+                    }}
+                    
+                  >
+                    ASIGNAR LEAD
+                  </ButtonMaterial>
+                  <div className="ButtonMaterial">
+                    <ButtonMaterial
+                      sx={{
+                        width: "100%",
+                        background: "transparent",
+                        color: "#000",
+                        border: "2px solid #000",
+                        "&:hover": {
+                          border: "2px solid #000",
+                          background: "transparent",
+                        },
+                      }}
+                    >
+                      COPIAR LINK
+                    </ButtonMaterial>
+                    <ButtonMaterial
+                      sx={{
+                        width: "100%",
+                        background: "transparent",
+                        color: "#000",
+                        border: "2px solid #000",
+                        "&:hover": {
+                          border: "2px solid #000",
+                          background: "transparent",
+                        },
+                      }}
+                    >
+                      IR AL PAGO
+                    </ButtonMaterial>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </Box>
+        </Modal>
         <path
           id="path1068"
           d="M127.63 363.35c-.19-2.54-.15-5.08.1-7.62.11-1.13.4-1.5 1.62-1.24 5.61 1.19 11.23 2.28 16.85 3.4.23.05.47.04.71.07.23.05.46.11.7.16 2.11.43 2.11.43 2.46 2.62.06.39.09.79.19 1.18.53 2.04.54 2.04-1.07 3.13-5.15 3.46-10.3 6.93-15.46 10.38-.39.26-.73.62-1.42.65-2.59-3.82-4.04-8.12-4.68-12.73"
           className="st1"
         />
+         <Modal
+          open={open200}
+          onClose={handleClose}
+          aria-labelledby="modal-modal-title"
+          aria-describedby="modal-modal-description"
+        >
+          <Box sx={style}>
+            <div className="modal-header-left">
+              <button className="close-button" onClick={handleClose}>
+                <h4>X</h4>
+              </button>
+            </div>
+            <div>
+              <div className="lote-modal">
+                <div>
+                  <img
+                    src={require("../../../image/lote.png")}
+                    alt="not found"
+                    className="lote"
+                  />
+                </div>
+
+                <div className="lote-text">
+                  <h4>Lote: M-04</h4>
+                  <h4>Area: 1144 m2</h4>
+                  <h4>Precio m2: $1200.00mxn</h4>
+                  <h4>Precio Total: $1,372,800.00mxn</h4>
+                  <ButtonMaterial
+                    sx={{
+                      width: "100%",
+                      background: "transparent",
+                      color: "#000",
+                      border: "2px solid #000",
+                      "&:hover": {
+                        border: "2px solid #000",
+                        background: "transparent",
+                      },
+                    }}
+                    
+                  >
+                    ASIGNAR LEAD
+                  </ButtonMaterial>
+                  <div className="ButtonMaterial">
+                    <ButtonMaterial
+                      sx={{
+                        width: "100%",
+                        background: "transparent",
+                        color: "#000",
+                        border: "2px solid #000",
+                        "&:hover": {
+                          border: "2px solid #000",
+                          background: "transparent",
+                        },
+                      }}
+                    >
+                      COPIAR LINK
+                    </ButtonMaterial>
+                    <ButtonMaterial
+                      sx={{
+                        width: "100%",
+                        background: "transparent",
+                        color: "#000",
+                        border: "2px solid #000",
+                        "&:hover": {
+                          border: "2px solid #000",
+                          background: "transparent",
+                        },
+                      }}
+                    >
+                      IR AL PAGO
+                    </ButtonMaterial>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </Box>
+        </Modal>
         <path
           id="path1070"
           d="M109 608.36c-4.94-2.82-9.85-5.67-14.66-8.72 3.65-6.74 7.77-13.19 11.62-19.81.53-.9.97-1.02 1.87-.48 4.16 2.53 8.35 5 12.54 7.47.7.41 1.11.73.56 1.65-4.01 6.61-7.96 13.25-11.93 19.89"
           className="st1"
         />
+        <Modal
+          open={open201}
+          onClose={handleClose}
+          aria-labelledby="modal-modal-title"
+          aria-describedby="modal-modal-description"
+        >
+          <Box sx={style}>
+            <div className="modal-header-left">
+              <button className="close-button" onClick={handleClose}>
+                <h4>X</h4>
+              </button>
+            </div>
+            <div>
+              <div className="lote-modal">
+                <div>
+                  <img
+                    src={require("../../../image/lote.png")}
+                    alt="not found"
+                    className="lote"
+                  />
+                </div>
+
+                <div className="lote-text">
+                  <h4>Lote: M-04</h4>
+                  <h4>Area: 1144 m2</h4>
+                  <h4>Precio m2: $1200.00mxn</h4>
+                  <h4>Precio Total: $1,372,800.00mxn</h4>
+                  <ButtonMaterial
+                    sx={{
+                      width: "100%",
+                      background: "transparent",
+                      color: "#000",
+                      border: "2px solid #000",
+                      "&:hover": {
+                        border: "2px solid #000",
+                        background: "transparent",
+                      },
+                    }}
+                    
+                  >
+                    ASIGNAR LEAD
+                  </ButtonMaterial>
+                  <div className="ButtonMaterial">
+                    <ButtonMaterial
+                      sx={{
+                        width: "100%",
+                        background: "transparent",
+                        color: "#000",
+                        border: "2px solid #000",
+                        "&:hover": {
+                          border: "2px solid #000",
+                          background: "transparent",
+                        },
+                      }}
+                    >
+                      COPIAR LINK
+                    </ButtonMaterial>
+                    <ButtonMaterial
+                      sx={{
+                        width: "100%",
+                        background: "transparent",
+                        color: "#000",
+                        border: "2px solid #000",
+                        "&:hover": {
+                          border: "2px solid #000",
+                          background: "transparent",
+                        },
+                      }}
+                    >
+                      IR AL PAGO
+                    </ButtonMaterial>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </Box>
+        </Modal>
         <path
           id="path1072"
           d="M112.1 502.54c-3.03 0-6.07-.04-9.1.02-1.22.03-1.67-.34-1.65-1.62.07-3.75.08-7.5 0-11.25-.03-1.35.53-1.58 1.69-1.57 6.23.04 12.45.04 18.68 0 1.23-.01 1.65.35 1.63 1.62-.08 3.75-.08 7.5 0 11.25.03 1.33-.51 1.59-1.68 1.57-3.19-.05-6.38-.02-9.57-.02"
           className="st1"
         />
+        <Modal
+          open={open202}
+          onClose={handleClose}
+          aria-labelledby="modal-modal-title"
+          aria-describedby="modal-modal-description"
+        >
+          <Box sx={style}>
+            <div className="modal-header-left">
+              <button className="close-button" onClick={handleClose}>
+                <h4>X</h4>
+              </button>
+            </div>
+            <div>
+              <div className="lote-modal">
+                <div>
+                  <img
+                    src={require("../../../image/lote.png")}
+                    alt="not found"
+                    className="lote"
+                  />
+                </div>
+
+                <div className="lote-text">
+                  <h4>Lote: M-04</h4>
+                  <h4>Area: 1144 m2</h4>
+                  <h4>Precio m2: $1200.00mxn</h4>
+                  <h4>Precio Total: $1,372,800.00mxn</h4>
+                  <ButtonMaterial
+                    sx={{
+                      width: "100%",
+                      background: "transparent",
+                      color: "#000",
+                      border: "2px solid #000",
+                      "&:hover": {
+                        border: "2px solid #000",
+                        background: "transparent",
+                      },
+                    }}
+                    
+                  >
+                    ASIGNAR LEAD
+                  </ButtonMaterial>
+                  <div className="ButtonMaterial">
+                    <ButtonMaterial
+                      sx={{
+                        width: "100%",
+                        background: "transparent",
+                        color: "#000",
+                        border: "2px solid #000",
+                        "&:hover": {
+                          border: "2px solid #000",
+                          background: "transparent",
+                        },
+                      }}
+                    >
+                      COPIAR LINK
+                    </ButtonMaterial>
+                    <ButtonMaterial
+                      sx={{
+                        width: "100%",
+                        background: "transparent",
+                        color: "#000",
+                        border: "2px solid #000",
+                        "&:hover": {
+                          border: "2px solid #000",
+                          background: "transparent",
+                        },
+                      }}
+                    >
+                      IR AL PAGO
+                    </ButtonMaterial>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </Box>
+        </Modal>
         <path
           id="path1074"
           d="M112.32 533.27c3.12 0 6.23.04 9.35-.02 1.17-.02 1.71.23 1.68 1.57-.09 3.75-.06 7.51-.01 11.26.01 1.11-.3 1.55-1.48 1.54-6.31-.05-12.62-.04-18.94-.01-1.09.01-1.59-.27-1.57-1.47.06-3.83.05-7.67.01-11.5-.01-1.03.34-1.41 1.38-1.39 3.19.04 6.39.02 9.58.02"
           className="st1"
         />
+        <Modal
+          open={open203}
+          onClose={handleClose}
+          aria-labelledby="modal-modal-title"
+          aria-describedby="modal-modal-description"
+        >
+          <Box sx={style}>
+            <div className="modal-header-left">
+              <button className="close-button" onClick={handleClose}>
+                <h4>X</h4>
+              </button>
+            </div>
+            <div>
+              <div className="lote-modal">
+                <div>
+                  <img
+                    src={require("../../../image/lote.png")}
+                    alt="not found"
+                    className="lote"
+                  />
+                </div>
+
+                <div className="lote-text">
+                  <h4>Lote: M-04</h4>
+                  <h4>Area: 1144 m2</h4>
+                  <h4>Precio m2: $1200.00mxn</h4>
+                  <h4>Precio Total: $1,372,800.00mxn</h4>
+                  <ButtonMaterial
+                    sx={{
+                      width: "100%",
+                      background: "transparent",
+                      color: "#000",
+                      border: "2px solid #000",
+                      "&:hover": {
+                        border: "2px solid #000",
+                        background: "transparent",
+                      },
+                    }}
+                    
+                  >
+                    ASIGNAR LEAD
+                  </ButtonMaterial>
+                  <div className="ButtonMaterial">
+                    <ButtonMaterial
+                      sx={{
+                        width: "100%",
+                        background: "transparent",
+                        color: "#000",
+                        border: "2px solid #000",
+                        "&:hover": {
+                          border: "2px solid #000",
+                          background: "transparent",
+                        },
+                      }}
+                    >
+                      COPIAR LINK
+                    </ButtonMaterial>
+                    <ButtonMaterial
+                      sx={{
+                        width: "100%",
+                        background: "transparent",
+                        color: "#000",
+                        border: "2px solid #000",
+                        "&:hover": {
+                          border: "2px solid #000",
+                          background: "transparent",
+                        },
+                      }}
+                    >
+                      IR AL PAGO
+                    </ButtonMaterial>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </Box>
+        </Modal>
         <path
           id="path1076"
           d="M112.08 457.42c-3.04 0-6.07-.05-9.11.02-1.26.03-1.65-.4-1.62-1.65.07-3.67.05-7.35 0-11.02-.01-1.16.23-1.73 1.57-1.72 6.31.06 12.62.05 18.94 0 1.19-.01 1.49.44 1.48 1.55-.05 3.76-.08 7.51.01 11.26.03 1.35-.52 1.59-1.68 1.57-3.2-.04-6.39-.01-9.59-.01"
           className="st1"
         />
+        <Modal
+          open={open204}
+          onClose={handleClose}
+          aria-labelledby="modal-modal-title"
+          aria-describedby="modal-modal-description"
+        >
+          <Box sx={style}>
+            <div className="modal-header-left">
+              <button className="close-button" onClick={handleClose}>
+                <h4>X</h4>
+              </button>
+            </div>
+            <div>
+              <div className="lote-modal">
+                <div>
+                  <img
+                    src={require("../../../image/lote.png")}
+                    alt="not found"
+                    className="lote"
+                  />
+                </div>
+
+                <div className="lote-text">
+                  <h4>Lote: M-04</h4>
+                  <h4>Area: 1144 m2</h4>
+                  <h4>Precio m2: $1200.00mxn</h4>
+                  <h4>Precio Total: $1,372,800.00mxn</h4>
+                  <ButtonMaterial
+                    sx={{
+                      width: "100%",
+                      background: "transparent",
+                      color: "#000",
+                      border: "2px solid #000",
+                      "&:hover": {
+                        border: "2px solid #000",
+                        background: "transparent",
+                      },
+                    }}
+                    
+                  >
+                    ASIGNAR LEAD
+                  </ButtonMaterial>
+                  <div className="ButtonMaterial">
+                    <ButtonMaterial
+                      sx={{
+                        width: "100%",
+                        background: "transparent",
+                        color: "#000",
+                        border: "2px solid #000",
+                        "&:hover": {
+                          border: "2px solid #000",
+                          background: "transparent",
+                        },
+                      }}
+                    >
+                      COPIAR LINK
+                    </ButtonMaterial>
+                    <ButtonMaterial
+                      sx={{
+                        width: "100%",
+                        background: "transparent",
+                        color: "#000",
+                        border: "2px solid #000",
+                        "&:hover": {
+                          border: "2px solid #000",
+                          background: "transparent",
+                        },
+                      }}
+                    >
+                      IR AL PAGO
+                    </ButtonMaterial>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </Box>
+        </Modal>
         <path
           id="path1078"
           d="M123.29 517.65c.01 4.4-.02 8.8.05 13.2.02 1.3-.34 1.8-1.61 1.79-6.24-.05-12.47 0-18.71-.03-1.61-.01-1.64-.07-1.65-1.97-.02-4.32 0-8.63 0-12.95.61-.87 1.51-.84 2.38-.85 5.71-.03 11.42-.03 17.13 0 .88.01 1.77.01 2.41.81"
           className="st1"
         />
+        <Modal
+          open={open205}
+          onClose={handleClose}
+          aria-labelledby="modal-modal-title"
+          aria-describedby="modal-modal-description"
+        >
+          <Box sx={style}>
+            <div className="modal-header-left">
+              <button className="close-button" onClick={handleClose}>
+                <h4>X</h4>
+              </button>
+            </div>
+            <div>
+              <div className="lote-modal">
+                <div>
+                  <img
+                    src={require("../../../image/lote.png")}
+                    alt="not found"
+                    className="lote"
+                  />
+                </div>
+
+                <div className="lote-text">
+                  <h4>Lote: M-04</h4>
+                  <h4>Area: 1144 m2</h4>
+                  <h4>Precio m2: $1200.00mxn</h4>
+                  <h4>Precio Total: $1,372,800.00mxn</h4>
+                  <ButtonMaterial
+                    sx={{
+                      width: "100%",
+                      background: "transparent",
+                      color: "#000",
+                      border: "2px solid #000",
+                      "&:hover": {
+                        border: "2px solid #000",
+                        background: "transparent",
+                      },
+                    }}
+                    
+                  >
+                    ASIGNAR LEAD
+                  </ButtonMaterial>
+                  <div className="ButtonMaterial">
+                    <ButtonMaterial
+                      sx={{
+                        width: "100%",
+                        background: "transparent",
+                        color: "#000",
+                        border: "2px solid #000",
+                        "&:hover": {
+                          border: "2px solid #000",
+                          background: "transparent",
+                        },
+                      }}
+                    >
+                      COPIAR LINK
+                    </ButtonMaterial>
+                    <ButtonMaterial
+                      sx={{
+                        width: "100%",
+                        background: "transparent",
+                        color: "#000",
+                        border: "2px solid #000",
+                        "&:hover": {
+                          border: "2px solid #000",
+                          background: "transparent",
+                        },
+                      }}
+                    >
+                      IR AL PAGO
+                    </ButtonMaterial>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </Box>
+        </Modal>
         <path
           id="path1080"
           d="M123.29 473.36c.01 4.16-.02 8.31.05 12.47.02 1.23-.34 1.7-1.61 1.69-6.24-.04-12.47 0-18.71-.03-1.61-.01-1.64-.07-1.65-1.86-.02-4.08 0-8.15 0-12.23.61-.82 1.51-.8 2.38-.8 5.71-.03 11.42-.02 17.13 0 .88 0 1.77 0 2.41.76"
           className="st1"
         />
+        <Modal
+          open={open206}
+          onClose={handleClose}
+          aria-labelledby="modal-modal-title"
+          aria-describedby="modal-modal-description"
+        >
+          <Box sx={style}>
+            <div className="modal-header-left">
+              <button className="close-button" onClick={handleClose}>
+                <h4>X</h4>
+              </button>
+            </div>
+            <div>
+              <div className="lote-modal">
+                <div>
+                  <img
+                    src={require("../../../image/lote.png")}
+                    alt="not found"
+                    className="lote"
+                  />
+                </div>
+
+                <div className="lote-text">
+                  <h4>Lote: M-04</h4>
+                  <h4>Area: 1144 m2</h4>
+                  <h4>Precio m2: $1200.00mxn</h4>
+                  <h4>Precio Total: $1,372,800.00mxn</h4>
+                  <ButtonMaterial
+                    sx={{
+                      width: "100%",
+                      background: "transparent",
+                      color: "#000",
+                      border: "2px solid #000",
+                      "&:hover": {
+                        border: "2px solid #000",
+                        background: "transparent",
+                      },
+                    }}
+                    
+                  >
+                    ASIGNAR LEAD
+                  </ButtonMaterial>
+                  <div className="ButtonMaterial">
+                    <ButtonMaterial
+                      sx={{
+                        width: "100%",
+                        background: "transparent",
+                        color: "#000",
+                        border: "2px solid #000",
+                        "&:hover": {
+                          border: "2px solid #000",
+                          background: "transparent",
+                        },
+                      }}
+                    >
+                      COPIAR LINK
+                    </ButtonMaterial>
+                    <ButtonMaterial
+                      sx={{
+                        width: "100%",
+                        background: "transparent",
+                        color: "#000",
+                        border: "2px solid #000",
+                        "&:hover": {
+                          border: "2px solid #000",
+                          background: "transparent",
+                        },
+                      }}
+                    >
+                      IR AL PAGO
+                    </ButtonMaterial>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </Box>
+        </Modal>
         <path
           id="path1082"
           d="M101.38 515.43c0-3.54-.02-7.08 0-10.63.01-1.56.04-1.61 1.65-1.62 6.24-.02 12.47.01 18.71-.03 1.27-.01 1.63.4 1.61 1.47-.07 3.61-.04 7.22-.05 10.83-.54.55-1.28.49-1.99.49-5.99.01-11.97.01-17.95 0-.72.02-1.48.09-1.98-.51"
           className="st1"
         />
+        <Modal
+          open={open207}
+          onClose={handleClose}
+          aria-labelledby="modal-modal-title"
+          aria-describedby="modal-modal-description"
+        >
+          <Box sx={style}>
+            <div className="modal-header-left">
+              <button className="close-button" onClick={handleClose}>
+                <h4>X</h4>
+              </button>
+            </div>
+            <div>
+              <div className="lote-modal">
+                <div>
+                  <img
+                    src={require("../../../image/lote.png")}
+                    alt="not found"
+                    className="lote"
+                  />
+                </div>
+
+                <div className="lote-text">
+                  <h4>Lote: M-04</h4>
+                  <h4>Area: 1144 m2</h4>
+                  <h4>Precio m2: $1200.00mxn</h4>
+                  <h4>Precio Total: $1,372,800.00mxn</h4>
+                  <ButtonMaterial
+                    sx={{
+                      width: "100%",
+                      background: "transparent",
+                      color: "#000",
+                      border: "2px solid #000",
+                      "&:hover": {
+                        border: "2px solid #000",
+                        background: "transparent",
+                      },
+                    }}
+                    
+                  >
+                    ASIGNAR LEAD
+                  </ButtonMaterial>
+                  <div className="ButtonMaterial">
+                    <ButtonMaterial
+                      sx={{
+                        width: "100%",
+                        background: "transparent",
+                        color: "#000",
+                        border: "2px solid #000",
+                        "&:hover": {
+                          border: "2px solid #000",
+                          background: "transparent",
+                        },
+                      }}
+                    >
+                      COPIAR LINK
+                    </ButtonMaterial>
+                    <ButtonMaterial
+                      sx={{
+                        width: "100%",
+                        background: "transparent",
+                        color: "#000",
+                        border: "2px solid #000",
+                        "&:hover": {
+                          border: "2px solid #000",
+                          background: "transparent",
+                        },
+                      }}
+                    >
+                      IR AL PAGO
+                    </ButtonMaterial>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </Box>
+        </Modal>
         <path
           id="path1084"
           d="M101.38 472.16c0-4.08-.02-8.15 0-12.23.01-1.79.04-1.85 1.65-1.86 6.24-.03 12.47.01 18.71-.03 1.27-.01 1.63.46 1.61 1.69-.07 4.16-.04 8.31-.05 12.47-.54.63-1.28.57-1.99.57-5.99.01-11.97.02-17.95 0-.72 0-1.48.08-1.98-.61"
           className="st1"
         />
+        <Modal
+          open={open208}
+          onClose={handleClose}
+          aria-labelledby="modal-modal-title"
+          aria-describedby="modal-modal-description"
+        >
+          <Box sx={style}>
+            <div className="modal-header-left">
+              <button className="close-button" onClick={handleClose}>
+                <h4>X</h4>
+              </button>
+            </div>
+            <div>
+              <div className="lote-modal">
+                <div>
+                  <img
+                    src={require("../../../image/lote.png")}
+                    alt="not found"
+                    className="lote"
+                  />
+                </div>
+
+                <div className="lote-text">
+                  <h4>Lote: M-04</h4>
+                  <h4>Area: 1144 m2</h4>
+                  <h4>Precio m2: $1200.00mxn</h4>
+                  <h4>Precio Total: $1,372,800.00mxn</h4>
+                  <ButtonMaterial
+                    sx={{
+                      width: "100%",
+                      background: "transparent",
+                      color: "#000",
+                      border: "2px solid #000",
+                      "&:hover": {
+                        border: "2px solid #000",
+                        background: "transparent",
+                      },
+                    }}
+                    
+                  >
+                    ASIGNAR LEAD
+                  </ButtonMaterial>
+                  <div className="ButtonMaterial">
+                    <ButtonMaterial
+                      sx={{
+                        width: "100%",
+                        background: "transparent",
+                        color: "#000",
+                        border: "2px solid #000",
+                        "&:hover": {
+                          border: "2px solid #000",
+                          background: "transparent",
+                        },
+                      }}
+                    >
+                      COPIAR LINK
+                    </ButtonMaterial>
+                    <ButtonMaterial
+                      sx={{
+                        width: "100%",
+                        background: "transparent",
+                        color: "#000",
+                        border: "2px solid #000",
+                        "&:hover": {
+                          border: "2px solid #000",
+                          background: "transparent",
+                        },
+                      }}
+                    >
+                      IR AL PAGO
+                    </ButtonMaterial>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </Box>
+        </Modal>
         <path
           id="path1086"
           d="M103 371.18c2.74-.89 5.68-1.2 8.53-1.85 2.4-.55 4.84-.95 7.25-1.49.91-.2 1.35.1 1.54.95.89 3.92 2.44 7.57 4.54 10.99.49.81.37 1.23-.39 1.73-4.19 2.77-8.37 5.55-12.51 8.39-1.17.81-1.52.03-1.99-.73-3.09-5.07-5.39-10.47-6.74-16.25-.11-.54-.44-1.04-.23-1.74"
           className="st1"
         />
+        <Modal
+          open={open209}
+          onClose={handleClose}
+          aria-labelledby="modal-modal-title"
+          aria-describedby="modal-modal-description"
+        >
+          <Box sx={style}>
+            <div className="modal-header-left">
+              <button className="close-button" onClick={handleClose}>
+                <h4>X</h4>
+              </button>
+            </div>
+            <div>
+              <div className="lote-modal">
+                <div>
+                  <img
+                    src={require("../../../image/lote.png")}
+                    alt="not found"
+                    className="lote"
+                  />
+                </div>
+
+                <div className="lote-text">
+                  <h4>Lote: M-04</h4>
+                  <h4>Area: 1144 m2</h4>
+                  <h4>Precio m2: $1200.00mxn</h4>
+                  <h4>Precio Total: $1,372,800.00mxn</h4>
+                  <ButtonMaterial
+                    sx={{
+                      width: "100%",
+                      background: "transparent",
+                      color: "#000",
+                      border: "2px solid #000",
+                      "&:hover": {
+                        border: "2px solid #000",
+                        background: "transparent",
+                      },
+                    }}
+                    
+                  >
+                    ASIGNAR LEAD
+                  </ButtonMaterial>
+                  <div className="ButtonMaterial">
+                    <ButtonMaterial
+                      sx={{
+                        width: "100%",
+                        background: "transparent",
+                        color: "#000",
+                        border: "2px solid #000",
+                        "&:hover": {
+                          border: "2px solid #000",
+                          background: "transparent",
+                        },
+                      }}
+                    >
+                      COPIAR LINK
+                    </ButtonMaterial>
+                    <ButtonMaterial
+                      sx={{
+                        width: "100%",
+                        background: "transparent",
+                        color: "#000",
+                        border: "2px solid #000",
+                        "&:hover": {
+                          border: "2px solid #000",
+                          background: "transparent",
+                        },
+                      }}
+                    >
+                      IR AL PAGO
+                    </ButtonMaterial>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </Box>
+        </Modal>
         <path
           id="path1088"
           d="M111.35 391.23c4.82-3.22 9.44-6.32 14.39-9.63-.33 3.2-.01 5.87 2.15 8.02 2.19 2.19 4.87 2.48 8.01 2.09l-6.99 10.61c-.62.93-1.28 1.83-1.85 2.8-.54.93-1.08.9-1.89.31-5.35-3.9-9.94-8.51-13.82-14.2"
           className="st1"
         />
+        <Modal
+          open={open210}
+          onClose={handleClose}
+          aria-labelledby="modal-modal-title"
+          aria-describedby="modal-modal-description"
+        >
+          <Box sx={style}>
+            <div className="modal-header-left">
+              <button className="close-button" onClick={handleClose}>
+                <h4>X</h4>
+              </button>
+            </div>
+            <div>
+              <div className="lote-modal">
+                <div>
+                  <img
+                    src={require("../../../image/lote.png")}
+                    alt="not found"
+                    className="lote"
+                  />
+                </div>
+
+                <div className="lote-text">
+                  <h4>Lote: M-04</h4>
+                  <h4>Area: 1144 m2</h4>
+                  <h4>Precio m2: $1200.00mxn</h4>
+                  <h4>Precio Total: $1,372,800.00mxn</h4>
+                  <ButtonMaterial
+                    sx={{
+                      width: "100%",
+                      background: "transparent",
+                      color: "#000",
+                      border: "2px solid #000",
+                      "&:hover": {
+                        border: "2px solid #000",
+                        background: "transparent",
+                      },
+                    }}
+                    
+                  >
+                    ASIGNAR LEAD
+                  </ButtonMaterial>
+                  <div className="ButtonMaterial">
+                    <ButtonMaterial
+                      sx={{
+                        width: "100%",
+                        background: "transparent",
+                        color: "#000",
+                        border: "2px solid #000",
+                        "&:hover": {
+                          border: "2px solid #000",
+                          background: "transparent",
+                        },
+                      }}
+                    >
+                      COPIAR LINK
+                    </ButtonMaterial>
+                    <ButtonMaterial
+                      sx={{
+                        width: "100%",
+                        background: "transparent",
+                        color: "#000",
+                        border: "2px solid #000",
+                        "&:hover": {
+                          border: "2px solid #000",
+                          background: "transparent",
+                        },
+                      }}
+                    >
+                      IR AL PAGO
+                    </ButtonMaterial>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </Box>
+        </Modal>
         <path
           id="path1090"
           d="M209.5 288.79c.28-1.06.94-1.77 1.46-2.56 3.85-5.87 7.72-11.73 11.59-17.58 1.01-1.53 1.04-1.55 2.49-.48 6.66 4.88 12.69 10.43 18.14 16.63.2.23.35.5.61.88-1.17.94-2.27 1.83-3.38 2.72l-15.3 12.3c-.65.52-1.22 1.31-2.17.24-4.04-4.55-8.57-8.57-13.44-12.15"
           className="st1"
         />
+        <Modal
+          open={open211}
+          onClose={handleClose}
+          aria-labelledby="modal-modal-title"
+          aria-describedby="modal-modal-description"
+        >
+          <Box sx={style}>
+            <div className="modal-header-left">
+              <button className="close-button" onClick={handleClose}>
+                <h4>X</h4>
+              </button>
+            </div>
+            <div>
+              <div className="lote-modal">
+                <div>
+                  <img
+                    src={require("../../../image/lote.png")}
+                    alt="not found"
+                    className="lote"
+                  />
+                </div>
+
+                <div className="lote-text">
+                  <h4>Lote: M-04</h4>
+                  <h4>Area: 1144 m2</h4>
+                  <h4>Precio m2: $1200.00mxn</h4>
+                  <h4>Precio Total: $1,372,800.00mxn</h4>
+                  <ButtonMaterial
+                    sx={{
+                      width: "100%",
+                      background: "transparent",
+                      color: "#000",
+                      border: "2px solid #000",
+                      "&:hover": {
+                        border: "2px solid #000",
+                        background: "transparent",
+                      },
+                    }}
+                    
+                  >
+                    ASIGNAR LEAD
+                  </ButtonMaterial>
+                  <div className="ButtonMaterial">
+                    <ButtonMaterial
+                      sx={{
+                        width: "100%",
+                        background: "transparent",
+                        color: "#000",
+                        border: "2px solid #000",
+                        "&:hover": {
+                          border: "2px solid #000",
+                          background: "transparent",
+                        },
+                      }}
+                    >
+                      COPIAR LINK
+                    </ButtonMaterial>
+                    <ButtonMaterial
+                      sx={{
+                        width: "100%",
+                        background: "transparent",
+                        color: "#000",
+                        border: "2px solid #000",
+                        "&:hover": {
+                          border: "2px solid #000",
+                          background: "transparent",
+                        },
+                      }}
+                    >
+                      IR AL PAGO
+                    </ButtonMaterial>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </Box>
+        </Modal>
         <path
           id="path1092"
           d="M156.14 444.75c-10.18-.23-20.33-2.19-30.06-6.18-.54-.22-1.47-.2-1.24-1.11.22-.91.49-1.89 1.26-2.51.3-.24.73.11 1.1.26 5.24 2.09 10.62 3.66 16.19 4.66 4.47.8 8.97 1.22 13.5 1.32 1.67.04 1.77.24 1.8 2.45.02 1.46-.87 1.23-1.77 1.12-.16-.03-.32-.01-.78-.01"
@@ -18542,141 +22315,2297 @@ const SvgComponent = (props) => {
             fill: "#f2eeec",
           }}
         />
+        <Modal
+          open={open212}
+          onClose={handleClose}
+          aria-labelledby="modal-modal-title"
+          aria-describedby="modal-modal-description"
+        >
+          <Box sx={style}>
+            <div className="modal-header-left">
+              <button className="close-button" onClick={handleClose}>
+                <h4>X</h4>
+              </button>
+            </div>
+            <div>
+              <div className="lote-modal">
+                <div>
+                  <img
+                    src={require("../../../image/lote.png")}
+                    alt="not found"
+                    className="lote"
+                  />
+                </div>
+
+                <div className="lote-text">
+                  <h4>Lote: M-04</h4>
+                  <h4>Area: 1144 m2</h4>
+                  <h4>Precio m2: $1200.00mxn</h4>
+                  <h4>Precio Total: $1,372,800.00mxn</h4>
+                  <ButtonMaterial
+                    sx={{
+                      width: "100%",
+                      background: "transparent",
+                      color: "#000",
+                      border: "2px solid #000",
+                      "&:hover": {
+                        border: "2px solid #000",
+                        background: "transparent",
+                      },
+                    }}
+                    
+                  >
+                    ASIGNAR LEAD
+                  </ButtonMaterial>
+                  <div className="ButtonMaterial">
+                    <ButtonMaterial
+                      sx={{
+                        width: "100%",
+                        background: "transparent",
+                        color: "#000",
+                        border: "2px solid #000",
+                        "&:hover": {
+                          border: "2px solid #000",
+                          background: "transparent",
+                        },
+                      }}
+                    >
+                      COPIAR LINK
+                    </ButtonMaterial>
+                    <ButtonMaterial
+                      sx={{
+                        width: "100%",
+                        background: "transparent",
+                        color: "#000",
+                        border: "2px solid #000",
+                        "&:hover": {
+                          border: "2px solid #000",
+                          background: "transparent",
+                        },
+                      }}
+                    >
+                      IR AL PAGO
+                    </ButtonMaterial>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </Box>
+        </Modal>
         <path
           id="path1094"
           d="M431.16 452.03c3.96-3.75 7.79-7.36 11.6-10.98.54-.52 1-.7 1.61-.07 3.85 4.05 7.71 8.08 11.67 12.22-3.96 3.73-7.79 7.34-11.61 10.96-.54.51-.99.73-1.6.09-3.85-4.04-7.71-8.07-11.67-12.22"
           className="st1"
         />
+        <Modal
+          open={open213}
+          onClose={handleClose}
+          aria-labelledby="modal-modal-title"
+          aria-describedby="modal-modal-description"
+        >
+          <Box sx={style}>
+            <div className="modal-header-left">
+              <button className="close-button" onClick={handleClose}>
+                <h4>X</h4>
+              </button>
+            </div>
+            <div>
+              <div className="lote-modal">
+                <div>
+                  <img
+                    src={require("../../../image/lote.png")}
+                    alt="not found"
+                    className="lote"
+                  />
+                </div>
+
+                <div className="lote-text">
+                  <h4>Lote: M-04</h4>
+                  <h4>Area: 1144 m2</h4>
+                  <h4>Precio m2: $1200.00mxn</h4>
+                  <h4>Precio Total: $1,372,800.00mxn</h4>
+                  <ButtonMaterial
+                    sx={{
+                      width: "100%",
+                      background: "transparent",
+                      color: "#000",
+                      border: "2px solid #000",
+                      "&:hover": {
+                        border: "2px solid #000",
+                        background: "transparent",
+                      },
+                    }}
+                    
+                  >
+                    ASIGNAR LEAD
+                  </ButtonMaterial>
+                  <div className="ButtonMaterial">
+                    <ButtonMaterial
+                      sx={{
+                        width: "100%",
+                        background: "transparent",
+                        color: "#000",
+                        border: "2px solid #000",
+                        "&:hover": {
+                          border: "2px solid #000",
+                          background: "transparent",
+                        },
+                      }}
+                    >
+                      COPIAR LINK
+                    </ButtonMaterial>
+                    <ButtonMaterial
+                      sx={{
+                        width: "100%",
+                        background: "transparent",
+                        color: "#000",
+                        border: "2px solid #000",
+                        "&:hover": {
+                          border: "2px solid #000",
+                          background: "transparent",
+                        },
+                      }}
+                    >
+                      IR AL PAGO
+                    </ButtonMaterial>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </Box>
+        </Modal>
         <path
           id="path1096"
           d="M507.21 374.85c1.34-5.88 1.01-11.44-1.21-17.06 1.71-.17 3.25-.36 4.79-.47 4.46-.33 8.92-.61 13.38-.96.74-.06 1.03.21 1.11.87.09.79.21 1.58.27 2.38.31 4.06.61 8.12.92 12.18.12 1.59.08 1.7-1.66 1.88-2.3.23-4.62.37-6.93.52-3.5.22-6.99.43-10.67.66"
           className="st1"
         />
+        <Modal
+          open={open214}
+          onClose={handleClose}
+          aria-labelledby="modal-modal-title"
+          aria-describedby="modal-modal-description"
+        >
+          <Box sx={style}>
+            <div className="modal-header-left">
+              <button className="close-button" onClick={handleClose}>
+                <h4>X</h4>
+              </button>
+            </div>
+            <div>
+              <div className="lote-modal">
+                <div>
+                  <img
+                    src={require("../../../image/lote.png")}
+                    alt="not found"
+                    className="lote"
+                  />
+                </div>
+
+                <div className="lote-text">
+                  <h4>Lote: M-04</h4>
+                  <h4>Area: 1144 m2</h4>
+                  <h4>Precio m2: $1200.00mxn</h4>
+                  <h4>Precio Total: $1,372,800.00mxn</h4>
+                  <ButtonMaterial
+                    sx={{
+                      width: "100%",
+                      background: "transparent",
+                      color: "#000",
+                      border: "2px solid #000",
+                      "&:hover": {
+                        border: "2px solid #000",
+                        background: "transparent",
+                      },
+                    }}
+                    
+                  >
+                    ASIGNAR LEAD
+                  </ButtonMaterial>
+                  <div className="ButtonMaterial">
+                    <ButtonMaterial
+                      sx={{
+                        width: "100%",
+                        background: "transparent",
+                        color: "#000",
+                        border: "2px solid #000",
+                        "&:hover": {
+                          border: "2px solid #000",
+                          background: "transparent",
+                        },
+                      }}
+                    >
+                      COPIAR LINK
+                    </ButtonMaterial>
+                    <ButtonMaterial
+                      sx={{
+                        width: "100%",
+                        background: "transparent",
+                        color: "#000",
+                        border: "2px solid #000",
+                        "&:hover": {
+                          border: "2px solid #000",
+                          background: "transparent",
+                        },
+                      }}
+                    >
+                      IR AL PAGO
+                    </ButtonMaterial>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </Box>
+        </Modal>
         <path
           id="path1098"
           d="M320.99 153.63c-.96 5.3-1.91 10.32-2.77 15.35-.19 1.13-.63 1.5-1.74 1.28-4.94-.94-9.88-1.89-14.83-2.73-1.29-.22-1.31-.83-1.13-1.81.71-3.76 1.34-7.54 2.12-11.29.27-1.31-.05-3.12 1.05-3.8 1.03-.63 2.57.24 3.88.49 4.39.84 8.78 1.65 13.42 2.51"
           className="st1"
         />
+        <Modal
+          open={open215}
+          onClose={handleClose}
+          aria-labelledby="modal-modal-title"
+          aria-describedby="modal-modal-description"
+        >
+          <Box sx={style}>
+            <div className="modal-header-left">
+              <button className="close-button" onClick={handleClose}>
+                <h4>X</h4>
+              </button>
+            </div>
+            <div>
+              <div className="lote-modal">
+                <div>
+                  <img
+                    src={require("../../../image/lote.png")}
+                    alt="not found"
+                    className="lote"
+                  />
+                </div>
+
+                <div className="lote-text">
+                  <h4>Lote: M-04</h4>
+                  <h4>Area: 1144 m2</h4>
+                  <h4>Precio m2: $1200.00mxn</h4>
+                  <h4>Precio Total: $1,372,800.00mxn</h4>
+                  <ButtonMaterial
+                    sx={{
+                      width: "100%",
+                      background: "transparent",
+                      color: "#000",
+                      border: "2px solid #000",
+                      "&:hover": {
+                        border: "2px solid #000",
+                        background: "transparent",
+                      },
+                    }}
+                    
+                  >
+                    ASIGNAR LEAD
+                  </ButtonMaterial>
+                  <div className="ButtonMaterial">
+                    <ButtonMaterial
+                      sx={{
+                        width: "100%",
+                        background: "transparent",
+                        color: "#000",
+                        border: "2px solid #000",
+                        "&:hover": {
+                          border: "2px solid #000",
+                          background: "transparent",
+                        },
+                      }}
+                    >
+                      COPIAR LINK
+                    </ButtonMaterial>
+                    <ButtonMaterial
+                      sx={{
+                        width: "100%",
+                        background: "transparent",
+                        color: "#000",
+                        border: "2px solid #000",
+                        "&:hover": {
+                          border: "2px solid #000",
+                          background: "transparent",
+                        },
+                      }}
+                    >
+                      IR AL PAGO
+                    </ButtonMaterial>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </Box>
+        </Modal>
         <path
         id="polyline1255"
         d="m314.1 193.5 10.3-11-10.7-9.8-10.3 11.1 10.7 9.7"
         className="st1"
       />
+      <Modal
+          open={open216}
+          onClose={handleClose}
+          aria-labelledby="modal-modal-title"
+          aria-describedby="modal-modal-description"
+        >
+          <Box sx={style}>
+            <div className="modal-header-left">
+              <button className="close-button" onClick={handleClose}>
+                <h4>X</h4>
+              </button>
+            </div>
+            <div>
+              <div className="lote-modal">
+                <div>
+                  <img
+                    src={require("../../../image/lote.png")}
+                    alt="not found"
+                    className="lote"
+                  />
+                </div>
+
+                <div className="lote-text">
+                  <h4>Lote: M-04</h4>
+                  <h4>Area: 1144 m2</h4>
+                  <h4>Precio m2: $1200.00mxn</h4>
+                  <h4>Precio Total: $1,372,800.00mxn</h4>
+                  <ButtonMaterial
+                    sx={{
+                      width: "100%",
+                      background: "transparent",
+                      color: "#000",
+                      border: "2px solid #000",
+                      "&:hover": {
+                        border: "2px solid #000",
+                        background: "transparent",
+                      },
+                    }}
+                    
+                  >
+                    ASIGNAR LEAD
+                  </ButtonMaterial>
+                  <div className="ButtonMaterial">
+                    <ButtonMaterial
+                      sx={{
+                        width: "100%",
+                        background: "transparent",
+                        color: "#000",
+                        border: "2px solid #000",
+                        "&:hover": {
+                          border: "2px solid #000",
+                          background: "transparent",
+                        },
+                      }}
+                    >
+                      COPIAR LINK
+                    </ButtonMaterial>
+                    <ButtonMaterial
+                      sx={{
+                        width: "100%",
+                        background: "transparent",
+                        color: "#000",
+                        border: "2px solid #000",
+                        "&:hover": {
+                          border: "2px solid #000",
+                          background: "transparent",
+                        },
+                      }}
+                    >
+                      IR AL PAGO
+                    </ButtonMaterial>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </Box>
+        </Modal>
         <path
           id="path1100"
           d="m510.9 334.28-10.34 14.69c-1.6-1.11-3.09-2.14-4.58-3.18-2.82-1.97-5.62-3.95-8.45-5.9-.7-.48-1.02-.89-.43-1.72 3.06-4.29 6.09-8.62 9.11-12.94.4-.57.75-.71 1.35-.29 4.38 3.07 8.77 6.13 13.34 9.34"
           className="st1"
         />
+        <Modal
+          open={open217}
+          onClose={handleClose}
+          aria-labelledby="modal-modal-title"
+          aria-describedby="modal-modal-description"
+        >
+          <Box sx={style}>
+            <div className="modal-header-left">
+              <button className="close-button" onClick={handleClose}>
+                <h4>X</h4>
+              </button>
+            </div>
+            <div>
+              <div className="lote-modal">
+                <div>
+                  <img
+                    src={require("../../../image/lote.png")}
+                    alt="not found"
+                    className="lote"
+                  />
+                </div>
+
+                <div className="lote-text">
+                  <h4>Lote: M-04</h4>
+                  <h4>Area: 1144 m2</h4>
+                  <h4>Precio m2: $1200.00mxn</h4>
+                  <h4>Precio Total: $1,372,800.00mxn</h4>
+                  <ButtonMaterial
+                    sx={{
+                      width: "100%",
+                      background: "transparent",
+                      color: "#000",
+                      border: "2px solid #000",
+                      "&:hover": {
+                        border: "2px solid #000",
+                        background: "transparent",
+                      },
+                    }}
+                    
+                  >
+                    ASIGNAR LEAD
+                  </ButtonMaterial>
+                  <div className="ButtonMaterial">
+                    <ButtonMaterial
+                      sx={{
+                        width: "100%",
+                        background: "transparent",
+                        color: "#000",
+                        border: "2px solid #000",
+                        "&:hover": {
+                          border: "2px solid #000",
+                          background: "transparent",
+                        },
+                      }}
+                    >
+                      COPIAR LINK
+                    </ButtonMaterial>
+                    <ButtonMaterial
+                      sx={{
+                        width: "100%",
+                        background: "transparent",
+                        color: "#000",
+                        border: "2px solid #000",
+                        "&:hover": {
+                          border: "2px solid #000",
+                          background: "transparent",
+                        },
+                      }}
+                    >
+                      IR AL PAGO
+                    </ButtonMaterial>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </Box>
+        </Modal>
         <path
           id="path1102"
           d="M458.44 319.33c-4.76-3.44-9.29-6.7-13.98-10.09 3.52-4.86 6.97-9.63 10.55-14.59 2.07 1.5 4.06 2.95 6.05 4.39 2.26 1.64 4.51 3.3 6.79 4.92.71.5.95.95.37 1.75-3.22 4.46-6.42 8.94-9.78 13.62"
           className="st1"
         />
+        <Modal
+          open={open218}
+          onClose={handleClose}
+          aria-labelledby="modal-modal-title"
+          aria-describedby="modal-modal-description"
+        >
+          <Box sx={style}>
+            <div className="modal-header-left">
+              <button className="close-button" onClick={handleClose}>
+                <h4>X</h4>
+              </button>
+            </div>
+            <div>
+              <div className="lote-modal">
+                <div>
+                  <img
+                    src={require("../../../image/lote.png")}
+                    alt="not found"
+                    className="lote"
+                  />
+                </div>
+
+                <div className="lote-text">
+                  <h4>Lote: M-04</h4>
+                  <h4>Area: 1144 m2</h4>
+                  <h4>Precio m2: $1200.00mxn</h4>
+                  <h4>Precio Total: $1,372,800.00mxn</h4>
+                  <ButtonMaterial
+                    sx={{
+                      width: "100%",
+                      background: "transparent",
+                      color: "#000",
+                      border: "2px solid #000",
+                      "&:hover": {
+                        border: "2px solid #000",
+                        background: "transparent",
+                      },
+                    }}
+                    
+                  >
+                    ASIGNAR LEAD
+                  </ButtonMaterial>
+                  <div className="ButtonMaterial">
+                    <ButtonMaterial
+                      sx={{
+                        width: "100%",
+                        background: "transparent",
+                        color: "#000",
+                        border: "2px solid #000",
+                        "&:hover": {
+                          border: "2px solid #000",
+                          background: "transparent",
+                        },
+                      }}
+                    >
+                      COPIAR LINK
+                    </ButtonMaterial>
+                    <ButtonMaterial
+                      sx={{
+                        width: "100%",
+                        background: "transparent",
+                        color: "#000",
+                        border: "2px solid #000",
+                        "&:hover": {
+                          border: "2px solid #000",
+                          background: "transparent",
+                        },
+                      }}
+                    >
+                      IR AL PAGO
+                    </ButtonMaterial>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </Box>
+        </Modal>
         <path
           id="path1104"
           d="M389.52 261.42c-4.14-3.7-8.3-7.42-12.38-11.06.03-.6.33-.87.59-1.17 3.34-3.76 6.71-7.49 10.01-11.29.82-.94 1.36-1.03 2.3-.17 3.47 3.18 7 6.3 10.52 9.43.65.58 1.14 1.04.33 1.93-3.65 4.01-7.25 8.07-10.88 12.11-.1.1-.29.13-.49.22"
           className="st1"
         />
+        <Modal
+          open={open219}
+          onClose={handleClose}
+          aria-labelledby="modal-modal-title"
+          aria-describedby="modal-modal-description"
+        >
+          <Box sx={style}>
+            <div className="modal-header-left">
+              <button className="close-button" onClick={handleClose}>
+                <h4>X</h4>
+              </button>
+            </div>
+            <div>
+              <div className="lote-modal">
+                <div>
+                  <img
+                    src={require("../../../image/lote.png")}
+                    alt="not found"
+                    className="lote"
+                  />
+                </div>
+
+                <div className="lote-text">
+                  <h4>Lote: M-04</h4>
+                  <h4>Area: 1144 m2</h4>
+                  <h4>Precio m2: $1200.00mxn</h4>
+                  <h4>Precio Total: $1,372,800.00mxn</h4>
+                  <ButtonMaterial
+                    sx={{
+                      width: "100%",
+                      background: "transparent",
+                      color: "#000",
+                      border: "2px solid #000",
+                      "&:hover": {
+                        border: "2px solid #000",
+                        background: "transparent",
+                      },
+                    }}
+                    
+                  >
+                    ASIGNAR LEAD
+                  </ButtonMaterial>
+                  <div className="ButtonMaterial">
+                    <ButtonMaterial
+                      sx={{
+                        width: "100%",
+                        background: "transparent",
+                        color: "#000",
+                        border: "2px solid #000",
+                        "&:hover": {
+                          border: "2px solid #000",
+                          background: "transparent",
+                        },
+                      }}
+                    >
+                      COPIAR LINK
+                    </ButtonMaterial>
+                    <ButtonMaterial
+                      sx={{
+                        width: "100%",
+                        background: "transparent",
+                        color: "#000",
+                        border: "2px solid #000",
+                        "&:hover": {
+                          border: "2px solid #000",
+                          background: "transparent",
+                        },
+                      }}
+                    >
+                      IR AL PAGO
+                    </ButtonMaterial>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </Box>
+        </Modal>
         <path
           id="path1106"
           d="M434.62 301.44c-4.37-3.9-8.52-7.61-12.83-11.47 4-4.51 7.9-8.9 11.93-13.43 1.85 1.65 3.62 3.22 5.39 4.79 2.14 1.91 4.27 3.84 6.44 5.72.71.62.97 1.06.2 1.91-3.7 4.07-7.33 8.2-11.13 12.48"
           className="st1"
         />
+        <Modal
+          open={open220}
+          onClose={handleClose}
+          aria-labelledby="modal-modal-title"
+          aria-describedby="modal-modal-description"
+        >
+          <Box sx={style}>
+            <div className="modal-header-left">
+              <button className="close-button" onClick={handleClose}>
+                <h4>X</h4>
+              </button>
+            </div>
+            <div>
+              <div className="lote-modal">
+                <div>
+                  <img
+                    src={require("../../../image/lote.png")}
+                    alt="not found"
+                    className="lote"
+                  />
+                </div>
+
+                <div className="lote-text">
+                  <h4>Lote: M-04</h4>
+                  <h4>Area: 1144 m2</h4>
+                  <h4>Precio m2: $1200.00mxn</h4>
+                  <h4>Precio Total: $1,372,800.00mxn</h4>
+                  <ButtonMaterial
+                    sx={{
+                      width: "100%",
+                      background: "transparent",
+                      color: "#000",
+                      border: "2px solid #000",
+                      "&:hover": {
+                        border: "2px solid #000",
+                        background: "transparent",
+                      },
+                    }}
+                    
+                  >
+                    ASIGNAR LEAD
+                  </ButtonMaterial>
+                  <div className="ButtonMaterial">
+                    <ButtonMaterial
+                      sx={{
+                        width: "100%",
+                        background: "transparent",
+                        color: "#000",
+                        border: "2px solid #000",
+                        "&:hover": {
+                          border: "2px solid #000",
+                          background: "transparent",
+                        },
+                      }}
+                    >
+                      COPIAR LINK
+                    </ButtonMaterial>
+                    <ButtonMaterial
+                      sx={{
+                        width: "100%",
+                        background: "transparent",
+                        color: "#000",
+                        border: "2px solid #000",
+                        "&:hover": {
+                          border: "2px solid #000",
+                          background: "transparent",
+                        },
+                      }}
+                    >
+                      IR AL PAGO
+                    </ButtonMaterial>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </Box>
+        </Modal>
         <path
           id="path1108"
           d="M274.28 604.15c4.93 3.53 9.66 6.92 14.35 10.28-.06.91-.65 1.38-1.05 1.94-2.6 3.64-5.25 7.24-7.82 10.91-.68.98-1.19 1.24-2.26.45-3.98-2.95-8.03-5.81-12.07-8.67-.83-.59-1.22-1.04-.45-2.07 3.09-4.17 6.09-8.4 9.3-12.84"
           className="st1"
         />
+         <Modal
+          open={open221}
+          onClose={handleClose}
+          aria-labelledby="modal-modal-title"
+          aria-describedby="modal-modal-description"
+        >
+          <Box sx={style}>
+            <div className="modal-header-left">
+              <button className="close-button" onClick={handleClose}>
+                <h4>X</h4>
+              </button>
+            </div>
+            <div>
+              <div className="lote-modal">
+                <div>
+                  <img
+                    src={require("../../../image/lote.png")}
+                    alt="not found"
+                    className="lote"
+                  />
+                </div>
+
+                <div className="lote-text">
+                  <h4>Lote: M-04</h4>
+                  <h4>Area: 1144 m2</h4>
+                  <h4>Precio m2: $1200.00mxn</h4>
+                  <h4>Precio Total: $1,372,800.00mxn</h4>
+                  <ButtonMaterial
+                    sx={{
+                      width: "100%",
+                      background: "transparent",
+                      color: "#000",
+                      border: "2px solid #000",
+                      "&:hover": {
+                        border: "2px solid #000",
+                        background: "transparent",
+                      },
+                    }}
+                    
+                  >
+                    ASIGNAR LEAD
+                  </ButtonMaterial>
+                  <div className="ButtonMaterial">
+                    <ButtonMaterial
+                      sx={{
+                        width: "100%",
+                        background: "transparent",
+                        color: "#000",
+                        border: "2px solid #000",
+                        "&:hover": {
+                          border: "2px solid #000",
+                          background: "transparent",
+                        },
+                      }}
+                    >
+                      COPIAR LINK
+                    </ButtonMaterial>
+                    <ButtonMaterial
+                      sx={{
+                        width: "100%",
+                        background: "transparent",
+                        color: "#000",
+                        border: "2px solid #000",
+                        "&:hover": {
+                          border: "2px solid #000",
+                          background: "transparent",
+                        },
+                      }}
+                    >
+                      IR AL PAGO
+                    </ButtonMaterial>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </Box>
+        </Modal>
         <path
           id="path1110"
           d="M479.38 312.21c4.25 2.97 8.55 5.99 12.87 8.98.74.51.88.95.32 1.73-3.02 4.23-6 8.48-8.96 12.75-.54.78-.98.79-1.73.25-3.97-2.83-7.98-5.61-11.98-8.39-.65-.45-1.11-.8-.48-1.69 3.23-4.46 6.4-8.97 9.6-13.45.05-.06.15-.08.36-.18"
           className="st1"
         />
+         <Modal
+          open={open222}
+          onClose={handleClose}
+          aria-labelledby="modal-modal-title"
+          aria-describedby="modal-modal-description"
+        >
+          <Box sx={style}>
+            <div className="modal-header-left">
+              <button className="close-button" onClick={handleClose}>
+                <h4>X</h4>
+              </button>
+            </div>
+            <div>
+              <div className="lote-modal">
+                <div>
+                  <img
+                    src={require("../../../image/lote.png")}
+                    alt="not found"
+                    className="lote"
+                  />
+                </div>
+
+                <div className="lote-text">
+                  <h4>Lote: M-04</h4>
+                  <h4>Area: 1144 m2</h4>
+                  <h4>Precio m2: $1200.00mxn</h4>
+                  <h4>Precio Total: $1,372,800.00mxn</h4>
+                  <ButtonMaterial
+                    sx={{
+                      width: "100%",
+                      background: "transparent",
+                      color: "#000",
+                      border: "2px solid #000",
+                      "&:hover": {
+                        border: "2px solid #000",
+                        background: "transparent",
+                      },
+                    }}
+                    
+                  >
+                    ASIGNAR LEAD
+                  </ButtonMaterial>
+                  <div className="ButtonMaterial">
+                    <ButtonMaterial
+                      sx={{
+                        width: "100%",
+                        background: "transparent",
+                        color: "#000",
+                        border: "2px solid #000",
+                        "&:hover": {
+                          border: "2px solid #000",
+                          background: "transparent",
+                        },
+                      }}
+                    >
+                      COPIAR LINK
+                    </ButtonMaterial>
+                    <ButtonMaterial
+                      sx={{
+                        width: "100%",
+                        background: "transparent",
+                        color: "#000",
+                        border: "2px solid #000",
+                        "&:hover": {
+                          border: "2px solid #000",
+                          background: "transparent",
+                        },
+                      }}
+                    >
+                      IR AL PAGO
+                    </ButtonMaterial>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </Box>
+        </Modal>
         <path
           id="path1112"
           d="M323.3 140.95c-5.51-.99-10.84-1.95-16.16-2.89-.92-.16-1.43-.49-1.22-1.57.91-4.69 1.82-9.38 2.62-14.09.21-1.25.66-1.6 1.86-1.36 5 .98 10.01 1.93 15.03 2.84.84.15 1.06.57.91 1.32-1.01 5.22-2.02 10.44-3.04 15.75"
           className="st1"
         />
+         <Modal
+          open={open223}
+          onClose={handleClose}
+          aria-labelledby="modal-modal-title"
+          aria-describedby="modal-modal-description"
+        >
+          <Box sx={style}>
+            <div className="modal-header-left">
+              <button className="close-button" onClick={handleClose}>
+                <h4>X</h4>
+              </button>
+            </div>
+            <div>
+              <div className="lote-modal">
+                <div>
+                  <img
+                    src={require("../../../image/lote.png")}
+                    alt="not found"
+                    className="lote"
+                  />
+                </div>
+
+                <div className="lote-text">
+                  <h4>Lote: M-04</h4>
+                  <h4>Area: 1144 m2</h4>
+                  <h4>Precio m2: $1200.00mxn</h4>
+                  <h4>Precio Total: $1,372,800.00mxn</h4>
+                  <ButtonMaterial
+                    sx={{
+                      width: "100%",
+                      background: "transparent",
+                      color: "#000",
+                      border: "2px solid #000",
+                      "&:hover": {
+                        border: "2px solid #000",
+                        background: "transparent",
+                      },
+                    }}
+                    
+                  >
+                    ASIGNAR LEAD
+                  </ButtonMaterial>
+                  <div className="ButtonMaterial">
+                    <ButtonMaterial
+                      sx={{
+                        width: "100%",
+                        background: "transparent",
+                        color: "#000",
+                        border: "2px solid #000",
+                        "&:hover": {
+                          border: "2px solid #000",
+                          background: "transparent",
+                        },
+                      }}
+                    >
+                      COPIAR LINK
+                    </ButtonMaterial>
+                    <ButtonMaterial
+                      sx={{
+                        width: "100%",
+                        background: "transparent",
+                        color: "#000",
+                        border: "2px solid #000",
+                        "&:hover": {
+                          border: "2px solid #000",
+                          background: "transparent",
+                        },
+                      }}
+                    >
+                      IR AL PAGO
+                    </ButtonMaterial>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </Box>
+        </Modal>
         <path
           id="path1114"
           d="M361.53 512.5c4.84-3.22 9.48-6.3 14.08-9.36.82.36 1.07 1.09 1.46 1.67 2.6 3.83 5.17 7.68 7.73 11.53 1.03 1.55 1.03 1.58-.43 2.56-3.85 2.57-7.73 5.1-11.55 7.7-.91.62-1.46.65-2.11-.34-2.98-4.53-6.02-9.02-9.18-13.76"
           className="st1"
         />
+         <Modal
+          open={open224}
+          onClose={handleClose}
+          aria-labelledby="modal-modal-title"
+          aria-describedby="modal-modal-description"
+        >
+          <Box sx={style}>
+            <div className="modal-header-left">
+              <button className="close-button" onClick={handleClose}>
+                <h4>X</h4>
+              </button>
+            </div>
+            <div>
+              <div className="lote-modal">
+                <div>
+                  <img
+                    src={require("../../../image/lote.png")}
+                    alt="not found"
+                    className="lote"
+                  />
+                </div>
+
+                <div className="lote-text">
+                  <h4>Lote: M-04</h4>
+                  <h4>Area: 1144 m2</h4>
+                  <h4>Precio m2: $1200.00mxn</h4>
+                  <h4>Precio Total: $1,372,800.00mxn</h4>
+                  <ButtonMaterial
+                    sx={{
+                      width: "100%",
+                      background: "transparent",
+                      color: "#000",
+                      border: "2px solid #000",
+                      "&:hover": {
+                        border: "2px solid #000",
+                        background: "transparent",
+                      },
+                    }}
+                    
+                  >
+                    ASIGNAR LEAD
+                  </ButtonMaterial>
+                  <div className="ButtonMaterial">
+                    <ButtonMaterial
+                      sx={{
+                        width: "100%",
+                        background: "transparent",
+                        color: "#000",
+                        border: "2px solid #000",
+                        "&:hover": {
+                          border: "2px solid #000",
+                          background: "transparent",
+                        },
+                      }}
+                    >
+                      COPIAR LINK
+                    </ButtonMaterial>
+                    <ButtonMaterial
+                      sx={{
+                        width: "100%",
+                        background: "transparent",
+                        color: "#000",
+                        border: "2px solid #000",
+                        "&:hover": {
+                          border: "2px solid #000",
+                          background: "transparent",
+                        },
+                      }}
+                    >
+                      IR AL PAGO
+                    </ButtonMaterial>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </Box>
+        </Modal>
         <path
           id="path1116"
           d="M503.21 407.89c-3.97-4.23-7.78-8.3-11.82-12.6 4.34-4.08 8.62-8.11 12.98-12.2 1.21.87 2.07 2.03 3.04 3.07 2.57 2.74 5.09 5.53 7.69 8.24.81.84 1 1.37.01 2.28-3.95 3.6-7.8 7.32-11.9 11.21"
           className="st1"
         />
+         <Modal
+          open={open225}
+          onClose={handleClose}
+          aria-labelledby="modal-modal-title"
+          aria-describedby="modal-modal-description"
+        >
+          <Box sx={style}>
+            <div className="modal-header-left">
+              <button className="close-button" onClick={handleClose}>
+                <h4>X</h4>
+              </button>
+            </div>
+            <div>
+              <div className="lote-modal">
+                <div>
+                  <img
+                    src={require("../../../image/lote.png")}
+                    alt="not found"
+                    className="lote"
+                  />
+                </div>
+
+                <div className="lote-text">
+                  <h4>Lote: M-04</h4>
+                  <h4>Area: 1144 m2</h4>
+                  <h4>Precio m2: $1200.00mxn</h4>
+                  <h4>Precio Total: $1,372,800.00mxn</h4>
+                  <ButtonMaterial
+                    sx={{
+                      width: "100%",
+                      background: "transparent",
+                      color: "#000",
+                      border: "2px solid #000",
+                      "&:hover": {
+                        border: "2px solid #000",
+                        background: "transparent",
+                      },
+                    }}
+                    
+                  >
+                    ASIGNAR LEAD
+                  </ButtonMaterial>
+                  <div className="ButtonMaterial">
+                    <ButtonMaterial
+                      sx={{
+                        width: "100%",
+                        background: "transparent",
+                        color: "#000",
+                        border: "2px solid #000",
+                        "&:hover": {
+                          border: "2px solid #000",
+                          background: "transparent",
+                        },
+                      }}
+                    >
+                      COPIAR LINK
+                    </ButtonMaterial>
+                    <ButtonMaterial
+                      sx={{
+                        width: "100%",
+                        background: "transparent",
+                        color: "#000",
+                        border: "2px solid #000",
+                        "&:hover": {
+                          border: "2px solid #000",
+                          background: "transparent",
+                        },
+                      }}
+                    >
+                      IR AL PAGO
+                    </ButtonMaterial>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </Box>
+        </Modal>
         <path
           id="path1118"
           d="M465.48 419.59c4.12 4.39 8.11 8.64 12.29 13.08-4.16 3.94-8.25 7.81-12.33 11.67-.99-.46-1.5-1.3-2.15-1.98-3.13-3.31-6.22-6.66-9.38-9.94-.72-.75-.74-1.22.02-1.93 3.8-3.55 7.56-7.13 11.55-10.9"
           className="st1"
         />
+         <Modal
+          open={open226}
+          onClose={handleClose}
+          aria-labelledby="modal-modal-title"
+          aria-describedby="modal-modal-description"
+        >
+          <Box sx={style}>
+            <div className="modal-header-left">
+              <button className="close-button" onClick={handleClose}>
+                <h4>X</h4>
+              </button>
+            </div>
+            <div>
+              <div className="lote-modal">
+                <div>
+                  <img
+                    src={require("../../../image/lote.png")}
+                    alt="not found"
+                    className="lote"
+                  />
+                </div>
+
+                <div className="lote-text">
+                  <h4>Lote: M-04</h4>
+                  <h4>Area: 1144 m2</h4>
+                  <h4>Precio m2: $1200.00mxn</h4>
+                  <h4>Precio Total: $1,372,800.00mxn</h4>
+                  <ButtonMaterial
+                    sx={{
+                      width: "100%",
+                      background: "transparent",
+                      color: "#000",
+                      border: "2px solid #000",
+                      "&:hover": {
+                        border: "2px solid #000",
+                        background: "transparent",
+                      },
+                    }}
+                    
+                  >
+                    ASIGNAR LEAD
+                  </ButtonMaterial>
+                  <div className="ButtonMaterial">
+                    <ButtonMaterial
+                      sx={{
+                        width: "100%",
+                        background: "transparent",
+                        color: "#000",
+                        border: "2px solid #000",
+                        "&:hover": {
+                          border: "2px solid #000",
+                          background: "transparent",
+                        },
+                      }}
+                    >
+                      COPIAR LINK
+                    </ButtonMaterial>
+                    <ButtonMaterial
+                      sx={{
+                        width: "100%",
+                        background: "transparent",
+                        color: "#000",
+                        border: "2px solid #000",
+                        "&:hover": {
+                          border: "2px solid #000",
+                          background: "transparent",
+                        },
+                      }}
+                    >
+                      IR AL PAGO
+                    </ButtonMaterial>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </Box>
+        </Modal>
         <path
           id="path1120"
           d="M424.12 268.08c-4.01 4.51-7.87 8.86-11.93 13.43-4.29-3.83-8.5-7.57-12.85-11.45 4-4.49 7.9-8.89 11.95-13.44 4.3 3.85 8.51 7.61 12.83 11.46"
           className="st1"
         />
+         <Modal
+          open={open227}
+          onClose={handleClose}
+          aria-labelledby="modal-modal-title"
+          aria-describedby="modal-modal-description"
+        >
+          <Box sx={style}>
+            <div className="modal-header-left">
+              <button className="close-button" onClick={handleClose}>
+                <h4>X</h4>
+              </button>
+            </div>
+            <div>
+              <div className="lote-modal">
+                <div>
+                  <img
+                    src={require("../../../image/lote.png")}
+                    alt="not found"
+                    className="lote"
+                  />
+                </div>
+
+                <div className="lote-text">
+                  <h4>Lote: M-04</h4>
+                  <h4>Area: 1144 m2</h4>
+                  <h4>Precio m2: $1200.00mxn</h4>
+                  <h4>Precio Total: $1,372,800.00mxn</h4>
+                  <ButtonMaterial
+                    sx={{
+                      width: "100%",
+                      background: "transparent",
+                      color: "#000",
+                      border: "2px solid #000",
+                      "&:hover": {
+                        border: "2px solid #000",
+                        background: "transparent",
+                      },
+                    }}
+                    
+                  >
+                    ASIGNAR LEAD
+                  </ButtonMaterial>
+                  <div className="ButtonMaterial">
+                    <ButtonMaterial
+                      sx={{
+                        width: "100%",
+                        background: "transparent",
+                        color: "#000",
+                        border: "2px solid #000",
+                        "&:hover": {
+                          border: "2px solid #000",
+                          background: "transparent",
+                        },
+                      }}
+                    >
+                      COPIAR LINK
+                    </ButtonMaterial>
+                    <ButtonMaterial
+                      sx={{
+                        width: "100%",
+                        background: "transparent",
+                        color: "#000",
+                        border: "2px solid #000",
+                        "&:hover": {
+                          border: "2px solid #000",
+                          background: "transparent",
+                        },
+                      }}
+                    >
+                      IR AL PAGO
+                    </ButtonMaterial>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </Box>
+        </Modal>
         <path
           id="path1122"
           d="M421.72 485.55c-4.06-4.25-8.08-8.45-12.08-12.64.09-.82.72-1.12 1.16-1.53 3.29-3.14 6.62-6.24 9.89-9.4.85-.83 1.4-.99 2.31-.02 3.37 3.62 6.8 7.19 10.26 10.72.89.91.82 1.45-.09 2.29-3.58 3.29-7.09 6.67-10.64 10-.22.21-.5.37-.81.58"
           className="st1"
         />
+         <Modal
+          open={open228}
+          onClose={handleClose}
+          aria-labelledby="modal-modal-title"
+          aria-describedby="modal-modal-description"
+        >
+          <Box sx={style}>
+            <div className="modal-header-left">
+              <button className="close-button" onClick={handleClose}>
+                <h4>X</h4>
+              </button>
+            </div>
+            <div>
+              <div className="lote-modal">
+                <div>
+                  <img
+                    src={require("../../../image/lote.png")}
+                    alt="not found"
+                    className="lote"
+                  />
+                </div>
+
+                <div className="lote-text">
+                  <h4>Lote: M-04</h4>
+                  <h4>Area: 1144 m2</h4>
+                  <h4>Precio m2: $1200.00mxn</h4>
+                  <h4>Precio Total: $1,372,800.00mxn</h4>
+                  <ButtonMaterial
+                    sx={{
+                      width: "100%",
+                      background: "transparent",
+                      color: "#000",
+                      border: "2px solid #000",
+                      "&:hover": {
+                        border: "2px solid #000",
+                        background: "transparent",
+                      },
+                    }}
+                    
+                  >
+                    ASIGNAR LEAD
+                  </ButtonMaterial>
+                  <div className="ButtonMaterial">
+                    <ButtonMaterial
+                      sx={{
+                        width: "100%",
+                        background: "transparent",
+                        color: "#000",
+                        border: "2px solid #000",
+                        "&:hover": {
+                          border: "2px solid #000",
+                          background: "transparent",
+                        },
+                      }}
+                    >
+                      COPIAR LINK
+                    </ButtonMaterial>
+                    <ButtonMaterial
+                      sx={{
+                        width: "100%",
+                        background: "transparent",
+                        color: "#000",
+                        border: "2px solid #000",
+                        "&:hover": {
+                          border: "2px solid #000",
+                          background: "transparent",
+                        },
+                      }}
+                    >
+                      IR AL PAGO
+                    </ButtonMaterial>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </Box>
+        </Modal>
         <path
           id="path1124"
           d="M291.86 608.13c-.93-.34-1.39-1.02-1.95-1.56-3.06-2.92-6.09-5.87-9.15-8.78-.71-.68-1.08-1.17-.37-2.18 2.84-4.06 5.95-7.89 9.51-11.34.65-.63 1.06-.71 1.74-.04 3.69 3.64 7.42 7.25 11.14 10.85.51.5.8.91.16 1.57-3.72 3.82-7.41 7.67-11.08 11.48"
           className="st1"
         />
+         <Modal
+          open={open229}
+          onClose={handleClose}
+          aria-labelledby="modal-modal-title"
+          aria-describedby="modal-modal-description"
+        >
+          <Box sx={style}>
+            <div className="modal-header-left">
+              <button className="close-button" onClick={handleClose}>
+                <h4>X</h4>
+              </button>
+            </div>
+            <div>
+              <div className="lote-modal">
+                <div>
+                  <img
+                    src={require("../../../image/lote.png")}
+                    alt="not found"
+                    className="lote"
+                  />
+                </div>
+
+                <div className="lote-text">
+                  <h4>Lote: M-04</h4>
+                  <h4>Area: 1144 m2</h4>
+                  <h4>Precio m2: $1200.00mxn</h4>
+                  <h4>Precio Total: $1,372,800.00mxn</h4>
+                  <ButtonMaterial
+                    sx={{
+                      width: "100%",
+                      background: "transparent",
+                      color: "#000",
+                      border: "2px solid #000",
+                      "&:hover": {
+                        border: "2px solid #000",
+                        background: "transparent",
+                      },
+                    }}
+                    
+                  >
+                    ASIGNAR LEAD
+                  </ButtonMaterial>
+                  <div className="ButtonMaterial">
+                    <ButtonMaterial
+                      sx={{
+                        width: "100%",
+                        background: "transparent",
+                        color: "#000",
+                        border: "2px solid #000",
+                        "&:hover": {
+                          border: "2px solid #000",
+                          background: "transparent",
+                        },
+                      }}
+                    >
+                      COPIAR LINK
+                    </ButtonMaterial>
+                    <ButtonMaterial
+                      sx={{
+                        width: "100%",
+                        background: "transparent",
+                        color: "#000",
+                        border: "2px solid #000",
+                        "&:hover": {
+                          border: "2px solid #000",
+                          background: "transparent",
+                        },
+                      }}
+                    >
+                      IR AL PAGO
+                    </ButtonMaterial>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </Box>
+        </Modal>
         <path
           id="path1126"
           d="M353.42 519.54c4.01 3.91 8.18 7.97 12.48 12.17-2.97 3.06-5.82 6.06-8.74 8.98-1.05 1.05-1.9 2.96-3.27 2.85-1.13-.09-2.15-1.72-3.18-2.71-2.89-2.76-5.73-5.57-8.64-8.3-.8-.76-.97-1.27-.08-2.1 3.79-3.56 7.52-7.16 11.43-10.89"
           className="st1"
         />
+         <Modal
+          open={open230}
+          onClose={handleClose}
+          aria-labelledby="modal-modal-title"
+          aria-describedby="modal-modal-description"
+        >
+          <Box sx={style}>
+            <div className="modal-header-left">
+              <button className="close-button" onClick={handleClose}>
+                <h4>X</h4>
+              </button>
+            </div>
+            <div>
+              <div className="lote-modal">
+                <div>
+                  <img
+                    src={require("../../../image/lote.png")}
+                    alt="not found"
+                    className="lote"
+                  />
+                </div>
+
+                <div className="lote-text">
+                  <h4>Lote: M-04</h4>
+                  <h4>Area: 1144 m2</h4>
+                  <h4>Precio m2: $1200.00mxn</h4>
+                  <h4>Precio Total: $1,372,800.00mxn</h4>
+                  <ButtonMaterial
+                    sx={{
+                      width: "100%",
+                      background: "transparent",
+                      color: "#000",
+                      border: "2px solid #000",
+                      "&:hover": {
+                        border: "2px solid #000",
+                        background: "transparent",
+                      },
+                    }}
+                    
+                  >
+                    ASIGNAR LEAD
+                  </ButtonMaterial>
+                  <div className="ButtonMaterial">
+                    <ButtonMaterial
+                      sx={{
+                        width: "100%",
+                        background: "transparent",
+                        color: "#000",
+                        border: "2px solid #000",
+                        "&:hover": {
+                          border: "2px solid #000",
+                          background: "transparent",
+                        },
+                      }}
+                    >
+                      COPIAR LINK
+                    </ButtonMaterial>
+                    <ButtonMaterial
+                      sx={{
+                        width: "100%",
+                        background: "transparent",
+                        color: "#000",
+                        border: "2px solid #000",
+                        "&:hover": {
+                          border: "2px solid #000",
+                          background: "transparent",
+                        },
+                      }}
+                    >
+                      IR AL PAGO
+                    </ButtonMaterial>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </Box>
+        </Modal>
         <path
           id="path1128"
           d="M331.74 95.61c-.77 4.19-1.43 8.12-2.23 12.03-.25 1.21.13 2.84-1.03 3.52-1 .58-2.32-.21-3.48-.41-4.24-.72-8.47-1.56-12.71-2.3-.94-.16-1.14-.5-.96-1.43.92-4.78 1.79-9.56 2.64-14.35.16-.91.3-1.42 1.49-1.18 4.92.99 9.88 1.84 14.81 2.79.8.14 1.97.17 1.47 1.33"
           className="st1"
         />
+         <Modal
+          open={open231}
+          onClose={handleClose}
+          aria-labelledby="modal-modal-title"
+          aria-describedby="modal-modal-description"
+        >
+          <Box sx={style}>
+            <div className="modal-header-left">
+              <button className="close-button" onClick={handleClose}>
+                <h4>X</h4>
+              </button>
+            </div>
+            <div>
+              <div className="lote-modal">
+                <div>
+                  <img
+                    src={require("../../../image/lote.png")}
+                    alt="not found"
+                    className="lote"
+                  />
+                </div>
+
+                <div className="lote-text">
+                  <h4>Lote: M-04</h4>
+                  <h4>Area: 1144 m2</h4>
+                  <h4>Precio m2: $1200.00mxn</h4>
+                  <h4>Precio Total: $1,372,800.00mxn</h4>
+                  <ButtonMaterial
+                    sx={{
+                      width: "100%",
+                      background: "transparent",
+                      color: "#000",
+                      border: "2px solid #000",
+                      "&:hover": {
+                        border: "2px solid #000",
+                        background: "transparent",
+                      },
+                    }}
+                    
+                  >
+                    ASIGNAR LEAD
+                  </ButtonMaterial>
+                  <div className="ButtonMaterial">
+                    <ButtonMaterial
+                      sx={{
+                        width: "100%",
+                        background: "transparent",
+                        color: "#000",
+                        border: "2px solid #000",
+                        "&:hover": {
+                          border: "2px solid #000",
+                          background: "transparent",
+                        },
+                      }}
+                    >
+                      COPIAR LINK
+                    </ButtonMaterial>
+                    <ButtonMaterial
+                      sx={{
+                        width: "100%",
+                        background: "transparent",
+                        color: "#000",
+                        border: "2px solid #000",
+                        "&:hover": {
+                          border: "2px solid #000",
+                          background: "transparent",
+                        },
+                      }}
+                    >
+                      IR AL PAGO
+                    </ButtonMaterial>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </Box>
+        </Modal>
         <path
           id="path1130"
           d="M324.25 574.91c-4.2 3.96-8.27 7.79-12.51 11.78-.51-.26-1.15-1.09-1.89-1.79-3.17-3.04-6.34-6.08-9.48-9.15-.45-.44-1.35-.86-.51-1.72 3.77-3.89 7.55-7.77 11.41-11.75 4.36 4.23 8.58 8.34 12.98 12.63"
           className="st1"
         />
+         <Modal
+          open={open232}
+          onClose={handleClose}
+          aria-labelledby="modal-modal-title"
+          aria-describedby="modal-modal-description"
+        >
+          <Box sx={style}>
+            <div className="modal-header-left">
+              <button className="close-button" onClick={handleClose}>
+                <h4>X</h4>
+              </button>
+            </div>
+            <div>
+              <div className="lote-modal">
+                <div>
+                  <img
+                    src={require("../../../image/lote.png")}
+                    alt="not found"
+                    className="lote"
+                  />
+                </div>
+
+                <div className="lote-text">
+                  <h4>Lote: M-04</h4>
+                  <h4>Area: 1144 m2</h4>
+                  <h4>Precio m2: $1200.00mxn</h4>
+                  <h4>Precio Total: $1,372,800.00mxn</h4>
+                  <ButtonMaterial
+                    sx={{
+                      width: "100%",
+                      background: "transparent",
+                      color: "#000",
+                      border: "2px solid #000",
+                      "&:hover": {
+                        border: "2px solid #000",
+                        background: "transparent",
+                      },
+                    }}
+                    
+                  >
+                    ASIGNAR LEAD
+                  </ButtonMaterial>
+                  <div className="ButtonMaterial">
+                    <ButtonMaterial
+                      sx={{
+                        width: "100%",
+                        background: "transparent",
+                        color: "#000",
+                        border: "2px solid #000",
+                        "&:hover": {
+                          border: "2px solid #000",
+                          background: "transparent",
+                        },
+                      }}
+                    >
+                      COPIAR LINK
+                    </ButtonMaterial>
+                    <ButtonMaterial
+                      sx={{
+                        width: "100%",
+                        background: "transparent",
+                        color: "#000",
+                        border: "2px solid #000",
+                        "&:hover": {
+                          border: "2px solid #000",
+                          background: "transparent",
+                        },
+                      }}
+                    >
+                      IR AL PAGO
+                    </ButtonMaterial>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </Box>
+        </Modal>
         <path
           id="path1132"
           d="M487.12 423.97c-3.94-4.19-7.63-8.16-11.38-12.08-.72-.75-.71-1.25.05-1.96 3.56-3.32 7.1-6.66 10.61-10.03.67-.64 1.12-.65 1.76.04 3.75 4.03 7.53 8.03 11.45 12.2-4.14 3.93-8.23 7.81-12.49 11.83"
           className="st1"
         />
+         <Modal
+          open={open233}
+          onClose={handleClose}
+          aria-labelledby="modal-modal-title"
+          aria-describedby="modal-modal-description"
+        >
+          <Box sx={style}>
+            <div className="modal-header-left">
+              <button className="close-button" onClick={handleClose}>
+                <h4>X</h4>
+              </button>
+            </div>
+            <div>
+              <div className="lote-modal">
+                <div>
+                  <img
+                    src={require("../../../image/lote.png")}
+                    alt="not found"
+                    className="lote"
+                  />
+                </div>
+
+                <div className="lote-text">
+                  <h4>Lote: M-04</h4>
+                  <h4>Area: 1144 m2</h4>
+                  <h4>Precio m2: $1200.00mxn</h4>
+                  <h4>Precio Total: $1,372,800.00mxn</h4>
+                  <ButtonMaterial
+                    sx={{
+                      width: "100%",
+                      background: "transparent",
+                      color: "#000",
+                      border: "2px solid #000",
+                      "&:hover": {
+                        border: "2px solid #000",
+                        background: "transparent",
+                      },
+                    }}
+                    
+                  >
+                    ASIGNAR LEAD
+                  </ButtonMaterial>
+                  <div className="ButtonMaterial">
+                    <ButtonMaterial
+                      sx={{
+                        width: "100%",
+                        background: "transparent",
+                        color: "#000",
+                        border: "2px solid #000",
+                        "&:hover": {
+                          border: "2px solid #000",
+                          background: "transparent",
+                        },
+                      }}
+                    >
+                      COPIAR LINK
+                    </ButtonMaterial>
+                    <ButtonMaterial
+                      sx={{
+                        width: "100%",
+                        background: "transparent",
+                        color: "#000",
+                        border: "2px solid #000",
+                        "&:hover": {
+                          border: "2px solid #000",
+                          background: "transparent",
+                        },
+                      }}
+                    >
+                      IR AL PAGO
+                    </ButtonMaterial>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </Box>
+        </Modal>
         <path
           id="path1134"
           d="M345.02 553.18c-3.27 3.41-6.46 6.75-9.66 10.07-2.24 2.33-2.26 2.32-4.6.07-3.5-3.37-7-6.74-10.64-10.24 2.07-2.14 4.05-4.2 6.04-6.24 1.72-1.77 3.46-3.53 5.18-5.31.51-.54.93-.75 1.58-.12 3.98 3.9 7.99 7.78 12.1 11.77"
           className="st1"
         />
+         <Modal
+          open={open234}
+          onClose={handleClose}
+          aria-labelledby="modal-modal-title"
+          aria-describedby="modal-modal-description"
+        >
+          <Box sx={style}>
+            <div className="modal-header-left">
+              <button className="close-button" onClick={handleClose}>
+                <h4>X</h4>
+              </button>
+            </div>
+            <div>
+              <div className="lote-modal">
+                <div>
+                  <img
+                    src={require("../../../image/lote.png")}
+                    alt="not found"
+                    className="lote"
+                  />
+                </div>
+
+                <div className="lote-text">
+                  <h4>Lote: M-04</h4>
+                  <h4>Area: 1144 m2</h4>
+                  <h4>Precio m2: $1200.00mxn</h4>
+                  <h4>Precio Total: $1,372,800.00mxn</h4>
+                  <ButtonMaterial
+                    sx={{
+                      width: "100%",
+                      background: "transparent",
+                      color: "#000",
+                      border: "2px solid #000",
+                      "&:hover": {
+                        border: "2px solid #000",
+                        background: "transparent",
+                      },
+                    }}
+                    
+                  >
+                    ASIGNAR LEAD
+                  </ButtonMaterial>
+                  <div className="ButtonMaterial">
+                    <ButtonMaterial
+                      sx={{
+                        width: "100%",
+                        background: "transparent",
+                        color: "#000",
+                        border: "2px solid #000",
+                        "&:hover": {
+                          border: "2px solid #000",
+                          background: "transparent",
+                        },
+                      }}
+                    >
+                      COPIAR LINK
+                    </ButtonMaterial>
+                    <ButtonMaterial
+                      sx={{
+                        width: "100%",
+                        background: "transparent",
+                        color: "#000",
+                        border: "2px solid #000",
+                        "&:hover": {
+                          border: "2px solid #000",
+                          background: "transparent",
+                        },
+                      }}
+                    >
+                      IR AL PAGO
+                    </ButtonMaterial>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </Box>
+        </Modal>
         <path
           id="path1136"
           d="M412.49 494.48c-4.14 3.99-8.15 7.86-12.18 11.74-.75-.12-1.05-.72-1.46-1.15-3.37-3.53-6.7-7.09-10.09-10.6-.72-.75-1.04-1.24-.1-2.11 3.82-3.52 7.57-7.11 11.53-10.85 4.08 4.32 8.13 8.58 12.3 12.97"
           className="st1"
         />
+         <Modal
+          open={open235}
+          onClose={handleClose}
+          aria-labelledby="modal-modal-title"
+          aria-describedby="modal-modal-description"
+        >
+          <Box sx={style}>
+            <div className="modal-header-left">
+              <button className="close-button" onClick={handleClose}>
+                <h4>X</h4>
+              </button>
+            </div>
+            <div>
+              <div className="lote-modal">
+                <div>
+                  <img
+                    src={require("../../../image/lote.png")}
+                    alt="not found"
+                    className="lote"
+                  />
+                </div>
+
+                <div className="lote-text">
+                  <h4>Lote: M-04</h4>
+                  <h4>Area: 1144 m2</h4>
+                  <h4>Precio m2: $1200.00mxn</h4>
+                  <h4>Precio Total: $1,372,800.00mxn</h4>
+                  <ButtonMaterial
+                    sx={{
+                      width: "100%",
+                      background: "transparent",
+                      color: "#000",
+                      border: "2px solid #000",
+                      "&:hover": {
+                        border: "2px solid #000",
+                        background: "transparent",
+                      },
+                    }}
+                    
+                  >
+                    ASIGNAR LEAD
+                  </ButtonMaterial>
+                  <div className="ButtonMaterial">
+                    <ButtonMaterial
+                      sx={{
+                        width: "100%",
+                        background: "transparent",
+                        color: "#000",
+                        border: "2px solid #000",
+                        "&:hover": {
+                          border: "2px solid #000",
+                          background: "transparent",
+                        },
+                      }}
+                    >
+                      COPIAR LINK
+                    </ButtonMaterial>
+                    <ButtonMaterial
+                      sx={{
+                        width: "100%",
+                        background: "transparent",
+                        color: "#000",
+                        border: "2px solid #000",
+                        "&:hover": {
+                          border: "2px solid #000",
+                          background: "transparent",
+                        },
+                      }}
+                    >
+                      IR AL PAGO
+                    </ButtonMaterial>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </Box>
+        </Modal>
         <path
           id="path1138"
           d="M277.46 298.06c.56-.26 1-.18 1.47.29 4.85 4.88 9.72 9.74 14.58 14.61.26.26.69.53.36.98-.38.51-.82.34-1.21-.04-.29-.28-.57-.56-.86-.84-4.36-4.35-8.71-8.71-13.06-13.07-.55-.55-1.28-1.01-1.26-1.95l-.02.02z"
           className="st11"
         />
+         <Modal
+          open={open236}
+          onClose={handleClose}
+          aria-labelledby="modal-modal-title"
+          aria-describedby="modal-modal-description"
+        >
+          <Box sx={style}>
+            <div className="modal-header-left">
+              <button className="close-button" onClick={handleClose}>
+                <h4>X</h4>
+              </button>
+            </div>
+            <div>
+              <div className="lote-modal">
+                <div>
+                  <img
+                    src={require("../../../image/lote.png")}
+                    alt="not found"
+                    className="lote"
+                  />
+                </div>
+
+                <div className="lote-text">
+                  <h4>Lote: M-04</h4>
+                  <h4>Area: 1144 m2</h4>
+                  <h4>Precio m2: $1200.00mxn</h4>
+                  <h4>Precio Total: $1,372,800.00mxn</h4>
+                  <ButtonMaterial
+                    sx={{
+                      width: "100%",
+                      background: "transparent",
+                      color: "#000",
+                      border: "2px solid #000",
+                      "&:hover": {
+                        border: "2px solid #000",
+                        background: "transparent",
+                      },
+                    }}
+                    
+                  >
+                    ASIGNAR LEAD
+                  </ButtonMaterial>
+                  <div className="ButtonMaterial">
+                    <ButtonMaterial
+                      sx={{
+                        width: "100%",
+                        background: "transparent",
+                        color: "#000",
+                        border: "2px solid #000",
+                        "&:hover": {
+                          border: "2px solid #000",
+                          background: "transparent",
+                        },
+                      }}
+                    >
+                      COPIAR LINK
+                    </ButtonMaterial>
+                    <ButtonMaterial
+                      sx={{
+                        width: "100%",
+                        background: "transparent",
+                        color: "#000",
+                        border: "2px solid #000",
+                        "&:hover": {
+                          border: "2px solid #000",
+                          background: "transparent",
+                        },
+                      }}
+                    >
+                      IR AL PAGO
+                    </ButtonMaterial>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </Box>
+        </Modal>
         <path
           id="path1140"
           d="M156.18 399.81c-1.9-.56-3.77-1.25-5.7-1.66-3.09-.67-4.97-2.57-6.15-5.38-.29-.7-.56-1.3-.19-2.03.65-1.28 1.28-2.57 1.93-3.85.28-.55.67-.75 1.35-.67 2.46.29 4.9.69 7.32 1.17.4.08.86.13 1 .54.56 1.7 1.76 3.3.93 5.25-.03.07-.07.15-.09.22-.58 2.04-1.55 4.07.15 6.17-.18.08-.37.16-.55.24"
           className="st1"
         />
+         <Modal
+          open={open237}
+          onClose={handleClose}
+          aria-labelledby="modal-modal-title"
+          aria-describedby="modal-modal-description"
+        >
+          <Box sx={style}>
+            <div className="modal-header-left">
+              <button className="close-button" onClick={handleClose}>
+                <h4>X</h4>
+              </button>
+            </div>
+            <div>
+              <div className="lote-modal">
+                <div>
+                  <img
+                    src={require("../../../image/lote.png")}
+                    alt="not found"
+                    className="lote"
+                  />
+                </div>
+
+                <div className="lote-text">
+                  <h4>Lote: M-04</h4>
+                  <h4>Area: 1144 m2</h4>
+                  <h4>Precio m2: $1200.00mxn</h4>
+                  <h4>Precio Total: $1,372,800.00mxn</h4>
+                  <ButtonMaterial
+                    sx={{
+                      width: "100%",
+                      background: "transparent",
+                      color: "#000",
+                      border: "2px solid #000",
+                      "&:hover": {
+                        border: "2px solid #000",
+                        background: "transparent",
+                      },
+                    }}
+                    
+                  >
+                    ASIGNAR LEAD
+                  </ButtonMaterial>
+                  <div className="ButtonMaterial">
+                    <ButtonMaterial
+                      sx={{
+                        width: "100%",
+                        background: "transparent",
+                        color: "#000",
+                        border: "2px solid #000",
+                        "&:hover": {
+                          border: "2px solid #000",
+                          background: "transparent",
+                        },
+                      }}
+                    >
+                      COPIAR LINK
+                    </ButtonMaterial>
+                    <ButtonMaterial
+                      sx={{
+                        width: "100%",
+                        background: "transparent",
+                        color: "#000",
+                        border: "2px solid #000",
+                        "&:hover": {
+                          border: "2px solid #000",
+                          background: "transparent",
+                        },
+                      }}
+                    >
+                      IR AL PAGO
+                    </ButtonMaterial>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </Box>
+        </Modal>
         <path
           id="path1142"
           d="m93.54 270.31 3.67 5.99 10.66-8.04-9.15-17.24s-.8-.93-1.27-.27l-10.58 4.45s-.45.07-.11.9c.33.83 6.78 14.21 6.78 14.21"
           className="st1"
         />
+         <Modal
+          open={open238}
+          onClose={handleClose}
+          aria-labelledby="modal-modal-title"
+          aria-describedby="modal-modal-description"
+        >
+          <Box sx={style}>
+            <div className="modal-header-left">
+              <button className="close-button" onClick={handleClose}>
+                <h4>X</h4>
+              </button>
+            </div>
+            <div>
+              <div className="lote-modal">
+                <div>
+                  <img
+                    src={require("../../../image/lote.png")}
+                    alt="not found"
+                    className="lote"
+                  />
+                </div>
+
+                <div className="lote-text">
+                  <h4>Lote: M-04</h4>
+                  <h4>Area: 1144 m2</h4>
+                  <h4>Precio m2: $1200.00mxn</h4>
+                  <h4>Precio Total: $1,372,800.00mxn</h4>
+                  <ButtonMaterial
+                    sx={{
+                      width: "100%",
+                      background: "transparent",
+                      color: "#000",
+                      border: "2px solid #000",
+                      "&:hover": {
+                        border: "2px solid #000",
+                        background: "transparent",
+                      },
+                    }}
+                    
+                  >
+                    ASIGNAR LEAD
+                  </ButtonMaterial>
+                  <div className="ButtonMaterial">
+                    <ButtonMaterial
+                      sx={{
+                        width: "100%",
+                        background: "transparent",
+                        color: "#000",
+                        border: "2px solid #000",
+                        "&:hover": {
+                          border: "2px solid #000",
+                          background: "transparent",
+                        },
+                      }}
+                    >
+                      COPIAR LINK
+                    </ButtonMaterial>
+                    <ButtonMaterial
+                      sx={{
+                        width: "100%",
+                        background: "transparent",
+                        color: "#000",
+                        border: "2px solid #000",
+                        "&:hover": {
+                          border: "2px solid #000",
+                          background: "transparent",
+                        },
+                      }}
+                    >
+                      IR AL PAGO
+                    </ButtonMaterial>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </Box>
+        </Modal>
         <path
           id="path1144"
           d="m97.21 276.31 10.66-8.04s9.76 13.31 13.3 15.35l-9.38 9.5c-.01.01-14.39-15.21-14.58-16.81"
           className="st1"
         />
+         <Modal
+          open={open239}
+          onClose={handleClose}
+          aria-labelledby="modal-modal-title"
+          aria-describedby="modal-modal-description"
+        >
+          <Box sx={style}>
+            <div className="modal-header-left">
+              <button className="close-button" onClick={handleClose}>
+                <h4>X</h4>
+              </button>
+            </div>
+            <div>
+              <div className="lote-modal">
+                <div>
+                  <img
+                    src={require("../../../image/lote.png")}
+                    alt="not found"
+                    className="lote"
+                  />
+                </div>
+
+                <div className="lote-text">
+                  <h4>Lote: M-04</h4>
+                  <h4>Area: 1144 m2</h4>
+                  <h4>Precio m2: $1200.00mxn</h4>
+                  <h4>Precio Total: $1,372,800.00mxn</h4>
+                  <ButtonMaterial
+                    sx={{
+                      width: "100%",
+                      background: "transparent",
+                      color: "#000",
+                      border: "2px solid #000",
+                      "&:hover": {
+                        border: "2px solid #000",
+                        background: "transparent",
+                      },
+                    }}
+                    
+                  >
+                    ASIGNAR LEAD
+                  </ButtonMaterial>
+                  <div className="ButtonMaterial">
+                    <ButtonMaterial
+                      sx={{
+                        width: "100%",
+                        background: "transparent",
+                        color: "#000",
+                        border: "2px solid #000",
+                        "&:hover": {
+                          border: "2px solid #000",
+                          background: "transparent",
+                        },
+                      }}
+                    >
+                      COPIAR LINK
+                    </ButtonMaterial>
+                    <ButtonMaterial
+                      sx={{
+                        width: "100%",
+                        background: "transparent",
+                        color: "#000",
+                        border: "2px solid #000",
+                        "&:hover": {
+                          border: "2px solid #000",
+                          background: "transparent",
+                        },
+                      }}
+                    >
+                      IR AL PAGO
+                    </ButtonMaterial>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </Box>
+        </Modal>
         <path
           id="path1146"
           d="M97.21 272.94c1.77 0 3.39 1.6 3.36 3.32-.03 1.78-1.61 3.39-3.34 3.4-1.71.01-3.4-1.68-3.38-3.37.01-1.75 1.61-3.34 3.36-3.35"
