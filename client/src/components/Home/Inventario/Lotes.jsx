@@ -18295,6 +18295,82 @@ const SvgComponent = (props) => {
           d="M360.61 381.45c-4.8 4.54-10.2 7.27-16.46 8.22-1.32.2-2.95 1.03-3.94.22-1.12-.92-.42-2.71-.43-4.11-.06-5.28-.03-10.55-.02-15.83 0-2.11.01-2.11 1.97-2.74.3-.1.6-.22.89-.36.71-.34 1.43-1 2.12-.96.85.05 1.34 1.05 1.95 1.66 4.59 4.56 9.16 9.14 13.92 13.9"
           className="st1"
         />
+          <Modal
+          open={open163}
+          onClose={handleClose}
+          aria-labelledby="modal-modal-title"
+          aria-describedby="modal-modal-description"
+        >
+          <Box sx={style}>
+            <div className="modal-header-left">
+              <button className="close-button" onClick={handleClose}>
+                <h4>X</h4>
+              </button>
+            </div>
+            <div>
+              <div className="lote-modal">
+                <div>
+                  <img
+                    src={require("../../../image/lote.png")}
+                    alt="not found"
+                    className="lote"
+                  />
+                </div>
+
+                <div className="lote-text">
+                  <h4>Lote: AOV-01 </h4>
+                  <h4>Area: 621 m2</h4>
+                  <h4>Precio m2: $1,200.00mxn</h4>
+                  <h4>Precio Total: $745,200.00mxn</h4>
+                  <ButtonMaterial
+                    sx={{
+                      width: "100%",
+                      background: "transparent",
+                      color: "#000",
+                      border: "2px solid #000",
+                      "&:hover": {
+                        border: "2px solid #000",
+                        background: "transparent",
+                      },
+                    }}
+                  onClick={handleClickLead}>
+                    ASIGNAR LEAD
+                  </ButtonMaterial>
+                  <div className="ButtonMaterial">
+                    <ButtonMaterial
+                      sx={{
+                        width: "100%",
+                        background: "transparent",
+                        color: "#000",
+                        border: "2px solid #000",
+                        "&:hover": {
+                          border: "2px solid #000",
+                          background: "transparent",
+                        },
+                      }}
+                    >
+                      COPIAR LINK
+                    </ButtonMaterial>
+                    <ButtonMaterial
+                      sx={{
+                        width: "100%",
+                        background: "transparent",
+                        color: "#000",
+                        border: "2px solid #000",
+                        "&:hover": {
+                          border: "2px solid #000",
+                          background: "transparent",
+                        },
+                      }}
+                    >
+                      IR AL PAGO
+                    </ButtonMaterial>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </Box>
+        </Modal>
         <path
           id="path996"
           d="M318.32 381.23c2.45-2.42 4.94-4.87 7.42-7.33 2.43-2.42 4.88-4.82 7.26-7.29.73-.76 1.32-1.02 2.21-.29.42.35.96.57 1.48.77 2.23.85 2.23.84 2.23 3.25 0 5.9.01 11.81 0 17.71 0 2.21-.03 2.19-2.08 1.97-6.27-.67-11.89-2.88-16.77-6.91-.6-.51-1.3-.94-1.75-1.88"
