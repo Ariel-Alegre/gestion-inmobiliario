@@ -7,9 +7,8 @@ const initialState = {
   isAuthenticated: false,
   allLead: [],
   dataPersonal: [],
-  clientLead: []
-
-
+  clientLead: [],
+  lotes: []
 }
 
 
@@ -31,7 +30,7 @@ export const rootReducer = (state = initialState, action) => {
       // Limpia el token en el estado
       return {
         ...state,
-          role: null,
+        role: null,
         token: null,
       };
 
@@ -47,7 +46,7 @@ export const rootReducer = (state = initialState, action) => {
         token: null,
         isAuthenticated: false,
         role: null,
-        
+
       };
 
     case 'ADD_LEAD':
@@ -86,6 +85,13 @@ export const rootReducer = (state = initialState, action) => {
       return {
         ...state,
         clientLead: { ...state.clientLead, ...action.payload },
+      };
+
+
+    case 'All_LOTES':
+      return {
+        ...state,
+        lotes: action.payload
       };
 
 
