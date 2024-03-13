@@ -9,7 +9,6 @@ import axios from 'axios'
 
 
 
-/* 
 
  export const register = (payload) => {
   return async (dispatch) => {
@@ -193,13 +192,12 @@ export const ClientLead = (clientId) => {
       }
       }  
  
- */
 
 
 
 
 
-
+/* 
       export const register = (payload) => {
         return async (dispatch) => {
             const res = axios.post('http://localhost:3001/register', payload)
@@ -388,3 +386,4 @@ export const ClientLead = (clientId) => {
       
       
       
+ */
