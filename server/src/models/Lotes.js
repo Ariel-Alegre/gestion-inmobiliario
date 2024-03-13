@@ -10,6 +10,7 @@ module.exports = (sequelize) => {
     },
     Lote: {
       type: DataTypes.STRING,
+      allowNull: false
     },
     Precio_por_metro: {
       type: DataTypes.DECIMAL(10, 2),
@@ -25,12 +26,17 @@ module.exports = (sequelize) => {
     },
     Id_path: {
       type: DataTypes.STRING,
+      allowNull: false
     },
     D: {
-      type: DataTypes.STRING(1000), // Aquí establece la longitud máxima permitida para el campo D
+      type: DataTypes.STRING(1000),
+      allowNull: false
     },
-    status: {
+    Status: {
       type: DataTypes.INTEGER,
+    },
+    Img: {
+      type: DataTypes.STRING,
     }
   }, {
     timestamps: false
