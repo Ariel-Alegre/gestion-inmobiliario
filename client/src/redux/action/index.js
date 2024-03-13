@@ -274,7 +274,6 @@ export const Lotes = () => {
     try {
       const res = await axios.get(`http://localhost:3001/lotes`);
       const data = res.data;
-      console.log(data)
       dispatch({
         type: "All_LOTES",
         payload: data
