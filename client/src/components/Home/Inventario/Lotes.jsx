@@ -18295,11 +18295,7 @@ const SvgComponent = (props) => {
           d="M360.61 381.45c-4.8 4.54-10.2 7.27-16.46 8.22-1.32.2-2.95 1.03-3.94.22-1.12-.92-.42-2.71-.43-4.11-.06-5.28-.03-10.55-.02-15.83 0-2.11.01-2.11 1.97-2.74.3-.1.6-.22.89-.36.71-.34 1.43-1 2.12-.96.85.05 1.34 1.05 1.95 1.66 4.59 4.56 9.16 9.14 13.92 13.9"
           className="st1"
         />
-<<<<<<< HEAD
           <Modal
-=======
-                <Modal
->>>>>>> 4246ca5787a7a490489251b5c7f783428e130b75
           open={open163}
           onClose={handleClose}
           aria-labelledby="modal-modal-title"
@@ -18322,17 +18318,10 @@ const SvgComponent = (props) => {
                 </div>
 
                 <div className="lote-text">
-<<<<<<< HEAD
                   <h4>Lote: AOV-01 </h4>
                   <h4>Area: 621 m2</h4>
                   <h4>Precio m2: $1,200.00mxn</h4>
                   <h4>Precio Total: $745,200.00mxn</h4>
-=======
-                  <h4>Lote: M-04</h4>
-                  <h4>Area: 1144 m2</h4>
-                  <h4>Precio m2: $1200.00mxn</h4>
-                  <h4>Precio Total: $1,372,800.00mxn</h4>
->>>>>>> 4246ca5787a7a490489251b5c7f783428e130b75
                   <ButtonMaterial
                     sx={{
                       width: "100%",
@@ -18344,12 +18333,7 @@ const SvgComponent = (props) => {
                         background: "transparent",
                       },
                     }}
-<<<<<<< HEAD
                   onClick={handleClickLead}>
-=======
-                    
-                  >
->>>>>>> 4246ca5787a7a490489251b5c7f783428e130b75
                     ASIGNAR LEAD
                   </ButtonMaterial>
                   <div className="ButtonMaterial">
