@@ -6,7 +6,7 @@ module.exports = {
     try {
       // Obtener todos los leads ordenados por fecha de creación
       const lotes = await Lotes.findAll({
-        order: [['createdAt', 'ASC']], // 'ASC' para obtener en orden ascendente (por fecha de creación)
+        order: [['id', 'ASC']], // 'ASC' para obtener en orden ascendente (por fecha de creación)
       });
       console.log("Todos los lotes");
       res.status(200).send(lotes);

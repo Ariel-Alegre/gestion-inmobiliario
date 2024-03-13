@@ -6,18 +6,17 @@ const {
   DB_USER, DB_PASSWORD, DB_HOST, DB_DATABASE, DB_PORT
 } = process.env;
 
-const sequelize = new Sequelize(`postgres://postgres.dgxxbzsmvzzjarsdpukl:Programador98.@aws-0-us-west-1.pooler.supabase.com:5432/postgres`, {
+
+
+const sequelize = new Sequelize(`postgres://${DB_USER}:${DB_PASSWORD}@${DB_HOST}:${DB_PORT}/${DB_DATABASE}`, {
   logging: false, // set to console.log to see the raw SQL queries
   native: false, // lets Sequelize know we can use pg-native for ~30% more speed
   host: process.env.DB_HOST,
   port: process.env.DB_PORT,
   dialect: 'postgres',
-/*   dialectOptions: {
-    ssl: {
-      require: true, // Activar SSL
-    },
-  }   */
 });
+
+
 const basename = path.basename(__filename);
 
 const modelDefiners = [];
@@ -38,7 +37,7 @@ sequelize.models = Object.fromEntries(capsEntries);
 
 // En sequelize.models están todos los modelos importados como propiedades
 // Para relacionarlos hacemos un destructuring
-const { Leads, Lotes  } = sequelize.models;
+const { Inventario, Leads, User } = sequelize.models;
 
 // Aca vendrian las relaciones
 // Product.hasMany(Reviews);

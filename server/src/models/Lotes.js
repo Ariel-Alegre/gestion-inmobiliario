@@ -1,34 +1,39 @@
 const { DataTypes } = require('sequelize');
-// Exportamos una funcion que define el modelo
-// Luego le injectamos la conexion a sequelize.
+
 module.exports = (sequelize) => {
-  // defino el modelo
   sequelize.define('Lotes', {
     id: {
-    /*   type: DataTypes.UUID,
-      defaultValue: DataTypes.UUIDV4, */
       type: DataTypes.INTEGER,
       allowNull: false,
       autoIncrement: true,
       primaryKey: true,
     },
-    Lotes: {
+    Lote: {
       type: DataTypes.STRING,
     },
-
-  
-
-
-    
-    
-
-    
-     
- 
-
-
-
-
-
-  },);
+    Precio_por_metro: {
+      type: DataTypes.DECIMAL(10, 2),
+      allowNull: false
+    },
+    Metros_totales: {
+      type: DataTypes.INTEGER,
+      allowNull: false
+    },
+    Precio_total: {
+      type: DataTypes.DECIMAL(10, 2),
+      allowNull: false
+    },
+    Id_path: {
+      type: DataTypes.STRING,
+    },
+    D: {
+      type: DataTypes.STRING(1000), // Aquí establece la longitud máxima permitida para el campo D
+    },
+    status: {
+      type: DataTypes.INTEGER,
+    }
+  }, {
+    timestamps: false
+  });
 };
+
