@@ -12,31 +12,24 @@ import "../../../styles/App.css";
 import Avatar from "@mui/material/Avatar";
 import Stack from "@mui/material/Stack";
 import { Link, useNavigate } from "react-router-dom";
-import {useDispatch, useSelector} from 'react-redux';
-import {logout, DataPersonal} from '../../../redux/action';
-import Divider from '@mui/material/Divider';
-
-
+import { useDispatch, useSelector } from "react-redux";
+import { logout, DataPersonal } from "../../../redux/action";
+import Divider from "@mui/material/Divider";
 
 export default function ButtonAccount() {
   const dispatch = useDispatch();
-  const navigate = useNavigate()
-  const dataPersonal = useSelector(state => state.dataPersonal);
-  const token = useSelector(state => state.token);
-  const role = useSelector(state => state.role);
+  const navigate = useNavigate();
+  const dataPersonal = useSelector((state) => state.dataPersonal);
+  const token = useSelector((state) => state.token);
+  const role = useSelector((state) => state.role);
 
-  
   const [state, setState] = React.useState({
     right: false,
   });
 
-
-
-
-
   React.useEffect(() => {
-    dispatch(DataPersonal(token))
-  }, [dispatch,token ]);
+    dispatch(DataPersonal(token));
+  }, [dispatch, token]);
 
   const toggleDrawer = (anchor, open) => (event) => {
     if (
@@ -51,22 +44,21 @@ export default function ButtonAccount() {
 
   const handleLogout = () => {
     // Antes de eliminar el token, verifica que esté almacenado correctamente
-    const storedToken = localStorage.getItem('token');
-    console.log('Token almacenado:', storedToken);
-  
+    const storedToken = localStorage.getItem("token");
+    console.log("Token almacenado:", storedToken);
+
     // Dispatch de la acción de cierre de sesión (asegúrate de que esto funcione correctamente)
     dispatch(logout());
-  
+
     // Navega a la ruta '/' después del cierre de sesión (asegúrate de que navigate esté definido)
-    navigate('/');
-  
+    navigate("/");
+
     // Elimina el token del localStorage
-    localStorage.removeItem('token');
-    console.log('Token eliminado');
-  
+    localStorage.removeItem("token");
+    console.log("Token eliminado");
+
     // Puedes agregar más mensajes de depuración según sea necesario
   };
-  
 
   const list = (anchor) => (
     <div>
@@ -81,21 +73,29 @@ export default function ButtonAccount() {
             <ListItemButton>
               <ListItemIcon>
                 <Stack direction="row" spacing={2}>
-
-
-                    <Avatar
+                  <Avatar
                     alt="Remy Sharp"
-                    src={dataPersonal.avatar ? dataPersonal.avatar : "/static/images/avatar/1.jpg"}
-                    sx={{ width: 56, height: 56, border: "3px solid #000", backgroundColor:  dataPersonal.backgroundColor }}
-                    >
-                    {dataPersonal.name ? dataPersonal.name[0]: null}
+                    src={
+                      dataPersonal.avatar
+                        ? dataPersonal.avatar
+                        : "/static/images/avatar/1.jpg"
+                    }
+                    sx={{
+                      width: 56,
+                      height: 56,
+                      border: "3px solid #000",
+                      backgroundColor: dataPersonal.backgroundColor,
+                    }}
+                  >
+                    {dataPersonal.name ? dataPersonal.name[0] : null}
                   </Avatar>
-         
                 </Stack>
               </ListItemIcon>
               <ListItemText className="text-menu">
-                <span className="text-menu">{dataPersonal.name} {dataPersonal.lastName} </span>
-          <span className="subtext">codigo de asesor:123456</span>
+                <span className="text-menu">
+                  {dataPersonal.name} {dataPersonal.lastName}{" "}
+                </span>
+                <span className="subtext">codigo de asesor:123456</span>
               </ListItemText>
             </ListItemButton>
           </ListItem>
@@ -128,28 +128,28 @@ export default function ButtonAccount() {
             </ListItemButton>
           </ListItem>
           <div className="Sublinea-account"></div>
-
         </List>
-        {role === 'admin' ? (
-
+        {role === "admin" ? (
           <Link to="/admin">
-        <ListItem sx={{ position: "absolute", bottom: 50, color: "#000" }} disablePadding>
-            <ListItemButton >
-              <ListItemText className="text-menu">
-                <span className="text-menu">PANEL ADMINISTRATIVO</span>
-              </ListItemText>
-            </ListItemButton>
-          </ListItem>
-
+            <ListItem
+              sx={{ position: "absolute", bottom: 50, color: "#000" }}
+              disablePadding
+            >
+              <ListItemButton>
+                <ListItemText className="text-menu">
+                  <span className="text-menu">PANEL ADMINISTRATIVO</span>
+                </ListItemText>
+              </ListItemButton>
+            </ListItem>
           </Link>
-            ):null}
-          <ListItem sx={{ position: "absolute", bottom: 0 }} disablePadding>
-            <ListItemButton  onClick={handleLogout} >
-              <ListItemText className="text-menu">
-                <span className="text-menu">CERRAR SESIÓN</span>
-              </ListItemText>
-            </ListItemButton>
-          </ListItem>
+        ) : null}
+        <ListItem sx={{ position: "absolute", bottom: 0 }} disablePadding>
+          <ListItemButton onClick={handleLogout}>
+            <ListItemText className="text-menu">
+              <span className="text-menu">CERRAR SESIÓN</span>
+            </ListItemText>
+          </ListItemButton>
+        </ListItem>
       </Box>
     </div>
   );
@@ -164,7 +164,6 @@ export default function ButtonAccount() {
               srcset={require("../../../image/Botón cuentas.png")}
               alt="Not found"
               className="icono-navbar"
-
             />
           </Button>
           <Drawer
